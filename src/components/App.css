@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.footerimage{
+  height: 25rem;
+  position: relative;
+  margin: 4rem 0rem;
+}
+.layer{position: absolute;
+  top: 0;
+  height: 25rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.footerimage img{
+  height: 25rem;
+  width: 100%;
+  }
+.footerimage h1{
+  border-bottom: 0.3rem solid yellow;
+  border-top: 0.3rem solid yellow;
+  position: absolute;
+  top: 25%;
+  padding: 7% 0%;
+  left: 12%;
+  width: 75%;
+  color: yellow;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  height: 50%;
+}
+/* section two */
+.two{
+  text-align: center;
+  padding: 1rem 12%;
+}
+.two .above{
+  padding: 4rem;
+  font-size: 1rem;
+}
+.above h1{
+  font-size: 2rem;
+}
+.above p{
+  padding-top: 2rem;
+}
+.two .below{
+  display: flex;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+.two .below .box img{
+  height: 5rem;
+}
+.two .below .box h3{
+  padding-top:1.5rem ;
+}
+.two .below .box p{
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+.blogs{
+  margin:1rem auto;
+}
+.blogs h2{
+  text-align: center;
+  position: relative;
+  top: 2rem;
+}
+.blogslist{
+  display: flex;
+  margin-top: 7rem;
+  padding: 0rem 2rem;
+}
+.blogbox{
+  margin: .1rem 2rem;
+}
+@media (max-width: 998px){
+  .two{
+    text-align: center;
+    padding: 1rem;
+  }
+  .two .above{
+    padding:3rem 1rem 1rem;
+    font-size: 1.2rem;
+  }
+  .above h1{
+    font-size: 1.5rem;
+  }
+  .above p{
+    padding-top: 2rem;
+  }
+  .two .below{
+    display: block;
+    padding: 2rem 1rem;
+  }
+  .two .below .box{
+    margin:3em 0rem
+  }
+  .three .blogs{
+    display: block;
+    padding: 2rem 1rem;
+  }
+  .blogslist{
+    display: block;
+  }
+  .blogbox{
+    text-align: center;
+    margin: 3em auto;
+  }
+  .footerimage h1{
+    font-size: 2rem;
+  }
+}
+.four{
+  margin-top: 5rem;
+  color: white;
+}  
+.four .touch{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/cropped.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2% 6% 4%;
+}
+.links{
+  background: #403b3b;
+  font-weight: 650;
+  font-size: 0.6rem;
+}
+.four h1{    line-height: 7rem;
+  text-transform: capitalize;}
+.four ul{line-height: 3rem;}
+.links{
+  background: #403b3b;
+  font-weight: 650;
+  font-size: 0.6rem;
+}
+.links table{    text-align: left;
+  width: 85%;
+  padding: 3rem;
+}
+.links td{
+  padding: 1rem;
+}
+.ani{
+  position: relative;
+}
+.ani:hover{
+  opacity: 0.4;
+}
+.ani:hover >img{
+    width: 9rem;
+}
