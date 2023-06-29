@@ -51,35 +51,36 @@ export default function Navbar()
         <div className={showmediaicons ? "menu-link mobile-menu-link" : "menu-link"}>
           <ul>
             <li className={dropclick ?"dropclass":"drop"}>
-              <Link to="/Main1" >Who we are<span className="icondrop"><IoMdArrowDropdown /></span>
+              <Link to="/Who we are" >Who we are </Link ><span className="icondrop" style={{color:'white'}}>  <IoMdArrowDropdown /></span>
                <button onClick={clickfunction}>
-                {dropclick ?<IoIosArrowDropdown/>:"x"}</button></Link >
+                {dropclick ?<IoIosArrowDropdown/>:"x"}</button>
               <div className="dropdown">
                 <ul>
-                  <li><Link to='/Main2'>Our story</Link ></li>
-                  <li><Link to='/Main4'>Our founder</Link ></li>
-                  <li><Link to='#'>Our team</Link ></li>
+                  <li><Link to='/Our story'>Our story</Link ></li>
+                  <li><Link to='/Our Founders'>Our founder</Link ></li>
+                  <li><Link to='/Our team'>Our team</Link ></li>
                 </ul>
               </div>
             </li>
             <li className={dropclick1 ?"dropclass":"drop1"}>
-              <Link to="/Main6" >What we do<span className="icondrop"><IoMdArrowDropdown /></span><
-                button onClick={clickfunction1}>{ dropclick1?<IoIosArrowDropdown/>:"x"}</button></Link >
+              <Link to="/What we do" >What we do </Link ><span className="icondrop" style={{color:'white'}}><IoMdArrowDropdown /></span><
+                button onClick={clickfunction1}>{ dropclick1?<IoIosArrowDropdown/>:"x"}</button>
               <div className="dropdown">
                 <ul>
                   <li><Link to='#'>An overview</Link ></li>
-                  <li><Link to='#'>Eco-brick</Link ></li>
-                  <li><Link to='#'>Wet waste management</Link ></li>
-                  <li><Link to='#'>water conservation</Link ></li>
-                  <li><Link to='#'>project s.m.i.l.e</Link ></li>
+                  <li><Link to='/Eco-brick'>Eco-brick</Link ></li>
+                  <li><Link to='/Wet-Waste-Management'>Wet waste management</Link ></li>
+                  <li><Link to='/Water-conservation'>water conservation</Link ></li>
+                  <li><Link to='/SMILE'>project s.m.i.l.e</Link ></li>
                 </ul>
               </div>
             </li>
             <li>
               <Link to="#" >Partners</Link >
-            </li> <li className={dropclick2 ?"dropclass":"drop2"}>
-              <Link to="#" >Resources <span className="icondrop"><IoMdArrowDropdown /></span><
-                button onClick={clickfunction2}>{dropclick2?<IoIosArrowDropdown/>:"x"}</button></Link >
+            </li>
+             <li className={dropclick2 ?"dropclass":"drop2"}>
+              <Link to="#" >Resources </Link ><span className="icondrop" style={{color:'white'}}><IoMdArrowDropdown /></span><
+                button onClick={clickfunction2}>{dropclick2?<IoIosArrowDropdown/>:"x"}</button>
               <div className="dropdown">
                 <ul>
                   <li><Link to='#'>Annual report</Link ></li>
@@ -92,8 +93,8 @@ export default function Navbar()
               <Link to="#" >Get Involved</Link >
             </li>
             <li className={dropclick3 ?"dropclass":"drop3"}>
-              <Link to="#" >Support us <span className="icondrop"><IoMdArrowDropdown /></span>
-              <button onClick={clickfunction3}>{dropclick3?<IoIosArrowDropdown/>:"x"}</button></Link >
+              <Link to="#" >Support us </Link ><span className="icondrop" style={{color:'white'}}><IoMdArrowDropdown /></span>
+              <button onClick={clickfunction3}>{dropclick3?<IoIosArrowDropdown/>:"x"}</button>
               <div className="dropdown">
                 <ul>
                   <li><Link to='#'>Donate</Link ></li>

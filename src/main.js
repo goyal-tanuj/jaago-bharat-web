@@ -9,21 +9,22 @@ export default function Main(props) {
   };
   
 const headerStyle= {
-  minHeight: '30vw',
   textAlign: 'center',
-  paddingTop: '15%',
+  height: 'fit-content',
+  paddingTop: '28%',
+  paddingBottom: '12%',
+  fontSize:'187%'
 };
  
   const contentStyle={
-  textAlign:'left',
   background: 'white',
   color: 'black',
-  lineHeight: '2rem',
-  padding: '4rem 18%',
+  lineHeight: '1.2rem',
+  padding: '4rem 20%',
   Height: '37vw',
   fontFamily: 'cursive',
   fontSize: '0.9rem',
-  letterSpacing:'0.1rem'
+  
 };
   return (
     <>
