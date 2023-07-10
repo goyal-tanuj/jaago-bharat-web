@@ -21,6 +21,7 @@ const Descr = function (props)
 export default function Home()
 {
   return (
+
     <>
       <Carousel />
       <section className="two">
@@ -44,8 +45,6 @@ export default function Home()
         <div className="footerimage">
           <h1>"Responsible citizens,developed nations"
           </h1>
-          <img src={footer} alt="" />
-          <div className="layer"></div>
         </div>
         <div className="blogs">
           <h2>Blog</h2>

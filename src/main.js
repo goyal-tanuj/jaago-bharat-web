@@ -2,34 +2,30 @@ import React from 'react'
 export default function Main(props) {
   const divstyle={
     backgroundImage:'url('+ props.backimg +')',
+    boxShadow: 'inset 13px -18px 0 2000px rgba(0,0,0,.75)',
     minHeight:'100%',
-    color:'white',
     backgroundRepeat: 'noRepeat',
-    backgroundSize: 'cover'
+    backgroundSize: 'contain'
   };
   
 const headerStyle= {
   textAlign: 'center',
   height: 'fit-content',
-  paddingTop: '28%',
-  paddingBottom: '12%',
   fontSize:'187%'
 };
  
   const contentStyle={
   background: 'white',
   color: 'black',
-  lineHeight: '1.2rem',
-  padding: '4rem 20%',
+  lineHeight: '1.8rem',
   Height: '37vw',
-  fontFamily: 'cursive',
-  fontSize: '0.9rem',
+  fontSize: '1.1rem',
   
 };
   return (
     <>
         <div className="whole" style={divstyle}>
-          <div className="heading" style={headerStyle}><h1>{props.header}</h1></div>
+          <div className="heading" style={headerStyle}><h1 style={{color:'white'}}>{props.header}</h1></div>
           <div className="content" style={contentStyle}>{props.description}</div>
         </div>
     </>
