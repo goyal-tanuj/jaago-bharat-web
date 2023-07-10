@@ -2,17 +2,17 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./home";
 import Main from "./main";
-import { Link } from "react-router-dom";
 import logo from "./images/footer.png";
 import {
-  Post2,
-  Posts1,
+ What_we_do,
+   Who_we_are,
   Ourstory,
   Ourfounder,
   Ourteam,
   Wet_waste_management,
   WaterConservation,
   SMILE,
+  Ecobrick
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
@@ -24,13 +24,13 @@ function App() {
         <Route
           path="/Who we are"
           element={
-            <Main backimg={logo} header="Who We Are" description={Posts1} />
+            <Main backimg={logo} header="Who We Are" description={ Who_we_are} />
           }
         />
         <Route
           path="/What We Do"
           element={
-            <Main backimg={logo} header="What We Do" description={Post2} />
+            <Main backimg={logo} header="What We Do" description={What_we_do} />
           }
         />
         <Route
@@ -79,6 +79,12 @@ function App() {
           path="/SMILE"
           element={
             <Main backimg={logo} header="S.M.I.L.E" description={SMILE} />
+          }
+        />
+        <Route
+          path="/Eco brick"
+          element={
+            <Main backimg={logo} header="Eco-Brick" description={Ecobrick} />
           }
         />
       </Routes>

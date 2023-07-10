@@ -1,16 +1,16 @@
 import founder from "../images/trustee-photo-2.jpg";
-// import ecobrick1 from '../images/ecobrick-0001-768x1087.png'
-// import ecobrick2 from '../images/ecobrick-0002-768x1087.png'
-// import ecobrick3 from '../images/ecobrick-0000-1-724x1024.png'
-// import ecobrick4 from '../images/manure-1.png';
-// import ecobrick5 from '../images/pasted image 0.png'
-// import ecobrick6 from '../images/pasted image 0 (1).png'
-// import ecobrick7 from '../images/pasted image 0 (2).png'
-// import ecobrick8 from '../images/ecobrick-0007-1024x744.png'
-// import ecobrick9 from '../images/image1.png'
-// import ecobrick10 from '../images/image4.png'
-// import ecobrick11 from '../images/image1.png'
-// import ecobrick12 from '../images/image1.png'
+import ecobrick1 from "../images/ecobrick-0001-768x1087.png";
+import ecobrick2 from "../images/ecobrick-0002-768x1087.png";
+import ecobrick3 from "../images/ecobrick-0000-1-724x1024.png";
+import ecobrick4 from "../images/manure-1.png";
+import ecobrick5 from "../images/pasted image 0.png";
+import ecobrick6 from "../images/pasted image 0 (1).png";
+import ecobrick7 from "../images/pasted image 0 (2).png";
+import ecobrick8 from "../images/ecobrick-0007-1024x744.png";
+import ecobrick9 from "../images/image1.png";
+import ecobrick10 from "../images/image4.png";
+import ecobrick11 from "../images/image3.png";
+import ecobrick12 from "../images/image2.png";
 import wet_waste_1 from "../images/wet_waste_1.jpg";
 import wet_waste_3 from "../images/wet_waste_3.png";
 import wet_waste_4 from "../images/wet_waste_4.png";
@@ -19,7 +19,8 @@ import wet_waste_6 from "../images/wet_waste_6.png";
 import Water_conservation_1 from "../images/Water_conservation_1.jpg";
 import Smile from "../images/SMILE.jpg";
 import styled from "styled-components";
-const Posts1 = (
+import "../../src/components/App.css";
+const Who_we_are = (
   <div style={{ textAlign: "left" }}>
     <p>
       Jaago Bharat Trust , is a non-profit organization working from 2014 across
@@ -32,6 +33,7 @@ const Posts1 = (
       Environment, Water bodies, Waste management and Education, in the
       forefront.
       <br />
+      <br />
       We are an operational NGO, meaning we plan and carry out
       boots-on-the-ground projects to accomplish our objectives. This requires a
       great deal of careful planning, communication, and local involvement for
@@ -40,7 +42,7 @@ const Posts1 = (
     ;
   </div>
 );
-const Post2 = (
+const What_we_do = (
   <div style={{ textAlign: "left" }}>
     Our main objectives include:
     <br />
@@ -59,6 +61,7 @@ const Post2 = (
     magazines and we also have won 2nd prize for our Wet Waste Composter on
     Divisional Innovation Exhibition, organized by Regional Science & Technology
     Centre, Ghaziabad.
+    <br />
   </div>
 );
 const Ourstory = (
@@ -67,15 +70,16 @@ const Ourstory = (
     development initiatives weren’t receiving the attention they deserved.
     Believing in importance of activism and responsibility among the citizens so
     that instead of complaining, people begin to perform their basic civic
-    fundamental duties decided to establish an NGO to make a contribution to
-    society. His main goal was to promote education and water conservation. A
-    young leadership than approached in 2018, with an extended vision of
-    re-imagine relationship with the earth, with each other and with urban
-    spaces. Jaago Bharat is keen to deliver its services to larger audience
-    across the region with right set of collaboration and partnerships from both
-    for profit sector and social enterprises like SAFE. Jaago bharat integrates
-    with other NGOs and government schemes to diminish the widening gap between
-    informal sector and mainstream society.
+    fundamental duties
+    <br /> decided to establish an NGO to make a contribution to society. His
+    main goal was to promote education and water conservation. <br />A young
+    leadership than approached in 2018, with an extended vision of re-imagine
+    relationship with the earth, with each other and with urban spaces. Jaago
+    Bharat is keen to deliver its services to larger audience across the region
+    with right set of collaboration and partnerships from both for profit sector
+    and social enterprises like SAFE. <br />
+    Jaago bharat integrates with other NGOs and government schemes to diminish
+    the widening gap between informal sector and mainstream society.
   </div>
 );
 
@@ -121,7 +125,7 @@ const TdStyle = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   @media (max-width: 998px) {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 `;
 const TrStyle = styled.div`
@@ -133,25 +137,96 @@ const Ourteam = (
     The Jaago Bharat team makes it safe and easy for anyone to support
     community-led change around the world. No matter what our title or area of
     expertise is, we’re united by the conviction that a better world is
-    possible, as long as communities are in the driver’s seat of change.<br/><br/><br/>
-<TdStyle>
-  <TrStyle><span style={{fontWeight:'bolder',fontSize:'1.2rem'}}>Founding Member</span> <br/> <br/><span style={{fontWeight:'bold'}}> Mr. Vikram negi</span> <br/> <br/>  <a href="/" style={{color:'blue'}}>LinkedIn link</a></TrStyle>
-  <TrStyle><span style={{fontWeight:'bolder',fontSize:'1.2rem'}}>Founding Member </span><br/> <br/><span style={{fontWeight:'bold'}}> Mr. Vikram negi</span> <br/> <br/>  <a href="/" style={{color:'blue'}}>LinkedIn link</a></TrStyle>
-  <TrStyle><span style={{fontWeight:'bolder',fontSize:'1.2rem'}}>Founding Member</span> <br/> <br/><span style={{fontWeight:'bold'}}> Mr. Sumit Agarwal</span> <br/> <br/>  <a href="/" style={{color:'blue'}}>LinkedIn link</a></TrStyle>
-  <TrStyle><span style={{fontWeight:'bolder',fontSize:'1.2rem'}}>HR </span><br/> <br/><span style={{fontWeight:'bold'}}> Ms. Amisha Mehta </span><br/> <br/>  <a href="/" style={{color:'blue'}}>LinkedIn link</a></TrStyle>
-  <TrStyle><span style={{fontWeight:'bolder',fontSize:'1.2rem'}}>Team Leader</span> <br/> <br/> <span style={{fontWeight:'bold'}}>Mr. Vikram negi</span> <br/> <br/>  <a href="/" style={{color:'blue'}}>LinkedIn link</a></TrStyle>
-  <TrStyle><span style={{fontWeight:'bolder',fontSize:'1.2rem'}}>Team Leader</span><br/> <br/> <span style={{fontWeight:'bold'}}>Ms. Videhi Shah</span> <br/> <br/>  <a href="/" style={{color:'blue'}}>LinkedIn link</a></TrStyle>
-</TdStyle>;
+    possible, as long as communities are in the driver’s seat of change.
+    <br />
+    <br />
+    <TdStyle>
+      <TrStyle>
+        <span style={{ fontWeight: "bolder", fontSize: "1.2rem" }}>
+          Founding Member
+        </span>{" "}
+        <br /> <br />
+        <span style={{ fontWeight: "bold" }}> Mr. Vikram negi</span> <br />{" "}
+        <br />{" "}
+        <a href="/" style={{ color: "blue" }}>
+          LinkedIn link
+        </a>
+      </TrStyle>
+      <TrStyle>
+        <span style={{ fontWeight: "bolder", fontSize: "1.2rem" }}>
+          Founding Member{" "}
+        </span>
+        <br /> <br />
+        <span style={{ fontWeight: "bold" }}> Mr. Vikram negi</span> <br />{" "}
+        <br />{" "}
+        <a href="/" style={{ color: "blue" }}>
+          LinkedIn link
+        </a>
+      </TrStyle>
+      <TrStyle>
+        <span style={{ fontWeight: "bolder", fontSize: "1.2rem" }}>
+          Founding Member
+        </span>{" "}
+        <br /> <br />
+        <span style={{ fontWeight: "bold" }}>
+          {" "}
+          Mr. Sumit Agarwal
+        </span> <br /> <br />{" "}
+        <a href="/" style={{ color: "blue" }}>
+          LinkedIn link
+        </a>
+      </TrStyle>
+      <TrStyle>
+        <span style={{ fontWeight: "bolder", fontSize: "1.2rem" }}>HR </span>
+        <br /> <br />
+        <span style={{ fontWeight: "bold" }}> Ms. Amisha Mehta </span>
+        <br /> <br />{" "}
+        <a href="/" style={{ color: "blue" }}>
+          LinkedIn link
+        </a>
+      </TrStyle>
+      <TrStyle>
+        <span style={{ fontWeight: "bolder", fontSize: "1.2rem" }}>
+          Team Leader
+        </span>{" "}
+        <br /> <br />{" "}
+        <span style={{ fontWeight: "bold" }}>Mr. Vikram negi</span> <br />{" "}
+        <br />{" "}
+        <a href="/" style={{ color: "blue" }}>
+          LinkedIn link
+        </a>
+      </TrStyle>
+      <TrStyle>
+        <span style={{ fontWeight: "bolder", fontSize: "1.2rem" }}>
+          Team Leader
+        </span>
+        <br /> <br />{" "}
+        <span style={{ fontWeight: "bold" }}>Ms. Videhi Shah</span> <br />{" "}
+        <br />{" "}
+        <a href="/" style={{ color: "blue" }}>
+          LinkedIn link
+        </a>
+      </TrStyle>
+    </TdStyle>
+    ;
   </div>
 );
 const Weth2 = styled.h2`
   margin-bottom: 1rem;
-  font-weight: 600;
+  letterspacing: 0.1rem;
+  lineheight: 2rem;
+  fontweight: 600;
 `;
 const Wetp = styled.p`
+  letterspacing: 0.1rem;
+  lineheight: 2rem;
   padding: 1rem 0rem;
 `;
-const Spanh3 = styled.div`
+const Spanh3 = styled.p`
+  letterspacing: 0.1rem;
+  lineheight: 2rem;
+  fontsize: 1.3rem;
+  font-weight: 900;
   display: inline-block;
   color: grey;
 `;
@@ -161,22 +236,42 @@ const Wet_waste_management = (
     <Wetp>
       From 2016 our NGO used to conduct cleanliness drive. In our drive we also
       segregate wet waste and dry waste. The wet waste was given to cow to eat
-      and dry waste was given to small recyclers. In 2018 we started our project
-      known as Wet waste composting, we had made our wet waste composter to
-      promote home composting. In 2020 we started to search for a society level
-      composting project. In Oct 2021 we implement vermicompost model in GRADS
-      International School, Gr Noida.
+      and dry waste was given to small recyclers.
+      <br />
+    </Wetp>
+    <Wetp>
+      {" "}
+      In 2018 we started our project known as Wet waste composting, we had made
+      our wet waste composter to promote home composting.
+      <br />
+    </Wetp>
+    <Wetp>
+      {" "}
+      In 2020 we started to search for a society level composting project. In
+      Oct 2021 we implement vermicompost model in GRADS International School, Gr
+      Noida.
+      <br />
     </Wetp>
     <Weth2>What is the project about</Weth2>
     <Wetp>
       Wet waste is totally biodegradable and is good for soil if decomposed
       properly. We have come up with a solution to decompose your wet waste.
+      <br />
+    </Wetp>
+    <Wetp>
       Home composting : We have the Wet Waste Composter that can convert your
       wet waste (Only Kitchen Wet Waste) into fertiliser in 30 to 40 days by
-      using a small and easy process given by us. Vermicomposting: If you want
-      to implement a composting model for your society or institution then
+      using a small and easy process given by us.
+      <br />
+    </Wetp>
+    <Wetp>
+      {" "}
+      Vermicomposting: If you want to implement a composting model for your
+      society or institution then
+      <br />
       Vermicomposting is the best solution. We provide technical as well as help
       you to implement the vermi. Plant in your premise.
+      <br />
     </Wetp>
     <Weth2>Why we need this</Weth2>
     <Wetp>
@@ -185,43 +280,44 @@ const Wet_waste_management = (
       generator or gated societies or institution (more than 5000 sq m) has to
       ensure segregation of the waste in separate bins, handover recyclable
       material to authorised recyclers, processing of biodegradable waste into
-      manure. We help individual waste generator or society/ institution to
-      start making compost from their wet waste.
+      manure.
+      <br />
+    </Wetp>
+    <Wetp>
+      {" "}
+      We help individual waste generator or society/ institution to start making
+      compost from their wet waste.
     </Wetp>
     <Weth2>What problems are we solving ?</Weth2>
     <Wetp>
       <ul>
         <li>
-          Waste generation : According to NITI Aayog and CSE, it is estimated
-          that urban India generates between 1,30,000 to 1,50,000 metric tonne
-          (MT) of municipal solid waste every day – some 330-550 gramme per
-          urban inhabitant a day. This adds up to roughly 50 million MT per
-          year; at current rates, this will jump to some 125 million MT a year
-          by 2031. All over India 30 per. waste is properly disposed rest is
-          untreated.
+          <br />
+          <Spanh3>Waste generation : </Spanh3>According to NITI Aayog and CSE,
+          it is estimated that urban India generates between 1,30,000 to
+          1,50,000 metric tonne (MT) of municipal solid waste every day – some
+          330-550 gramme per urban inhabitant a day. This adds up to roughly 50
+          million MT per year; at current rates, this will jump to some 125
+          million MT a year by 2031. All over India 30 per. waste is properly
+          disposed rest is untreated.
         </li>
         <li>
+          <br />
           By using our techniques you can atleast reduce your society/ home wet
-          waste. Water Contamination: Due to open waste thrown on streets,
-          landfill it’s polluting the ground water like Chromium 6 is coming out
-          from borewell at Tamil Nadu. Air pollution due to landfill catching
-          fire: Recent examples Ghazipur and Bhalswa landfill sites burning for
-          more than a week. Health problem & death also occurs for rag pickers
-          living near the landfill sites.
+          waste. <br />
+          <br />
+          <Spanh3>Water Contamination:</Spanh3> Due to open waste thrown on
+          streets, landfill it’s polluting the ground water like Chromium 6 is
+          coming out from borewell at Tamil Nadu.{" "}
         </li>
-        By using our techniques you can atleast reduce your society/ home wet
-        waste.
         <li>
-          By using our techniques you can atleast reduce your society/ home wet
-          waste. Water Contamination: Due to open waste thrown on streets,
-          landfill it’s polluting the ground water like Chromium 6 is coming out
-          from borewell at Tamil Nadu. Air pollution due to landfill catching
-          fire: Recent examples Ghazipur and Bhalswa landfill sites burning for
-          more than a week. Health problem & death also occurs for rag pickers
-          living near the landfill sites.
+          <br />
+          <Spanh3>Air pollution due to landfill catching fire:</Spanh3> Recent
+          examples Ghazipur and Bhalswa landfill sites burning for more than a
+          week. Health problem & death also occurs for rag pickers living near
+          the landfill sites.
+          <br />
         </li>
-        Health problem & death also occurs for rag pickers living near the
-        landfill sites.{" "}
       </ul>
     </Wetp>
     <Weth2>What we get after installing or doing this</Weth2>
@@ -231,21 +327,26 @@ const Wet_waste_management = (
           It creates good awareness among people and fulfil our motto “मेरा कचरा
           मेरी जिम्मेदारी “
         </li>
+        <br />
         <li>
           We learnt a lot of technical things from this project also the NGO
           members were able to make a ‘Smart Wet waste composter’ as their final
           year project in college.
         </li>
+        <br />
         <li>
           Our composter has been awarded second prize in Regional science &
           technology exhibition by UP govt.
         </li>
+        <br />
         <img
+          className="widthclass"
           src={wet_waste_1}
           alt=""
           srcset=""
-          style={{ width: "50%", margin: "auto" }}
+          style={{  margin: "auto" }}
         />
+        <br />
         <li>
           Jb establishes a process / system of Team secretary, ambassadors,
           gardeners, school teacher, students to monitor the model of
@@ -257,10 +358,13 @@ const Wet_waste_management = (
     </Wetp>
     <Weth2>Feedback from people</Weth2>
     <Wetp>
+      <br />
       <p>
         More than 12 families across Noida, Greater Noida region are using our
-        wet waste composter and their feedback are:- Mrs. Madhu ji from sector
-        47 NOIDA. “Jaago Bharat NGO ka home composter with starting kit is very
+        wet waste composter and their feedback are:-
+        <br />
+        <Spanh3>Mrs. Madhu ji from sector 47 NOIDA.</Spanh3>
+        <br /> “Jaago Bharat NGO ka home composter with starting kit is very
         useful and easy to handle. It has two pot with 10-15 holes and two
         stands to keep under matkas. Very gud social initiative by Jaago Bharat
         and its volunteers. I purchased it immediately when I saw it and using
@@ -268,48 +372,64 @@ const Wet_waste_management = (
       </p>
       <img src={wet_waste_3} alt="" style={{ width: "85%" }} />
       <p>
-        Mrs Garima Tripathi ji from homes 121 Noida. “We are preparing manure
-        from wet waste in these composters for last one year. This is very
-        easiest and simplest method of home Composting.
+        <br />
+        <Spanh3>Mrs Garima Tripathi ji from homes 121 Noida.</Spanh3>
+        <br /> “We are preparing manure from wet waste in these composters for
+        last one year. This is very easiest and simplest method of home
+        Composting.
       </p>
       <img src={wet_waste_4} alt="" style={{ width: "85%" }} />
       <p>
-        Mr Ashok Kumar from Greater Noida “This is the most easy way of home
-        composting. You can start composting in your home as their is no smell
-        or insects nearby it. I do wish more people would take it on- its so
-        easy.”
+        <br />
+        <Spanh3>Mr Ashok Kumar from Greater Noida </Spanh3>
+        <br />
+        “This is the most easy way of home composting. You can start composting
+        in your home as their is no smell or insects nearby it. I do wish more
+        people would take it on- its so easy.”
       </p>
       <img src={wet_waste_5} alt="" style={{ width: "85%" }} />
       <p>
-        Mr Ashok Kumar from Greater Noida “This is the most easy way of home
-        composting. You can start composting in your home as their is no smell
-        or insects nearby it. I do wish more people would take it on- its so
-        easy.”
+        <br />
+        <Spanh3>Vermicomposting Inaugration at GRADS School</Spanh3>
       </p>
       <img src={wet_waste_6} alt="" style={{ width: "85%" }} />
+      <br />
     </Wetp>
     <Weth2>Collaboration</Weth2>
+    <br />
     <Spanh3>
+      <br />
       GRADS International school for creating a good mechanism in which school
       teachers, students, gardeners all participated.
     </Spanh3>
     <Weth2>Impact in terms of numbers</Weth2>
+    <br />
     <Spanh3 style={{ color: "black" }}>Home composting:</Spanh3>
+    <br />
     <Spanh3>
       As 12 families started composting so 21.6 kg of wet waste per day started
-      converting into manure. (1 family has generates 1.8kg of waste per day)
+      converting into manure. <br />
+      (1 family has generates 1.8kg of waste per day)
+      <br />
       Instead buying manure they starting making their own manure from their
       kitchen waste to grow vegetables in their gardens.
+      <br />
     </Spanh3>
+    <br />
     <Spanh3 style={{ color: "black" }}>Vermicomposting:</Spanh3>
+    <br />
     <Spanh3>
+      <br />
       Grads school starts converting their garden waste to manure and generates
-      approx 9 kg of manure every month (The major source of waste for GRADS is
-      garden waste plus the rotten vegetables, so 50 to 60 kg of garden waste
-      generated per month. As per calculation 1 tonne of compostable waste gives
-      150 Kg of compost.) They also started using manure in their garden,
-      earlier they use to buy manure and now they are converting their garden
-      waste to highly enriched black manure.
+      approx 9 kg of manure every month <br />
+      (The major source of waste for GRADS is garden waste plus the rotten
+      vegetables, so 50 to 60 kg of garden waste generated per month.
+      <br /> As per calculation 1 tonne of compostable waste gives 150 Kg of
+      compost.) <br />
+      They also started using manure in their garden, earlier they use to buy
+      manure and now they are converting their garden waste to highly enriched
+      black manure.
+      <br />
     </Spanh3>
   </div>
 );
@@ -387,9 +507,11 @@ const WaterConservation = (
           Here is a general representation of how a typical RWH system works
         </p>
         <img
+        
+        className="widthclass"
           src={Water_conservation_1}
           alt=""
-          style={{ width: "50%", margin: "2.4% auto" }}
+          style={{ margin: "2.4% auto" }}
         />
         <p>
           The outcome of the project would be a complete set up that can collect
@@ -434,10 +556,15 @@ const SMILE = (
       <Wetp>
         Project S.M.I.L.E stands for:-
         <br />
+        <br />
         <Spanh3>SKILLING THE UNDERPRIVILEGED</Spanh3>
+        <br />
         <Spanh3>MANAGING USED PAPER</Spanh3>
+        <br />
         <Spanh3>INSTILLING SELF CONFIDENCE</Spanh3>
+        <br />
         <Spanh3>INSTILLING SELF CONFIDENCE</Spanh3>
+        <br />
         <Spanh3>INSTILLING SELF CONFIDENCE</Spanh3>
       </Wetp>
       <Weth2>Why we need this</Weth2>
@@ -454,11 +581,13 @@ const SMILE = (
       <Wetp>
         <ul>
           <li>
+            <br />
             <Spanh3>PAPER WASTE :</Spanh3>In India, annually, more than
             9,000,000 tonnes of paper is dumped in landfills while only
             3,000,000 gets recycled, leading to increased deforestation.
           </li>
           <li>
+            <br />
             <Spanh3>Unemployability & unskilled labour :</Spanh3>According to a
             report published by the Centre for Monitoring Indian Economy (CMIE),
             India has 53 million unemployed people as of Dec 202 also according
@@ -468,6 +597,7 @@ const SMILE = (
             job-ready.
           </li>
           <li>
+            <br />
             <Spanh3>Lack of will & resources to provide education :</Spanh3>Lack
             of will & resources to provide education
           </li>
@@ -482,6 +612,7 @@ const SMILE = (
             of this project the core team of Jaago Bharat got established.
           </li>
           <li>
+            <br />
             <Spanh3>S.M.I.L.E.</Spanh3>has different stages like : collecting
             paper waste, getting raw materials, workplace, workers, final
             product and selling the copies.
@@ -508,6 +639,7 @@ const SMILE = (
             in buying the notebooks.
           </li>
           <li>
+            <br />
             <Spanh3>
               In the second phase the copies were made by the parents whose
               children are having cancer and they belong to an underprivileged
@@ -543,6 +675,7 @@ const SMILE = (
       </Wetp>
       <Weth2>Impact of project in numbers</Weth2>
       <Wetp>
+        <br />
         <Spanh3>Phase 1</Spanh3>
         Phase 1 From 31st Dec 2017 to 31st Jan 2018 :-
         <br />
@@ -576,17 +709,264 @@ const SMILE = (
         litres of water.
         <br />
       </Wetp>
-      <img src={Smile} alt="" srcset="" style={{ width: "50%" }} />
+      <img 
+          className="widthclass" src={Smile} alt="" srcset="" />
+    </div>
+  </>
+);
+const Ecobrick = (
+  <>
+    <div style={{ textAlign: "center" }}>
+      <Weth2>About Project</Weth2>
+      <Wetp>
+        We got an idea about the concept of Ecobrick in March 2020. We did one
+        year of research on that in which we got to know the persons living in
+        Delhi NCR who are working in this.
+        <br />
+        <br />
+        By March 2021 we collaborated with Enactus JMC and started making
+        Ecobricks.
+      </Wetp>
+      <Weth2>What is the project about</Weth2>
+      <Wetp>
+        An ecobrick is a PET bottle packed solid with clean and dry plastics,
+        meaning it’s a
+        <br />
+        <br />
+        plastic bottle packed with used plastic to set density and to prevent
+        the growth of bacteria.
+        <br />
+        <br />
+        We collaborated with Enactus JMC to build a public toilet out of
+        Ecobrick in Delhi for slum women. The project is going on and our aim is
+        to make 2000 ecobricks made out of 1 litre plastic bottles and non
+        recyclable clean & dry plastic waste.
+        <br />
+      </Wetp>
+
+      <Weth2>Why we need this</Weth2>
+      <Wetp>
+        Project Ecobrick caters as a single solution to this three-fold problem.
+        It helps to eradicate the problem of non recyclable plastic waste which
+        generally goes to landfill. Also it allows every individual who uses
+        plastic for his personal use, to act on their plastic waste and upscale
+        it to something more useful.
+        <br />
+        <br />
+        We generate employment and empower the slum womens by training them on
+        how to make ecobricks. This not only support their livelihood, but also
+        increases their employability.
+        <br />
+        <br />
+        The Ecobricks made has many practical applications like apart using them
+        to make structures it can also be used to create stools, seats, tables
+        and various other things for household purposes
+        <br />
+      </Wetp>
+      <img src={ecobrick1} alt="" style={{ width: "85%", margin: "auto" }} />
+      <Weth2>What problems are we solving ?</Weth2>
+      <Wetp>
+        <ul>
+          <li>
+            <br />
+            <Spanh3>Plastic Waste scenario :</Spanh3>
+            According to Union Environment Minister Bhupender Yadav, India
+            generates 3.5 million tonnes of plastic waste annually. The only way
+            to solve this problem is the person/family/community who generates
+            this waste, takes initiative to reduce its plastic waste.
+          </li>
+          <li>
+            <br />
+            <Spanh3>Lack of skilled women labour: </Spanh3>Data from the
+            Periodic Labour Force Survey (PLFS) (2019-20) shows female labour
+            force participation at 22.8 percent, compared to a far higher 56.8
+            percent for men. The data shows that women’s presence in the
+            workforce dropped to 16.9 percent following the first year of the
+            pandemic, while for men it remained largely the same.
+          </li>
+          <li>
+            <br />
+            <Spanh3>PET bottles waste :</Spanh3> According to industry data,
+            more than 14 lakh tonnes of PET plastics are consumed annually in
+            India, even with the world’s highest recycling rate of 80 per cent.
+            About 2.8 lakh tonnes of plastic bottles waste never gets collected.
+          </li>
+        </ul>
+      </Wetp>
+      <img
+        src={ecobrick2}
+        alt=""
+        srcset=""
+        style={{ width: "85%", margin: "auto" }}
+      />
+      <Weth2>What we get after installing or doing this</Weth2>
+      <Wetp>
+        <ul>
+          <li>
+            We trained more than 20 slum women on how to make ecobricks.
+            Ecobrick making can be done from their home itself, so during COVID
+            it became a good source of extra income.
+          </li>
+          <li>
+            They became skilled and hence this project itself promotes Women
+            empowerment.
+          </li>
+          <li>
+            Our Team member organised several cleanliness drives in Noida, where
+            we picked up the plastic from streets & parks lying there for
+            several days or even months, cleaned it and used it in Ecobrick
+            making.
+          </li>
+          <li>
+            Volunteers learnt a lot of things of managing operational costs,
+            planning to pick huge sums of plastic, convincing people and mall
+            authorities to give their plastic.
+          </li>
+        </ul>
+      </Wetp>
+
+      <div className="changedisplay">
+        <div>
+          <Weth2>Feedback from people:</Weth2>
+          <Wetp>
+            <ul>
+              <li>
+                A lot of NGO’s like Humara Kartavy and schools like GRADS
+                International school & Earth Paradise school started making
+                Ecobrick by seeing our sessions, videos etc.
+              </li>
+              <li>
+                Societies, malls and market areas collected their clean plastic
+                waste and started giving it to us.
+              </li>
+              <li>
+                Many children got connected with this project and they started
+                making Ecobrick by their own.
+              </li>
+              <li>
+                JB put a stall and made products like small stool, flower pot,
+                bench, dustbin from Ecobricks and it was showcased to public in
+                Ghaziabad.
+              </li>
+            </ul>
+          </Wetp>
+        </div>
+        <div>
+          <img 
+          className="widthclass" src={ecobrick3} alt="" />
+        </div>
+      </div>
+      <Weth2>Collaboration</Weth2>
+      <Wetp>
+        <ul>
+          <li>
+            We collaborated with Enactus JMC to supply them 2000 Ecobricks for
+            their Project Sugam which aims to make public toilet made out of
+            Ecobrick.
+          </li>
+          <li>
+            We collaborated with Myloktantra to provide us the group of self
+            help ladies which will make our Ecobricks.
+          </li>
+          <li>
+            We came in contact with several malls, recyclers, societies and our
+            efficient volunteers who provided us with the bottles and plastic
+            waste.
+          </li>
+        </ul>
+      </Wetp>
+      <div className="layerimage">
+        <br />
+        <Weth2 style={{ background: "white", width: "75%", margin: "auto" }}>
+          IMPACT OF PROJECT:{" "}
+        </Weth2>
+        <br />
+        Plastic waste collected from March 2021 to April 2022 : <br />
+        <br />
+        100 kattas of plastic waste collected equals to 245 kg upcycled in
+        Ecobrick making
+        <br />
+        <br />
+        (1 katta of plastic involving packaging, LDP plastic equals to 2.7 kg of
+        weight)
+        <br />
+        <br />
+        Plastic bottles collected from March 2021 to April 2022 : <br />
+        <br />
+        900 PET bottles waste of 1 litre collected from Rajasthan, Noida,
+        Greater Noida, Delhi
+        <br />
+        <br />
+        Women Empowered or trained = more than 20
+        <br />
+        <br />
+        More than 300 hours of volunteering happened
+        <br />
+        <br />
+        <br />
+      </div>
+      <br />
+      <div className="changedisplay">
+        <div style={{ width: "60%", margin: "auto" }}>
+          <img 
+          className="widthclass" src={ecobrick5} alt="" />
+        </div>
+        <div>
+          <h3>Ecobrick sitting bench</h3>
+        </div>
+      </div>
+      <br />
+      <div className="changedisplay">
+        <div style={{ width: "60%", margin: "auto" }}>
+          <img
+          className="widthclass" src={ecobrick6} alt=""  />
+        </div>
+        <div>
+          <h3>Ecobrick sitting stool</h3>
+        </div>
+      </div>
+      <br />
+      <div className="changedisplay">
+        <div style={{ width: "60%", margin: "auto" }}>
+          <img 
+          className="widthclass" src={ecobrick7} alt="" />
+        </div>
+        <div>
+          <h3>Ecobrick Dustbin</h3>
+        </div>
+      </div>
+      <br />
+      <img 
+          className="widthclass" src={ecobrick8} alt=""/>
+      <br />
+      <br />
+      <img 
+          className="widthclass" src={ecobrick9} alt="" />
+      <br />
+      <br />
+      <img 
+          className="widthclass" src={ecobrick10} alt=""  />
+      <br />
+      <br />
+      <img src={ecobrick11} alt=""
+          className="widthclass" />
+      <br />
+      <br />
+      <img src={ecobrick12} alt=""
+          className="widthclass"/>
+      <br />
+      <br />
     </div>
   </>
 );
 export {
-  Posts1,
-  Post2,
+  Who_we_are,
+  What_we_do,
   Ourstory,
   Ourfounder,
   Ourteam,
   Wet_waste_management,
   WaterConservation,
   SMILE,
+  Ecobrick,
 };

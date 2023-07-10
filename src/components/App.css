@@ -2,65 +2,57 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  color:grey;
+}
+h1,h2,h3{
+  color:black;
 }
 .footerimage{
-  height: 25rem;
-  position: relative;
-  margin: 4rem 0rem;
+  background-image:url(../images/footer.png);
+  box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,.75);
+    text-align: center;
+    padding: 7% 7% 50px;
+    background-size: cover;
 }
-.layer{position: absolute;
-  top: 0;
-  height: 25rem;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-}
-.footerimage img{
-  height: 25rem;
-  width: 100%;
-  }
 .footerimage h1{
-  border-bottom: 0.3rem solid yellow;
-  border-top: 0.3rem solid yellow;
-  position: absolute;
-  top: 25%;
-  padding: 7% 0%;
-  left: 12%;
-  width: 75%;
-  color: yellow;
-  text-align: center;
-  font-size: 2rem;
-  text-transform: uppercase;
-  height: 50%;
+  color: rgb(255, 217, 0);
+    border: 4px solid rgb(255, 136, 0);
+    border-left: 0;
+    border-right: 0;
+    padding: 7%;
+    font-size: 1.5rem;
 }
 /* section two */
 .two{
   text-align: center;
-  padding: 1rem 12%;
+  padding: 1rem 9%;
+  font-size:1.3rem;
 }
 .two .above{
-  padding: 4rem;
-  font-size: 1rem;
+  padding:4rem 14rem 1.5rem 14rem;
 }
 .above h1{
   font-size: 2rem;
+  font-weight: 700;
 }
 .above p{
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .two .below{
   display: flex;
-  padding-top: 2rem;
   margin-bottom: 2rem;
+  font-size: 1.1rem;
 }
 .two .below .box img{
   height: 5rem;
 }
 .two .below .box h3{
   padding-top:1.5rem ;
+  font-size: 1rem;
+  font-weight: 650;
 }
 .two .below .box p{
   padding: 1rem;
-  font-size: 1.1rem;
 }
 .blogs{
   margin:1rem auto;
@@ -69,19 +61,31 @@
   text-align: center;
   position: relative;
   top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 .blogslist{
   display: flex;
-  margin-top: 7rem;
+  margin-top: 5rem;
   padding: 0rem 2rem;
 }
 .blogbox{
   margin: .1rem 2rem;
 }
+.blogbox h3{
+  font-size: 1.3rem;
+  font-weight: revert;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.blogbox .category{
+  
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
 @media (max-width: 998px){
   .two{
     text-align: center;
-    padding: 1rem;
   }
   .two .above{
     padding:3rem 1rem 1rem;
@@ -108,8 +112,7 @@
     display: block;
   }
   .blogbox{
-    text-align: center;
-    margin: 3em auto;
+    margin: 2.3rem auto;
   }
   .footerimage h1{
     font-size: 2rem;
@@ -130,7 +133,9 @@
   font-weight: 650;
   font-size: 0.6rem;
 }
-.four h1{    line-height: 7rem;
+.four h1{    
+  color:white;
+  line-height: 7rem;
   text-transform: capitalize;}
 .four ul{line-height: 3rem;}
 .links{
@@ -153,4 +158,53 @@
 }
 .ani:hover >img{
     width: 9rem;
+}
+
+.whole{
+  box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,0.75);
+  min-height: 100% ;
+  background-repeat:  noRepeat ;
+  background-size:  cover ;
+}
+
+.heading{
+  padding-top: 10%;
+  padding-bottom: 8%;
+}
+.content{
+  padding: 4rem 20%;
+}
+.changedisplay{
+  display:flex;
+  align-items:center ;
+  justify-content: space-evenly;
+  padding-left: 1%;
+}
+.layerimage{
+  background-image: url(../images/manure-1.png);
+  box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,0.75);
+  padding: 1%;
+  width:60%;
+  margin:auto;
+}
+.widthclass{
+  width: 50%;
+}
+@media (max-width: 998px){
+  .content{
+    padding: 2rem 8%;
+  }
+  .heading{
+    padding-top: 34%;
+    padding-bottom: 12%;}
+  .changedisplay{
+    display: block;
+  }
+  .widthclass{
+    width:95%;
+  }
+  .layerimage{
+    padding: 2%;
+  width:85%;
+  }
 }
