@@ -2,7 +2,6 @@ import founder from "../images/trustee-photo-2.jpg";
 import ecobrick1 from "../images/ecobrick-0001-768x1087.png";
 import ecobrick2 from "../images/ecobrick-0002-768x1087.png";
 import ecobrick3 from "../images/ecobrick-0000-1-724x1024.png";
-import ecobrick4 from "../images/manure-1.png";
 import ecobrick5 from "../images/pasted image 0.png";
 import ecobrick6 from "../images/pasted image 0 (1).png";
 import ecobrick7 from "../images/pasted image 0 (2).png";

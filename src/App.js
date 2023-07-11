@@ -18,7 +18,8 @@ import {
   Publications,
   AnnualReport,
   GetInvolved,
-  Donate
+  Donate,
+  Ecobrick
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
