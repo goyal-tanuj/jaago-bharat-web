@@ -48,7 +48,7 @@ const What_we_do = (
     <br />
     <br />
     <ul style={{ marginLeft: "3rem" }}>
-      <li> Sustainable Development</li>
+      <li>Sustainable Development</li>
       <li>Skill Development</li>
       <li>Social Awareness</li>
       <li>Environment</li>
@@ -80,6 +80,43 @@ const Ourstory = (
     and social enterprises like SAFE. <br />
     Jaago bharat integrates with other NGOs and government schemes to diminish
     the widening gap between informal sector and mainstream society.
+  </div>
+);
+
+const Overview = (
+  <div style={{ textAlign: "left" }}>
+    
+  </div>
+);
+
+const Partners = (
+  <div style={{ textAlign: "left" }}>
+    
+  </div>
+);
+const Gallery = (
+  <div style={{ textAlign: "left" }}>
+    
+  </div>
+);
+const Publications = (
+  <div style={{ textAlign: "left" }}>
+    
+  </div>
+);
+const AnnualReport = (
+  <div style={{ textAlign: "left" }}>
+    
+  </div>
+);
+const GetInvolved = (
+  <div style={{ textAlign: "left" }}>
+    
+  </div>
+);
+const Donate = (
+  <div style={{ textAlign: "left" }}>
+    
   </div>
 );
 
@@ -959,6 +996,7 @@ const Ecobrick = (
     </div>
   </>
 );
+
 export {
   Who_we_are,
   What_we_do,
@@ -968,5 +1006,12 @@ export {
   Wet_waste_management,
   WaterConservation,
   SMILE,
+  Overview,
+  Partners,
+  Gallery,
+  Publications,
+  AnnualReport,
+  GetInvolved,
+  Donate,
   Ecobrick,
 };
