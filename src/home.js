@@ -1,6 +1,5 @@
 import React from 'react'
 import Carousel from './components/carousel';
-import footer from './images/footer.png'
 import Bloglist from './components/blogs'
 import one from './images/one.png';
 import two from './images/two.png';

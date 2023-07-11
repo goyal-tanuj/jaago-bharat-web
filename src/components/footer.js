@@ -14,7 +14,7 @@ export default function Footer()
                     <tr>
                         <td><a href="Donate">DONATE</a></td>
                         <td><a href="#">WHAT'S NEXT</a></td>
-                        <td><a href="#">ECO-BRICK</a></td>
+                        <td><a href="/Eco brick">ECO-BRICK</a></td>
                     </tr>
                     <tr>
                         <td><a href="/">FRONT VASTRAAY</a></td>
