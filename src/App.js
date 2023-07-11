@@ -12,7 +12,13 @@ import {
   Wet_waste_management,
   WaterConservation,
   SMILE,
-  Ecobrick
+  Overview,
+  Partners,
+  Gallery,
+  Publications,
+  AnnualReport,
+  GetInvolved,
+  Donate
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
@@ -21,6 +27,36 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route
+          path="/Gallery"
+          element={
+            <Main backimg={logo} header="Gallery" description={Gallery} />
+          }
+        />
+        <Route
+          path="/Publications"
+          element={
+            <Main backimg={logo} header="Publications" description={Publications} />
+          }
+        />
+        <Route
+          path="/AnnualReport"
+          element={
+            <Main backimg={logo} header="Annual Report" description={AnnualReport} />
+          }
+        />
+        <Route
+          path="/GetInvolved"
+          element={
+            <Main backimg={logo} header="Get Involved" description={GetInvolved} />
+          }
+        />
+        <Route
+          path="/Donate"
+          element={
+            <Main backimg={logo} header="Donate" description={Donate} />
+          }
+        />
         <Route
           path="/Who we are"
           element={
@@ -40,6 +76,12 @@ function App() {
           }
         />
         <Route
+          path="/An overview"
+          element={
+            <Main backimg={logo} header="An Overview" description={Overview} />
+          }
+        />
+        <Route
           path="/Our Founders"
           element={
             <Main
@@ -53,6 +95,12 @@ function App() {
           path="/Our Team"
           element={
             <Main backimg={logo} header="Our Team" description={Ourteam} />
+          }
+        />
+        <Route
+          path="/Partners"
+          element={
+            <Main backimg={logo} header="Partners" description={Partners} />
           }
         />
         <Route

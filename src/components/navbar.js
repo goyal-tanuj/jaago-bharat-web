@@ -84,7 +84,7 @@ export default function Navbar()
                 button onClick={clickfunction1}>{ dropclick1?<IoIosArrowDropdown/>:"x"}</button>
               <div className="dropdown">
                 <ul>
-                  <li><Link  onClick={linkfunction} to='#'>An overview</Link ></li>
+                  <li><Link  onClick={linkfunction} to='/An overview'>An overview</Link ></li>
                   <li><Link  onClick={linkfunction} to='/Eco brick'>Eco-brick</Link ></li>
                   <li><Link  onClick={linkfunction} to='/Wet-Waste-Management'>Wet waste management</Link ></li>
                   <li><Link  onClick={linkfunction} to='/Water-conservation'>water conservation</Link ></li>
@@ -93,33 +93,34 @@ export default function Navbar()
               </div>
             </li>
             <li>
-              <Link  onClick={linkfunction} to="#" >Partners</Link >
+              <Link  onClick={linkfunction} to="/Partners" >Partners</Link >
             </li>
              <li className={dropclick2 ?"dropclass":"drop2"}>
               <Link  onClick={linkfunction} to="#" >Resources </Link ><span className="icondrop" style={{color:'white'}}><IoMdArrowDropdown /></span><
                 button onClick={clickfunction2}>{dropclick2?<IoIosArrowDropdown/>:"x"}</button>
               <div className="dropdown">
                 <ul>
-                  <li><Link  onClick={linkfunction} to='#'>Annual report</Link ></li>
-                  <li><Link  onClick={linkfunction} to='#'>Our publications</Link ></li>
-                  <li><Link  onClick={linkfunction} to='#'>Our gallery</Link ></li>
+                  <li><Link  onClick={linkfunction} to='/AnnualReport'>Annual report</Link ></li>
+                  <li><Link  onClick={linkfunction} to='/Publications'>Our publications</Link ></li>
+                  <li><Link  onClick={linkfunction} to='/Gallery'>Our gallery</Link ></li>
                 </ul>
               </div>
             </li>
             <li>
-              <Link  onClick={linkfunction} to="#" >Get Involved</Link >
+              <Link  onClick={linkfunction} to="/GetInvolved" >Get Involved</Link >
             </li>
             <li className={dropclick3 ?"dropclass":"drop3"}>
               <Link  onClick={linkfunction} to="#" >Support us </Link ><span className="icondrop" style={{color:'white'}}><IoMdArrowDropdown /></span>
               <button onClick={clickfunction3}>{dropclick3?<IoIosArrowDropdown/>:"x"}</button>
               <div className="dropdown">
                 <ul>
-                  <li><Link  onClick={linkfunction} to='#'>Donate</Link ></li>
+                  <li><Link  onClick={linkfunction} to='/Donate'>Donate</Link ></li>
                 </ul>
               </div>
             </li>
           </ul>
           <div  className="icon">
+            <Link to="#" onClick={myFunction}>{showmediaicons ? <RxCross2/> : <RxHamburgerMenu/>}</Link >
             <Link  onClick={linkfunction} to="#" href="javascript:void(0);"
               onClick={myFunction}>{showmediaicons ? <RxCross2/> : <RxHamburgerMenu/>}</Link >
           </div>
