@@ -82,40 +82,107 @@ const Ourstory = (
   </div>
 );
 
-const Overview = (
-  <div style={{ textAlign: "left" }}>
-    
-  </div>
-);
+const Overview = <div style={{ textAlign: "left" }}></div>;
 
 const Partners = (
   <div style={{ textAlign: "left" }}>
-    
+    <h2>Jaago Bharat Partners</h2>
+    <br />
+    <ol>
+      <li>
+        <h3>GRADS International School</h3>
+        <p>
+          Mrs Aditi Basu Roy, the principal of GRADS International School is one
+          of the most prominent partner of Jaago Bharat Team. We have conducted
+          many awareness drive and training session with them.
+        </p>
+        <div style={{ textAlign: "center" }}>
+          <img
+            alt=""
+            src="/partners/image3.png"
+            style={{ width: "85%", margin: "auto", borderRadius: "10px" }}
+          ></img>
+        </div>
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <img
+            alt=""
+            src="/partners/image5.png"
+            style={{ width: "85%", margin: "auto", borderRadius: "10px" }}
+          ></img>
+        </div>
+      </li>
+        <br />
+      <li>
+        <h3>Social Action for forest & Environment (SAFE)</h3>
+        <p>
+        Mr Vikrant Tongad, founder of SAFE is one of the most remarkable Envirionmentalist across Delhi NCR. Team Jaago Bharat has collaborated with them on many aspects regarding sharing our volunteer, conducting different awareness drive and much more.
+        </p>
+        <div style={{ textAlign: "center" }}>
+          <img
+            alt=""
+            src="/partners/image4.png"
+            style={{ width: "85%", margin: "auto", borderRadius: "10px" }}
+          ></img>
+        </div>
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <img
+            alt=""
+            src="/partners/image7.png"
+            style={{ width: "85%", margin: "auto", borderRadius: "10px" }}
+          ></img>
+        </div>
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <img
+            alt=""
+            src="/partners/image6.png"
+            style={{ width: "85%", margin: "auto", borderRadius: "10px" }}
+          ></img>
+        </div>
+      </li>
+        <br />
+      <li>
+        <h3>Sumangla Kapoor</h3>
+        <p>
+        Her approach and efforts towards social work is commendable. She has been an incredible part of the team.
+        </p>
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <img
+            alt=""
+            src="/partners/image2.png"
+            style={{ width: "85%", margin: "auto", borderRadius: "10px" }}
+          ></img>
+        </div>
+        <br />
+        <div style={{ textAlign: "center" }}>
+          <img
+            alt=""
+            src="/partners/image1.png"
+            style={{ width: "85%", margin: "auto", borderRadius: "10px" }}
+          ></img>
+        </div>
+      </li>
+    </ol>
   </div>
 );
-const Gallery = (
-  <div style={{ textAlign: "left" }}>
-    
-  </div>
-);
-const Publications = (
-  <div style={{ textAlign: "left" }}>
-    
-  </div>
-);
+const Gallery = <div style={{ textAlign: "left" }}></div>;
+const Publications = <div style={{ textAlign: "left" }}></div>;
 const AnnualReport = (
-  <div style={{ textAlign: "left" }}>
-    
+  <div style={{ textAlign: "center" }}>
+    <h1>This will be updated shortly!</h1>
   </div>
 );
 const GetInvolved = (
-  <div style={{ textAlign: "left" }}>
-    
+  <div style={{ textAlign: "center" }}>
+    <h1>This will be updated shortly!</h1>
   </div>
 );
 const Donate = (
-  <div style={{ textAlign: "left" }}>
-    
+  <div style={{ textAlign: "center" }}>
+    <h1>This will be updated shortly!</h1>
   </div>
 );
 
@@ -150,8 +217,8 @@ const Ourfounder = (
         education and water conservation , so timely he has organised event with
         orphanage & slum childrens and provide them things like stationary items
         and edible items. At last in 2019 he convinced his society (GAIL) people
-        to install rainwater harvesting. Basic design , model was prepared by
-        him only.
+        to install rainwater harvesting. Basic design, model was prepared by him
+        only.
       </p>
     </div>
   </>
@@ -380,7 +447,7 @@ const Wet_waste_management = (
           src={wet_waste_1}
           alt=""
           srcset=""
-          style={{  margin: "auto" }}
+          style={{ margin: "auto" }}
         />
         <br />
         <li>
@@ -543,8 +610,7 @@ const WaterConservation = (
           Here is a general representation of how a typical RWH system works
         </p>
         <img
-        
-        className="widthclass"
+          className="widthclass"
           src={Water_conservation_1}
           alt=""
           style={{ margin: "2.4% auto" }}
@@ -745,8 +811,7 @@ const SMILE = (
         litres of water.
         <br />
       </Wetp>
-      <img 
-          className="widthclass" src={Smile} alt="" srcset="" />
+      <img className="widthclass" src={Smile} alt="" srcset="" />
     </div>
   </>
 );
@@ -888,8 +953,7 @@ const Ecobrick = (
           </Wetp>
         </div>
         <div>
-          <img 
-          className="widthclass" src={ecobrick3} alt="" />
+          <img className="widthclass" src={ecobrick3} alt="" />
         </div>
       </div>
       <Weth2>Collaboration</Weth2>
@@ -944,8 +1008,7 @@ const Ecobrick = (
       <br />
       <div className="changedisplay">
         <div style={{ width: "60%", margin: "auto" }}>
-          <img 
-          className="widthclass" src={ecobrick5} alt="" />
+          <img className="widthclass" src={ecobrick5} alt="" />
         </div>
         <div>
           <h3>Ecobrick sitting bench</h3>
@@ -954,8 +1017,7 @@ const Ecobrick = (
       <br />
       <div className="changedisplay">
         <div style={{ width: "60%", margin: "auto" }}>
-          <img
-          className="widthclass" src={ecobrick6} alt=""  />
+          <img className="widthclass" src={ecobrick6} alt="" />
         </div>
         <div>
           <h3>Ecobrick sitting stool</h3>
@@ -964,32 +1026,26 @@ const Ecobrick = (
       <br />
       <div className="changedisplay">
         <div style={{ width: "60%", margin: "auto" }}>
-          <img 
-          className="widthclass" src={ecobrick7} alt="" />
+          <img className="widthclass" src={ecobrick7} alt="" />
         </div>
         <div>
           <h3>Ecobrick Dustbin</h3>
         </div>
       </div>
       <br />
-      <img 
-          className="widthclass" src={ecobrick8} alt=""/>
+      <img className="widthclass" src={ecobrick8} alt="" />
       <br />
       <br />
-      <img 
-          className="widthclass" src={ecobrick9} alt="" />
+      <img className="widthclass" src={ecobrick9} alt="" />
       <br />
       <br />
-      <img 
-          className="widthclass" src={ecobrick10} alt=""  />
+      <img className="widthclass" src={ecobrick10} alt="" />
       <br />
       <br />
-      <img src={ecobrick11} alt=""
-          className="widthclass" />
+      <img src={ecobrick11} alt="" className="widthclass" />
       <br />
       <br />
-      <img src={ecobrick12} alt=""
-          className="widthclass"/>
+      <img src={ecobrick12} alt="" className="widthclass" />
       <br />
       <br />
     </div>
