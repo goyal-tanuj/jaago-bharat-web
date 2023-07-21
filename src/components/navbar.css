@@ -1,36 +1,40 @@
-
-button{display: none;}
-a{
+button {
+  display: none;
+}
+a {
   color: white;
   text-decoration: none;
-} li{
+}
+li {
   text-decoration: none;
 }
-.icon a{
-  color:black;
+.icon a {
+  color: black;
 }
-.one a{
-  transition: color,background-color,1s;
+.one a {
+  transition: color, background-color, 1s;
 }
-.one a:hover{
-  color:rgb(255, 230, 0);
-  background-color: rgb(194, 188, 188,0.3);
+.one a:hover {
+  color: rgb(255, 230, 0);
+  background-color: rgb(194, 188, 188, 0.3);
 }
-.wheel{
+.wheel {
   color: white;
   font-size: 4rem;
   text-align: center;
   position: relative;
-  top: 18rem;}
-.changings{
+  top: 18rem;
+}
+.changings {
   background-color: white;
   box-shadow: 0rem 0.2rem 1rem 0.2rem #888484;
 }
-.dropdown a,.changings a{
-  color:black;
+.dropdown a,
+.changings a {
+  color: black;
   transition: color 1s;
 }
-.mainnav{
+.mainnav {
   align-items: center;
   z-index: 1;
   position: fixed;
@@ -40,56 +44,61 @@ a{
   display: grid;
   grid-template-columns: 2rem 1fr 1fr 6fr 2rem;
 }
-.logo{
+.logo {
   display: grid;
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
   height: 5rem;
 }
-.logo img{
+.logo img {
   height: 3rem;
 }
-.menu-link{
+.menu-link {
   grid-column: 4/5;
 }
-.icondrop{top: 4px;
+.icondrop {
+  top: 4px;
   position: relative;
-  left: 3px;}
-.menu-link ul{
+  left: 3px;
+}
+.menu-link ul {
   height: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.icon{display: none;}
+.icon {
+  display: none;
+}
 .menu-link ul li {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 1rem;
-  list-style: none;  
+  list-style: none;
 }
 /* dropdown */
-.dropclass:hover{ 
-  transition: display 1s;}
-.dropclass .dropdown{
+.dropclass:hover {
+  transition: display 1s;
+}
+.dropclass .dropdown {
   position: absolute;
   display: none;
   top: 53px;
-  border: .01px solid white;
+  border: 0.01px solid white;
   border-radius: 13%;
   height: fit-content;
   background-color: white;
   box-shadow: 0.2rem 0.1rem 0.3rem #eadbdb;
 }
-.dropclass:hover .dropdown{
+.dropclass:hover .dropdown {
   display: block;
 }
-.dropdown ul{
+.dropdown ul {
   display: block;
   height: fit-content;
 }
-.dropdown li{
+.dropdown li {
   padding: 0.4em;
 }
 @media (max-width: 1080px) {
@@ -113,33 +122,34 @@ a{
     grid-template-columns: 1rem 1fr 2fr 1fr 1rem;
     box-shadow: 0rem 0.2rem 1rem 0.2rem #888484;
   }
-.icondrop{
-  display: none;
-}
+  .icondrop {
+    display: none;
+  }
   .logo,
   .menu-link {
     height: 5rem;
   }
-  .menu-link ul{
+  .menu-link ul {
     display: none;
   }
-  .menu-link{
-    position: relative;}
+  .menu-link {
+    position: relative;
+  }
   .icon {
     display: block;
     font-size: 2.5rem;
     position: absolute;
     top: 10px;
-    right:2px;
+    right: 2px;
   }
-  .one a{
-    color:black;
+  .one a {
+    color: black;
   }
-  .one a:hover{
-    color:black;
+  .one a:hover {
+    color: black;
   }
   .mobile-menu-link {
-    color:black;
+    color: black;
     background-color: white;
     height: fit-content;
     display: grid;
@@ -148,30 +158,30 @@ a{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
-  .mobile-menu-link .icon{
+  .mobile-menu-link .icon {
     position: absolute;
     right: 10px;
-    top:-70px;}
+    top: -70px;
+  }
   .mobile-menu-link ul {
     height: fit-content;
     display: block;
   }
-  .mobile-menu-link ul li{
+  .mobile-menu-link ul li {
     height: fit-content;
     display: block;
     padding-top: 1rem;
     padding-left: 1rem;
     transition: background-color 1s;
   }
-  button{
-    border:none;
-    display: inline; 
+  button {
+    border: none;
+    display: inline;
     background-color: antiquewhite;
     position: absolute;
-    right:100px;
-    }
-    .dropclass:hover .dropdown{
-      display: none;
-    }
-
+    right: 2rem;
+  }
+  .dropclass:hover .dropdown {
+    display: none;
+  }
 }
