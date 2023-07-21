@@ -85,7 +85,11 @@ const Ourstory = (
   </div>
 );
 
-const Overview = <div style={{ textAlign: "left" }}></div>;
+const Overview = (
+  <div style={{ textAlign: "center" }}>
+    <h1>This will be updated shortly!</h1>
+  </div>
+);
 
 const Partners = (
   <div style={{ textAlign: "left" }}>
