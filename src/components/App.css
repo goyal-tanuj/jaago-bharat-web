@@ -118,6 +118,10 @@ h1,h2,h3{
     font-size: 2rem;
   }
 }
+
+.carousel.carousel-slider .control-arrow {
+  display: block !important;
+}
 .four{
   margin-top: 5rem;
   color: white;

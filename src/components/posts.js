@@ -19,6 +19,9 @@ import Water_conservation_1 from "../images/Water_conservation_1.jpg";
 import Smile from "../images/SMILE.jpg";
 import styled from "styled-components";
 import "../../src/components/App.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 const Who_we_are = (
   <div style={{ textAlign: "left" }}>
     <p>
@@ -112,11 +115,14 @@ const Partners = (
           ></img>
         </div>
       </li>
-        <br />
+      <br />
       <li>
         <h3>Social Action for forest & Environment (SAFE)</h3>
         <p>
-        Mr Vikrant Tongad, founder of SAFE is one of the most remarkable Envirionmentalist across Delhi NCR. Team Jaago Bharat has collaborated with them on many aspects regarding sharing our volunteer, conducting different awareness drive and much more.
+          Mr Vikrant Tongad, founder of SAFE is one of the most remarkable
+          Envirionmentalist across Delhi NCR. Team Jaago Bharat has collaborated
+          with them on many aspects regarding sharing our volunteer, conducting
+          different awareness drive and much more.
         </p>
         <div style={{ textAlign: "center" }}>
           <img
@@ -142,11 +148,12 @@ const Partners = (
           ></img>
         </div>
       </li>
-        <br />
+      <br />
       <li>
         <h3>Sumangla Kapoor</h3>
         <p>
-        Her approach and efforts towards social work is commendable. She has been an incredible part of the team.
+          Her approach and efforts towards social work is commendable. She has
+          been an incredible part of the team.
         </p>
         <br />
         <div style={{ textAlign: "center" }}>
@@ -168,8 +175,792 @@ const Partners = (
     </ol>
   </div>
 );
-const Gallery = <div style={{ textAlign: "left" }}></div>;
-const Publications = <div style={{ textAlign: "left" }}></div>;
+
+const makeCarousel = (arr) => {
+  arr = arr.map((x) => {
+    return (
+      <div>
+        <img alt="" src={x} />
+      </div>
+    );
+  });
+  return (
+    <div style={{ textAlign: "center" }}>
+      <Carousel
+        showArrows={true}
+        infiniteLoop={true}
+        autoPlay={true}
+        transitionTime={750}
+        showThumbs={false}
+        showIndicators={false}
+        showStatus={false}
+      >
+        {arr}
+      </Carousel>
+    </div>
+  );
+};
+
+const Gallery = (
+  <div style={{ textAlign: "left" }}>
+    <div>
+      <h3>Events held in 2014</h3>
+      <br />
+      <p>
+        Our very first initiative is to save nature. In September 2014, Jaago
+        Bharat Team floated information in public through talking with them,
+        self-driving cycle for 66 km and distributing pamphlets.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2014/image102.jpg"])}
+      <br />
+    </div>
+    <div>
+      <h3>Events held in 2016</h3>
+      <br />
+      <p>
+        To make the new year happy and healthy our JAAGO BHARAT team distributed
+        clothes to poor people in NOIDA, PATNA & KOTA. Team started to put their
+        effort from December 2015 to collect clean & usable warm clothes for
+        distribution. “Giving a warm smile on people’s face, that is our way to
+        welcome New Year.”
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2016/image25.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat celebrated the 67th Republic Day, with the
+        underprivileged children in cities Noida and Kota simultaneously. We
+        distributed biscuits & chocolates among the underprivileged slum
+        children of Sector 63, Noida and orphanage children of sector 12, Noida.
+        Our team members also distributed chocolates in Kota too. We felt glad
+        by giving smile on their faces.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2016/image80.jpg", "/gallery/2016/image30.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat participated in the tree plantation drive in village
+        Khaipur near Noida extension. It was a great experience for all of us.
+        Also interacted with the students of Rainbow public school and planted
+        trees in the school premises. All the students participated in the
+        plantation with enthusiasm. We told them about the importance of
+        planting trees and preserving them and had a great time with the kids.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2016/image84.jpg"])}
+      <br />
+      <p>
+        Under our "A Warm smile" campaign, on 26th January, our team members
+        visited an orphanage in sector 12, Noida and spent several hours,
+        dancing, singing with the kids. They taught kids about the history and
+        relevance of Republic Day. They also told them the importance of
+        cleanliness and hygiene in life. It was a real pleasure for them to meet
+        those kids. The feeling and the satisfaction cannot be put into words.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2016/image113.jpg",
+        "/gallery/2016/image118.jpg",
+      ])}
+      <br />
+      <p>
+        Jaago Bharat hails and supports the strong and farsighted decision of UP
+        government to ban the use of polythene absolutely. To promote the cause,
+        we distributed recyclable bags to the shop keepers and locals in
+        Ghaziabad. We all shall support this move to save our Environment.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2016/image83.jpg"])}
+      <br />
+      <p>
+        Members of Jaago Bharat team, putting reflector tapes at the rear of
+        rickshaws and E- rickshaws at various places in Noida. Team covered
+        around a hundred of such rickshaws and were happy by the warm greetings
+        extended by rickshaw pullers.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2016/image33.jpg", "/gallery/2016/image89.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat undertook the responsibility of spreading awareness
+        about the dire need of managing the bio-degradable waste. To make it a
+        point we cleared and cleaned the cycle track and Pedestrian walkway near
+        Stellar IT park, Sec-62, Noida which had been completely converted to a
+        dump yard. We segregated the collected waste into bio-degradable and
+        non- biodegradable. The bio-degradable waste was disposed off using
+        Khamba (wet waste composter) which converts the waste into fine manure
+        within 40-45 days. Non-biodegradable waste was handed over to Kabadi
+        walas, which we will later send for recycling.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2016/image5.jpg", "/gallery/2016/image23.jpg"])}
+      <br />
+    </div>
+    <div>
+      <h3>Events held in 2017</h3>
+      <br />
+      <p>
+        Team Jaago Bharat always enjoys spending time with these little kids as
+        they fill our heart with happiness and joy. We organized an event to
+        spend some quality time with the children.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2017/image92.jpg", "/gallery/2017/image21.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat launched a new campaign "Mera Kachra, Meri Zimmedari"
+        to create awareness for waste management among masses. The campaign was
+        started from sector-62, Noida as a cycle rally. All the team members
+        cycled to India gate distributing pamphlets to spread awareness. Team
+        also performed a short play on cleanliness and waste management. The
+        audience appreciated the move and more than 200 people also signed a
+        cleanliness pledge to not to litter.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2017/image37.jpg", "/gallery/2017/image10.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat always finds privilege in spending time with the
+        little kids. We believe that the future of our country should be in
+        right hands and well educated. Team Jaago Bharat in collaboration with
+        Donation club distributed stationary items like notebooks, pen &
+        pencils, etc. to the students of Parimal Paathshala, sector-62, Noida.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2017/image22.jpg", "/gallery/2017/image38.jpg"])}
+      <br />
+      <p>
+        Continuing the vision of Mr. Ranveer Joshi, Team Jaago Bharat in
+        collaboration with Donation Club once again put Reflector tapes on cycle
+        rickshaws, e-rickshaws and handicapped tricycles for their safety. We
+        covered most of the metro station in Noida. The event was a success and
+        attracted attention from traffic police.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2017/image98.jpg", "/gallery/2017/image85.jpg"])}
+      <br />
+    </div>
+    <div>
+      <h3>Events held in 2018</h3>
+      <br />
+      <p>
+        Team Jaago Bharat organized a creative session on waste management, wet
+        waste & paper waste and how to segregate & compost wet waste. We
+        presented our wet waste composter and our paper waste recycling solution
+        to the residents of Sector 33, Noida. We got an overwhelming response
+        from everyone.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2018/image35.jpg"])}
+      <br />
+      <p>
+        On Independence Day, Team Jaago Bharat organized a plantation drive at
+        village Kheri Bhanauta, Greater Noida. The event was a great success and
+        was attended by various college students.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2018/image103.jpg",
+        "/gallery/2018/image87.jpg",
+      ])}
+      <br />
+      <p>
+        On Independence Day, Team Jaago Bharat organized a plantation drive at
+        village Kheri Bhanauta, Greater Noida. The event was a great success and
+        was attended by various college students.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2018/image39.jpg", "/gallery/2018/image66.jpg"])}
+      <br />
+      <p>
+        Team JAAGO BHARAT has celebrated Children's Day with cancer suffering
+        children at St. Jude India childcare center.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2018/image40.jpg", "/gallery/2018/image42.jpg"])}
+      <br />
+    </div>
+    <div>
+      <h3>Events held in 2019</h3>
+      <br />
+      <p>
+        Team Jaago Bharat spread the awareness about importance of waste
+        management among the students of "Humara Kartavya". After interaction
+        with the lovely kids, we distributed sweets to them. We all had a great
+        time with the kids.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2019/image43.jpg", "/gallery/2019/image65.jpg"])}
+      <br />
+      <p>
+        On 150th birth anniversary of Father of Nation ‘Mahatma Gandhi’, we
+        organized a painting competition at Crossing Republic, Ghaziabad. The
+        theme of the competition was "Waste management & water conservation".
+        All the children enthusiastically participated in this competition.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2019/image31.jpg", "/gallery/2019/image88.jpg"])}
+      <br />
+      <p>
+        2nd October, On completion of 5th year of the launch of Swachh Bharat
+        Abhiyan, Greater Noida authority organised an event in which Jaago
+        Bharat participated proactively. Jaago Bharat show cased their Wet waste
+        composter and told every participant & audience about it and how to use
+        it.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2019/image7.jpg", "/gallery/2019/image8.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat donated all the different kind of books received as
+        donations to us at Lal Bahadur Shastri library, Sadullapur, Greater
+        Noida on 2nd October. The village has students of all age groups i.e.
+        from primary to college students, who are preparing for different
+        competitive examination.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2019/image9.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat and SAFE organization with some other volunteers who
+        are working towards different environmental problems contributed in
+        cleaning a part of wetland in Surajpur, Greater Noida.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2019/image2.jpg", "/gallery/2019/image41.jpg"])}
+      <br />
+    </div>
+    <div>
+      <h3>Events held in 2020</h3>
+      <br />
+      <p>
+        On 71st Republic Day Team Jaago Bharat in collaboration with the team
+        SAFE organized an educational trip to the Surajpur Wetland, Greater
+        Noida with Grads International School, Greater Noida. Children got the
+        opportunity to learn about the birds residing in and migrating to these
+        wetlands. The goal of this initiative was to make the coming generation
+        learn about the natural habitats. Certificates and refreshments were
+        also given after the trip.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2020/image24.jpg",
+        "/gallery/2020/image101.jpg",
+      ])}
+      <br />
+      <p>
+        In continuation of Mission 2020, Team Jaago Bharat along with team SAFE
+        planted trees at Ch. Charan Singh Kushti academy, Bamheta, Ghaziabad.
+        The participants included members of Jaago Bharat, employees of
+        Cognizant, village Pradhaan, and others. The event also included
+        interesting interactive session where everyone shared their concern
+        about the environment and discussed the possible steps to preserve it.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2020/image36.jpg"])}
+      <br />
+      <p>
+        On National Science Day - 28th February, Team Jaago Bharat in
+        collaboration with Team SAFE organized an event at Grads School, Greater
+        Noida to spread awareness about wetlands. The event was attended by the
+        students, teachers and staff of the school. The event included
+        interesting activities like interactive sessions with the students from
+        grade 1 to 8. These sessions focused on the importance, functions and
+        problems related with wetlands. The team also attended the science fair
+        and got to know about different science projects/models prepared by the
+        students.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2020/image6.jpg", "/gallery/2020/image3.jpg"])}
+      <br />
+      <p>
+        To help the daily wage workers who are in a crisis situation amid the
+        Corona virus pandemic, Team Jaago Bharat distributed ration kits near
+        Stellar IT park, sector-62, Noida. We also discussed about the other
+        problems they are facing currently and told them about the importance of
+        cleanliness and social distancing.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2020/image1.jpg", "/gallery/2020/image122.jpg"])}
+      <br />
+      <p>
+        On 74th Independence Day, Team Jaago Bharat organized a webinar on the
+        topic ‘True meaning of independence at the time of COVID-19’. Our guest
+        speakers made this webinar a great success. We all received many
+        valuable insights.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2020/image29.jpg"])}
+      <br />
+      <p>
+        On 2nd October 2020, we organized a Webinar on "Waste Management", our
+        esteemed speakers walked us through the whole Waste Management process,
+        its importance and how everyone can bring it in practice easily in
+        day-to-day life.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2020/image26.jpg"])}
+      <br />
+      <p>
+        After our first successful distribution done on 22/05/2020 , we are back
+        with another distribution of the ration kits on 31/05/2020. This is the
+        time that we have to stand together to support those who need our help.
+        We have organized another ration distribution drive successfully on 31st
+        May,2020.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2020/image32.jpg", "/gallery/2020/image34.jpg"])}
+      <br />
+      <p>
+        To help workers who are living without wages due to Corona Pandemic,
+        Team Jaago Bharat donated ration kits to 82 families in Noida Sector 70.
+        Most of the families were construction workers living on the sites or
+        domestic help which are not working due to the covid restrictions.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2020/image28.jpg", "/gallery/2020/image27.jpg"])}
+      <br />
+    </div>
+    <div>
+      <h3>Events held in 2021</h3>
+      <br />
+      <p>
+        On 26th January, on the occasion of Republic Day team Jaago Bharat
+        officially and physically started with our project Ecobrick. Today's
+        event was all about collecting plastic waste from the societies and put
+        to better use in the environment so that we can keep the harmful single
+        use plastic away from our surroundings while putting them to a better
+        use.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image71.jpg", "/gallery/2021/image70.jpg"])}
+      <br />
+      <p>
+        Cleanliness is a responsibility of every individual. World class Noida
+        took initiative to clean some of the sectors of Noida along with the
+        residents. Jaago Bharat team also participated in the event.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image72.jpg", "/gallery/2021/image73.jpg"])}
+      <br />
+      <p>
+        On 21 February, 2021, the mass movement against *Single use plastic* was
+        jointly undertaken by “World Class Noida, Volunteers137, Nav Urja Yuva
+        Sansthan, Yuva Team Sarfabad, UshaKiran, RWA - 51 & 52, Jaago
+        Bharat,Rama Foundation & Humara Kartavya”. More than 500 residents from
+        across 50 sectors participated in this Mega Event and collected about
+        1300 Kg of such plastic.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image75.jpg"])}
+      <br />
+      <p>
+        ON 7th March Jaago Bharat team with the help of Humara Kartavy
+        organization conducted a session to give insights about ecobricks to
+        children, we demonstrated what ecobricks are and how they are made to
+        the group of children's. The students seemed to like this project and
+        participated enthusiastically.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image77.jpg", "/gallery/2021/image79.jpg"])}
+      <br />
+      <p>
+        On 21st March, 2021 an online event themed "Wheels of change" was
+        conducted to celebrate Jaago Bharat’s 7 years of work anniversary. Our
+        founding members along with many social workers described their work
+        experience with the organization. We hope that we shall continue all the
+        good work for our surroundings, environment and therefore our country.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image82.jpg", "/gallery/2021/image67.jpg"])}
+      <br />
+      <p>
+        Team Jaago Bharat kickstarted Project #Vastrआय amidst the ongoing
+        pandemic to help different sections of the society. The name of the
+        project is self-explanatory- Vastr means clothes and आय means income. We
+        started by upcycling old clothes to stand by our principle of zero
+        wastage.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image68.jpg", "/gallery/2021/image69.jpg"])}
+      <br />
+      <p>
+        On 14th May 2021, Masks were donated to Noida police officers. We
+        appreciate the efforts of the Noida Police officials who are tirelessly
+        working day and night to keep us safe even after knowing the risks of
+        getting infected with covid-19.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image52.jpg", "/gallery/2021/image54.jpg"])}
+      <br />
+      <p>
+        5th June,2021- an online webinar was conducted on “World Environment
+        Day” by Jaago Bharat Events & Awareness Team. The speakers discussed
+        topics such as sustainability and waste management.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image56.jpg", "/gallery/2021/image58.jpg"])}
+      <br />
+      <p>
+        On 5th June, 2021 Jaago Bharat team in collaboration with Om blood bank
+        organized a blood donation drive. Donors showed up in good numbers
+        making this blood donation drive a success.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image60.jpg", "/gallery/2021/image61.jpg"])}
+      <br />
+      <p>
+        On 14th June, Dettol India affirmed our work in Dettol salutes movement
+        and provided us with a special pack stating our social work.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image45.jpg", "/gallery/2021/image63.jpg"])}
+      <br />
+      <p>
+        June-July: Jaago Bharat is assisting hundreds of women to make
+        Eco-bricks that will help prevent plastic waste from disrupting the
+        ecosystem. Sakhi network has been supporting us in our endeavor and
+        connecting us with Self Help Groups. We have been encouraging people to
+        create eco-bricks from plastic bottles and single-use plastic.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image47.jpg", "/gallery/2021/image48.jpg"])}
+      <br />
+      <p>
+        On 27th June, Jaago Bharat team conducted an online session on Eco-brick
+        and Plastic waste management. A lot of school children showed up in the
+        webinar making the event an informative session for young minds.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image56.jpg",
+        "/gallery/2021/image109.jpg",
+      ])}
+      <br />
+      <p>
+        On 4th July, Jaago Bharat in collaboration with MYLOKTANTRA organized an
+        ecobrick workshop. The team enumerated on the procedure to make
+        eco-bricks using plastic bottles and plastic waste to the members of the
+        Sakhi Network. Jaago Bharat is considering to buy eco-bricks from them,
+        which will create employment opportunities. These eco-bricks will be
+        used to manufacture a toilet by Enactus Jesus & Mary college
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image111.jpg",
+        "/gallery/2021/image114.jpg",
+      ])}
+      <br />
+      <p>
+        Jaago Bharat team visited Noida Sector 28 on 17th July 2021 to meet
+        "Colonel Nara Ji" regarding Vermicomposting project which has been
+        running successfully there since 2014. Colonel Nara elucidated on the
+        whole working of the vermicomposting project and disclosed all the
+        requirements of the project.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image116.jpg",
+        "/gallery/2021/image117.jpg",
+      ])}
+      <br />
+      <p>
+        On 18th July 2021, members of Jaago Bharat visited Sector 47, Noida to
+        meet Mrs. Madhu to learn more about the entire process of waste
+        management- from the segregation of waste to the preparation of compost
+        via Bin Composting. She also guided us with the roadmap of her journey
+        to setup the Bin composting project in her society.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image119.jpg",
+        "/gallery/2021/image18.jpg",
+      ])}
+      <br />
+      <p>
+        Jaago Bharat organized a webinar on 24th July 2021, on the topic “Waste
+        segregation and solutions implemented by the societies “. It was an
+        interactive session wherein members from different societies elaborated
+        the different ways in which their respective society is managing waste
+        in an efficient manner.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image17.jpg", "/gallery/2021/image20.jpg"])}
+      <br />
+      <p>
+        Jaago Bharat Events & Awareness Team, in collaboration with Rotaract
+        club and Jhundpura library conducted a book donation drive on 24th July
+        2021. Under the aim of "Charity for literacy," Jaago Bharat and Rotaract
+        club donated over 800+ books combined to Jhundpura library in sector 11,
+        Noida.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image14.jpg", "/gallery/2021/image19.jpg"])}
+      <br />
+      <p>
+        On 8th August 2021, Jaago Bharat team members organized a plastic
+        cleaning drive at Sector 25, Noida. The team cleaned about 3 big bags of
+        dirty plastic waste collected from the streets of Noida. The cleaned
+        plastic was handed over to MyLoktantra foundation for processing this
+        plastic and making ecobricks.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image13.jpg", "/gallery/2021/image16.jpg"])}
+      <br />
+      <p>
+        On 11th August 2021, Jaago Bharat team members and helpers performed an
+        exciting nukkad Natak on the topic of *Corona- एक महामारी जो सबपे पड़ी
+        भारी* on the oath taking ceremony of the Federation of Noida Residents
+        Welfare Association. There were many prominent personalities present in
+        the program. Jaago Bharat team was highly appreciated by everyone
+        present at the event for the nukkad natak performance.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image15.jpg", "/gallery/2021/image12.jpg"])}
+      <br />
+      <p>
+        On the occasion of 75th Independence Day, Jaago Bharat team members and
+        helpers presented a nukkad natak on the topic "Corona- एक महामारी जो
+        सबपे पड़ी भारी" at Sector 100, Century Apartments, Noida. There were
+        small children and elderly people who were able to understand the
+        importance of vaccination, they enjoyed the performance.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image11.jpg",
+        "/gallery/2021/image100.jpg",
+      ])}
+      <br />
+      <p>
+        On 29th August 2021, Jaago Bharat organized a fun activity named “Retort
+        Hunter” which included several rounds and competitions. We saw a healthy
+        participation from school children and other people. The winners of the
+        competition were rewarded and all the proceeds were utilized towards
+        Jaago Bharat social initiatives.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image96.jpg", "/gallery/2021/image95.jpg"])}
+      <br />
+      <p>
+        On 4th September 2021, Jaago Bharat team took part in a sparrow house
+        installation event organized by volunteers 137 at Sector 137, Noida.
+        Usha Kiran NGO children were also present at the event and brought
+        handmade nests. Jaago Bharat team members installed sparrow houses on a
+        number of trees and the positive impact was visible within a few days.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image99.jpg", "/gallery/2021/image97.jpg"])}
+      <br />
+      <p>
+        Jaago Bharat team visited the slums of Sector 107, Noida to set up a
+        vermicomposting bed and to urge people to get vaccinated. The team
+        addressed issues such as smell associated with vermi beds and litter
+        collection around the beds. The team also measured the new potential
+        site for the placement of vermined and pondered over the various
+        possibilities of putting a shed over the vermibed.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image91.jpg", "/gallery/2021/image90.jpg"])}
+      <br />
+      <p>
+        On 12th September Jaago Bharat team members went for the event “Hindi
+        humari pehchaan” on the occasion of Hindi Divas at Sector 137, Noida
+        organized by Amar Ujala. The event was mainly concentrated on promoting
+        the usage of the Hindi language in today's society.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image94.jpg"])}
+      <br />
+      <p>
+        On occasion of World Cleanup Day 2021 Jaago Bharat Team along with Nav
+        Urja Yuva Sanstha and Dawoodi Bohra Community held a cleanliness and
+        Single Use Plastic collection drive in Ganga Shopping Complex and
+        Brahmaputra Market, Noida. This drive was majorly focused on raising
+        awareness about the threat of Single Use Plastic put in our environment.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image93.jpg", "/gallery/2021/image86.jpg"])}
+      <br />
+      <p>
+        On 19th September Team Jaago Bharat visited Paramount Society,
+        Sector-137. We assisted in the process of reviving the already set-up
+        Wet Waste Management System. Our team will be providing suggestions
+        based on today's activity on how the existing system can be useful in
+        converting daily wet waste generated in the society to high class
+        manure.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image121.jpg",
+        "/gallery/2021/image120.jpg",
+      ])}
+      <br />
+      <p>
+        Jaago Bharat along with several prominent NGOs kicked off a 3-day
+        Cleanliness Drive on the occasion of Gandhi Jayanti and Lal Bahadur
+        Shastri Jayanti. Our team helped in collecting single-use plastic from
+        several areas all over Noida. This plastic will be used for making
+        ecobricks and provide employment opportunities to lesser privileged
+        women.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image110.jpg",
+        "/gallery/2021/image108.jpg",
+      ])}
+      <br />
+      <p>
+        On 19th October, 2021 Jaago Bharat Team along with Rotaract club of
+        Delhi Rajdhani interacted with the female students of The Earth Paradise
+        School, Sector-31, Noida on the importance of menstrual hygiene and
+        sanitation. We also conducted a session on Ecobricks and waste
+        management. A kit containing Sanitary Pads, Moisturizers and Masks were
+        given to each attendee. In total, the team distributed about120 kits
+        amongst the children. Children participated in an interactive Q& A
+        session as well.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image115.jpg",
+        "/gallery/2021/image112.jpg",
+      ])}
+      <br />
+      <p>
+        On 7th November, 2021 Team Jaago Bharat set-up Vermicomposting plant at
+        GRADS International School, Greater Noida. Jaago Bharat team interacted
+        with students, taught them about the entire process and selected a few
+        of them as ambassadors to take care of the Vermibed in the school.
+        Children were brought to the site and everyone contributed in kick
+        starting the process of vermicomposting, following which Jaago Bharat
+        members distributed chocolates amongst the children.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image105.jpg",
+        "/gallery/2021/image14.jpg",
+      ])}
+      <br />
+      <p>
+        On 7th November, 2021 Jaago Bharat was awarded by IMA, PetriMed CA and
+        GRADS International School. Jaago Bharat was given this award for the
+        social work undertaken by the team to help those in need in the times of
+        requirement. The award was given by Ms. Pooja Bisht.
+      </p>
+      <br />
+      {makeCarousel([
+        "/gallery/2021/image107.jpg",
+        "/gallery/2021/image106.jpg",
+      ])}
+      <br />
+      <p>
+        8th November, 2021- Jaago Bharat organized a stall at GRADS
+        International School wherein we displayed products such as sparrow
+        houses, ecobricks and upcycled cloth bags. The bags and ecobricks were
+        made by ladies in Self Help Groups of Sector-16 slum area managed by
+        MYLOKTANTRA. The sparrow houses were made by Jaago Bharat team
+        volunteers and were a crowd pleaser.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image59.jpg", "/gallery/2021/image64.jpg"])}
+      <br />
+      <p>
+        On 20th November 2021 Jaago Bharat Events & Awareness Team, in
+        association with Rotary Club, Noida organized a blood donation camp near
+        sector 18 metro station. A total of 17 units of blood was collected. We
+        got a good variety of blood including some rare blood groups like AB
+        +ve, O -ve. It was a successful campaign as we had a total of 25 people
+        who were willing to donate. All the donors were given blood test
+        reports, coffee mugs and certificates.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image62.jpg", "/gallery/2021/image53.jpg"])}
+      <br />
+      <p>
+        12th December 2021- On the occasion of the 1st year anniversary of the
+        inauguration of Kailash Mansarovar Bhawan, Indirapuram- Jaago Bharat
+        conducted a socio-cultural program themed “Going Green” to spread
+        environmental awareness. The team invited children from Humara Kartavy
+        and Nirbhed Foundation to participate in various activities such as
+        skits, dances, poster making and storytelling. All the participants were
+        given plantable seed pencils to promote a culture of tree planting.
+        Jaago Bharat also set-up a stall to present the NGOs products such as
+        Vastraay bags, pot composts, eco-bricks and bird nests. The team was
+        felicitated by an award from the chief guests- Mr. Rakesh Kumar Singh
+        (DM Ghaziabad) and Mrs. Ritu Sahas (ADM Ghaziabad).
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image51.jpg", "/gallery/2021/image57.jpg"])}
+      <br />
+      <p>
+        On 14th December 2021, Jaago Bharat Team did a survey at Grads
+        International School, Greater Noida to check up on the vermicomposting
+        plant there. The team observed the set-up is working well, earthworms
+        are alive and are generating great quality compost.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image55.jpg", "/gallery/2021/image46.jpg"])}
+      <br />
+      <p>
+        On 25th December 2021, the Jaago Bharat team celebrated Christmas with
+        the children from St. Jude India Child Care Centre, Noida. St. Jude’s
+        caters to the needs of underprivileged children suffering from cancer.
+        Jaago Bharat secured funds to purchase toys and snacks for the kids.
+        Jaago Bharat members, along with volunteers from GBU College organized
+        various games to play with the kids. It was an amazing experience as we
+        were able to bring a smile on the kids’ faces.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2021/image44.jpg", "/gallery/2021/image49.jpg"])}
+      <br />
+    </div>
+    <div>
+      <h3>Events held in 2022</h3>
+      <br />
+      <p>
+        On 26th January, 2022, the Jaago Bharat team celebrated the 73rd
+        Republic Day by conducting a webinar on “Right to Know the Right
+        Information”. The webinar was graced by the presence of RTI activists
+        Mr. Ranjan Tomar and Mr. Amit Gupta. They shared their personal
+        experiences and the challenges they had to face while filing the RTIs.
+        They also emphasized on the significance of filing RTIs in order to
+        ensure effective governance in the society. All in all, it was an
+        enriching and informative session.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2022/image76.jpg", "/gallery/2022/image74.jpg"])}
+      <br />
+      <p>
+        On 29 January, 2022, the Jaago Bharat Wet Waste management team invited
+        bio-enzyme expert Prabha Juglani to conduct an online workshop to
+        discuss the steps required to make bio-enzymes and organic pesticides at
+        home.
+      </p>
+      <br />
+      {makeCarousel(["/gallery/2022/image81.png", "/gallery/2022/image78.png"])}
+      <br />
+    </div>
+  </div>
+);
+
+<div>
+  <h3>Events held in 2022</h3>
+  <br />
+  <p>
+    Our very first initiative is to save nature. In September 2014, Jaago Bharat
+    Team floated information in public through talking with them, self-driving
+    cycle for 66 km and distributing pamphlets.
+  </p>
+  <br />
+  {makeCarousel(["/gallery/2022/image102.jpg", "/gallery/2022/image102.jpg"])}
+  <br />
+</div>;
+
+const Publications = (
+  <div style={{ textAlign: "center" }}>
+    <h1>This will be updated shortly!</h1>
+  </div>
+);
 const AnnualReport = (
   <div style={{ textAlign: "center" }}>
     <h1>This will be updated shortly!</h1>
