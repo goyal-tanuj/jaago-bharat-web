@@ -72,14 +72,13 @@ const Ourstory = (
     development initiatives weren’t receiving the attention they deserved.
     Believing in importance of activism and responsibility among the citizens so
     that instead of complaining, people begin to perform their basic civic
-    fundamental duties
-    <br /> decided to establish an NGO to make a contribution to society. His
-    main goal was to promote education and water conservation. <br />A young
-    leadership than approached in 2018, with an extended vision of re-imagine
-    relationship with the earth, with each other and with urban spaces. Jaago
-    Bharat is keen to deliver its services to larger audience across the region
-    with right set of collaboration and partnerships from both for profit sector
-    and social enterprises like SAFE. <br />
+    fundamental duties decided to establish an NGO to make a contribution to
+    society. His main goal was to promote education and water conservation.{" "}
+    <br />A young leadership then approached in 2018, with an extended vision of
+    re-imagine relationship with the earth, with each other and with urban
+    spaces. Jaago Bharat is keen to deliver its services to larger audience
+    across the region with right set of collaboration and partnerships from both
+    for profit sector and social enterprises like SAFE. <br />
     Jaago bharat integrates with other NGOs and government schemes to diminish
     the widening gap between informal sector and mainstream society.
   </div>
@@ -124,7 +123,7 @@ const Partners = (
         <h3>Social Action for forest & Environment (SAFE)</h3>
         <p>
           Mr Vikrant Tongad, founder of SAFE is one of the most remarkable
-          Envirionmentalist across Delhi NCR. Team Jaago Bharat has collaborated
+          Environmentalist across Delhi NCR. Team Jaago Bharat has collaborated
           with them on many aspects regarding sharing our volunteer, conducting
           different awareness drive and much more.
         </p>
@@ -1106,7 +1105,6 @@ const Ourteam = (
         </a>
       </TrStyle>
     </TdStyle>
-    ;
   </div>
 );
 const Weth2 = styled.h2`
@@ -1623,7 +1621,7 @@ const Ecobrick = (
         By March 2021 we collaborated with Enactus JMC and started making
         Ecobricks.
       </Wetp>
-      <Weth2>What is the project about</Weth2>
+      <Weth2>What is the project about?</Weth2>
       <Wetp>
         An ecobrick is a PET bottle packed solid with clean and dry plastics,
         meaning it’s a
@@ -1640,7 +1638,7 @@ const Ecobrick = (
         <br />
       </Wetp>
 
-      <Weth2>Why we need this</Weth2>
+      <Weth2>Why we need this?</Weth2>
       <Wetp>
         Project Ecobrick caters as a single solution to this three-fold problem.
         It helps to eradicate the problem of non recyclable plastic waste which
@@ -1695,7 +1693,7 @@ const Ecobrick = (
         srcset=""
         style={{ width: "85%", margin: "auto" }}
       />
-      <Weth2>What we get after installing or doing this</Weth2>
+      <Weth2>What we get after installing or doing this?</Weth2>
       <Wetp>
         <ul>
           <li>
@@ -1801,48 +1799,59 @@ const Ecobrick = (
         <br />
       </div>
       <br />
-      <div className="changedisplay">
-        <div style={{ width: "60%", margin: "auto" }}>
-          <img className="widthclass" src={ecobrick5} alt="" />
-        </div>
-        <div>
-          <h3>Ecobrick sitting bench</h3>
-        </div>
+      <div style={{ margin: "auto", width: "60%"}}>
+        <Carousel
+          showArrows={true}
+          infiniteLoop={true}
+          autoPlay={true}
+          transitionTime={750}
+          showThumbs={false}
+          showIndicators={false}
+          showStatus={false}
+        >
+          <div>
+            <img alt="" src={ecobrick5} />
+            <p className="legend">Ecobrick sitting bench</p>
+          </div>
+          <div>
+            <img alt="" src={ecobrick6} />
+            <p className="legend">Ecobrick sitting stool</p>
+          </div>
+          <div>
+            <img alt="" src={ecobrick7} />
+            <p className="legend">Ecobrick Dustbin</p>
+          </div>
+          <div>
+            <img alt="" src={ecobrick10} />
+            <p className="legend">Construction</p>
+          </div>
+        </Carousel>
       </div>
       <br />
-      <div className="changedisplay">
-        <div style={{ width: "60%", margin: "auto" }}>
-          <img className="widthclass" src={ecobrick6} alt="" />
-        </div>
-        <div>
-          <h3>Ecobrick sitting stool</h3>
-        </div>
+      <div style={{ margin: "auto", width: "60%"}}>
+        <Carousel
+          showArrows={true}
+          infiniteLoop={true}
+          autoPlay={true}
+          transitionTime={750}
+          showThumbs={false}
+          showIndicators={false}
+          showStatus={false}
+        >
+          <div>
+            <img alt="" src={ecobrick8} />
+          </div>
+          <div>
+            <img alt="" src={ecobrick9} />
+          </div>
+          <div>
+            <img alt="" src={ecobrick11} />
+          </div>
+          <div>
+            <img alt="" src={ecobrick12} />
+          </div>
+        </Carousel>
       </div>
-      <br />
-      <div className="changedisplay">
-        <div style={{ width: "60%", margin: "auto" }}>
-          <img className="widthclass" src={ecobrick7} alt="" />
-        </div>
-        <div>
-          <h3>Ecobrick Dustbin</h3>
-        </div>
-      </div>
-      <br />
-      <img className="widthclass" src={ecobrick8} alt="" />
-      <br />
-      <br />
-      <img className="widthclass" src={ecobrick9} alt="" />
-      <br />
-      <br />
-      <img className="widthclass" src={ecobrick10} alt="" />
-      <br />
-      <br />
-      <img src={ecobrick11} alt="" className="widthclass" />
-      <br />
-      <br />
-      <img src={ecobrick12} alt="" className="widthclass" />
-      <br />
-      <br />
     </div>
   </>
 );

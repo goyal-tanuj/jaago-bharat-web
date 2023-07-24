@@ -14,18 +14,15 @@ export default function Carousel() {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img className="d-block w-100" src={footer} alt="First slide"  style={{height:'40rem'}}/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>WHEEL OF CHANGE</h5></div>
+      <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div className="carousel-item">
       <img className="d-block w-100" src={cropped} alt="Second slide" style={{height:'40rem'}}/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>WHEEL OF CHANGE</h5></div>
+      <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div className="carousel-item">
       <img className="d-block w-100" src={img} alt="Third slide" style={{height:'40rem'}}/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>WHEEL OF CHANGE</h5></div>
+      <div class="carousel-caption d-none d-md-block"></div>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
