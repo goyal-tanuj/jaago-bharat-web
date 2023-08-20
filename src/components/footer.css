@@ -1,0 +1,12 @@
+.links {
+  background-color: #005e37;
+  font-weight: 650;
+  text-align: center;
+}
+
+.links h2 {
+  margin: 0;
+  padding: 2%;
+  color: white;
+  font-size: 1rem;
+}

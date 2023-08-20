@@ -2,7 +2,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./home";
 import Main from "./main";
-import logo from "./images/footer.png";
+import logo from "./images/homepage/footer.png";
 import {
  What_we_do,
    Who_we_are,

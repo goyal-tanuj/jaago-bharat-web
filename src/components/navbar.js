@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import logo from "../images/logo.png";
+import logo from "../images/misc/logo.png";
 import "./navbar.css";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoIosArrowDropdown } from "react-icons/io";
@@ -44,20 +44,10 @@ export default function Navbar() {
   useEffect(() => {
     setshowmediaicons(false);
   }, [changelink]);
-  const [colorChange, setColorchange] = useState(false);
-
-  const changeNavbarColor = () => {
-    if (window.scrollY >= 80) {
-      setColorchange(false);
-    } else {
-      setColorchange(true);
-    }
-  };
-  window.addEventListener("scroll", changeNavbarColor);
 
   return (
     <section className="one">
-      <nav className={colorChange ? "mainnav" : "mainnav changings"}>
+      <nav className={"mainnav changings"}>
         <div className="logo">
           <Link onClick={linkfunction} to="/">
             <img src={logo} alt="" />

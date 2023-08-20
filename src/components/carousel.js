@@ -1,7 +1,7 @@
 import React from 'react'
-import cropped from "../images/cropped.jpg";
-import img from "../images/img.png";
-import footer from "../images/footer.png";
+import cropped from "../images/homepage/cropped.jpg";
+import img from "../images/homepage/img.png";
+import footer from "../images/homepage/footer.png";
 export default function Carousel() {
   return (
     <>

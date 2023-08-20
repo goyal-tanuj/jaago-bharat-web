@@ -8,7 +8,7 @@ h1,h2,h3{
   color:black;
 }
 .footerimage{
-  background-image:url(../images/footer.png);
+  background-image:url(../images/homepage/footer.png);
   box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,.75);
     text-align: center;
     padding: 7% 7% 50px;
@@ -127,26 +127,20 @@ h1,h2,h3{
   color: white;
 }  
 .four .touch{
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/cropped.jpg");
+  background-image: linear-gradient(rgba(12, 255, 154, 0.2),rgb(0, 94, 55));
   background-size: cover;
   background-repeat: no-repeat;
   padding: 2% 6% 4%;
 }
-.links{
-  background: #403b3b;
-  font-weight: 650;
-  font-size: 0.6rem;
+
+.touch li {
+  color: white;
 }
 .four h1{    
   color:white;
   line-height: 7rem;
   text-transform: capitalize;}
 .four ul{line-height: 3rem;}
-.links{
-  background: #403b3b;
-  font-weight: 650;
-  font-size: 0.6rem;
-}
 .links table{    text-align: left;
   width: 85%;
   padding: 3rem;
@@ -157,13 +151,6 @@ h1,h2,h3{
 .ani{
   position: relative;
 }
-.ani:hover{
-  opacity: 0.4;
-}
-.ani:hover >img{
-    width: 9rem;
-}
-
 .whole{
   box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,0.75);
   min-height: 100% ;
@@ -185,7 +172,7 @@ h1,h2,h3{
   padding-left: 1%;
 }
 .layerimage{
-  background-image: url(../images/manure-1.png);
+  background-image: url(../images/misc/manure-1.png);
   box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,0.75);
   padding: 1%;
   width:60%;

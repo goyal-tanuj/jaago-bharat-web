@@ -1,22 +1,22 @@
-import founder from "../images/trustee-photo-2.jpg";
-import ecobrick1 from "../images/ecobrick-0001-768x1087.png";
-import ecobrick2 from "../images/ecobrick-0002-768x1087.png";
-import ecobrick3 from "../images/ecobrick-0000-1-724x1024.png";
-import ecobrick5 from "../images/pasted image 0.png";
-import ecobrick6 from "../images/pasted image 0 (1).png";
-import ecobrick7 from "../images/pasted image 0 (2).png";
-import ecobrick8 from "../images/ecobrick-0007-1024x744.png";
-import ecobrick9 from "../images/image1.png";
-import ecobrick10 from "../images/image4.png";
-import ecobrick11 from "../images/image3.png";
-import ecobrick12 from "../images/image2.png";
-import wet_waste_1 from "../images/wet_waste_1.jpg";
-import wet_waste_3 from "../images/wet_waste_3.png";
-import wet_waste_4 from "../images/wet_waste_4.png";
-import wet_waste_5 from "../images/wet_waste_5.png";
-import wet_waste_6 from "../images/wet_waste_6.png";
-import Water_conservation_1 from "../images/Water_conservation_1.jpg";
-import Smile from "../images/SMILE.jpg";
+import founder from "../images/misc/trustee-photo-2.jpg";
+import ecobrick1 from "../images/projects/ecobrick/ecobrick-0001-768x1087.png";
+import ecobrick2 from "../images/projects/ecobrick/ecobrick-0002-768x1087.png";
+import ecobrick3 from "../images/projects/ecobrick/ecobrick-0000-1-724x1024.png";
+import ecobrick5 from "../images/projects/ecobrick/pasted image 0.png";
+import ecobrick6 from "../images/projects/ecobrick/pasted image 0 (1).png";
+import ecobrick7 from "../images/projects/ecobrick/pasted image 0 (2).png";
+import ecobrick8 from "../images/projects/ecobrick/ecobrick-0007-1024x744.png";
+import ecobrick9 from "../images/projects/ecobrick/image1.png";
+import ecobrick10 from "../images/projects/ecobrick/image4.png";
+import ecobrick11 from "../images/projects/ecobrick/image3.png";
+import ecobrick12 from "../images/projects/ecobrick/image2.png";
+import wet_waste_1 from "../images/projects/wetwaste/wet_waste_1.jpg";
+import wet_waste_3 from "../images/projects/wetwaste/wet_waste_3.png";
+import wet_waste_4 from "../images/projects/wetwaste/wet_waste_4.png";
+import wet_waste_5 from "../images/projects/wetwaste/wet_waste_5.png";
+import wet_waste_6 from "../images/projects/wetwaste/wet_waste_6.png";
+import Water_conservation_1 from "../images/projects/waterconservation/Water_conservation_1.jpg";
+import Smile from "../images/projects/smile/SMILE.jpg";
 import styled from "styled-components";
 import "../../src/components/App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -1002,7 +1002,7 @@ const Ourfounder = (
           Mr Prashasti Tripathi - The founder of Jaago Bharat Trust
         </h5>
         <br />
-        He is in alumini of IIT kanpur and has started his own coaching academy
+        He is in alumunus of IIT kanpur and has started his own coaching academy
         and in the year 2014, he decided to start an NGO to contribute something
         towards society. Step by step he gathered people of his contacts and
         form the team. He always promotes the new ideas of his team members and
@@ -1121,10 +1121,30 @@ const Wetp = styled.p`
 const Spanh3 = styled.p`
   letterspacing: 0.1rem;
   lineheight: 2rem;
-  fontsize: 1.3rem;
+  font-size: 1.3rem;
   font-weight: 900;
   display: inline-block;
   color: grey;
+  margin: 0;
+`;
+
+const Ssmile = styled.p`
+  letterspacing: 0.1rem;
+  lineheight: 2rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+  display: inline-block;
+  color: grey;
+  margin: 0;
+`;
+
+const Spanh4 = styled.p`
+  letterspacing: 0.1rem;
+  lineheight: 2rem;
+  fontsize: 1.3rem;
+  display: inline-block;
+  color: grey;
+  margin: 0;
 `;
 const Wet_waste_management = (
   <div style={{ textAlign: "center" }}>
@@ -1186,7 +1206,7 @@ const Wet_waste_management = (
     </Wetp>
     <Weth2>What problems are we solving ?</Weth2>
     <Wetp>
-      <ul>
+      <ul style={{ textAlign: "left" }}>
         <li>
           <br />
           <Spanh3>Waste generation : </Spanh3>According to NITI Aayog and CSE,
@@ -1218,7 +1238,7 @@ const Wet_waste_management = (
     </Wetp>
     <Weth2>What we get after installing or doing this</Weth2>
     <Wetp>
-      <ul>
+      <ul style={{ textAlign: "left" }}>
         <li>
           It creates good awareness among people and fulfil our motto “मेरा कचरा
           मेरी जिम्मेदारी “
@@ -1336,7 +1356,7 @@ const WaterConservation = (
       <Weth2>Report on Rainwater Harvesting Project: Noida</Weth2>
       <Weth2>About the Project:</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
             This project talks about the implementation of a rainwater
             harvesting project.
@@ -1362,7 +1382,7 @@ const WaterConservation = (
       </Wetp>
       <Weth2>Why we need this?</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
             Water conservation is the need of the hour. Scarcity of water is a
             serious concern that the world is facing now. In the year 2019
@@ -1415,7 +1435,7 @@ const WaterConservation = (
       </Wetp>
       <Weth2>Some of the benefits of a RWH initiative are:</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>It is low cost to construct and maintained.</li>
           <li>
             It replenishes the ground water level which is then distributed
@@ -1449,18 +1469,18 @@ const SMILE = (
       </Wetp>
       <Weth2>What is the project about</Weth2>
       <Wetp>
-        Project S.M.I.L.E stands for:-
+        Project S.M.I.L.E stands for:
         <br />
         <br />
-        <Spanh3>SKILLING THE UNDERPRIVILEGED</Spanh3>
+        <Ssmile>S</Ssmile><Spanh4>KILLING THE UNDERPRIVILEGED</Spanh4>
         <br />
-        <Spanh3>MANAGING USED PAPER</Spanh3>
+        <Ssmile>M</Ssmile><Spanh4>ANAGING USED PAPER</Spanh4>
         <br />
-        <Spanh3>INSTILLING SELF CONFIDENCE</Spanh3>
+        <Ssmile>I</Ssmile><Spanh4>NSTILLING SELF CONFIDENCE</Spanh4>
         <br />
-        <Spanh3>INSTILLING SELF CONFIDENCE</Spanh3>
+        <Ssmile>L</Ssmile><Spanh4>IBERATING THE MINDS</Spanh4>
         <br />
-        <Spanh3>INSTILLING SELF CONFIDENCE</Spanh3>
+        <Ssmile>E</Ssmile><Spanh4>MPOWERING THE DESTITUTE </Spanh4>
       </Wetp>
       <Weth2>Why we need this</Weth2>
       <Wetp>
@@ -1474,15 +1494,13 @@ const SMILE = (
       </Wetp>
       <Weth2>What problems are we solving ?</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
-            <br />
             <Spanh3>PAPER WASTE :</Spanh3>In India, annually, more than
             9,000,000 tonnes of paper is dumped in landfills while only
             3,000,000 gets recycled, leading to increased deforestation.
           </li>
           <li>
-            <br />
             <Spanh3>Unemployability & unskilled labour :</Spanh3>According to a
             report published by the Centre for Monitoring Indian Economy (CMIE),
             India has 53 million unemployed people as of Dec 202 also according
@@ -1492,7 +1510,6 @@ const SMILE = (
             job-ready.
           </li>
           <li>
-            <br />
             <Spanh3>Lack of will & resources to provide education :</Spanh3>Lack
             of will & resources to provide education
           </li>
@@ -1500,15 +1517,14 @@ const SMILE = (
       </Wetp>
       <Weth2>What we get after installing or doing this</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
             With the First phase not only we provided a short term extra source
             of income to underprivileged people but also within the first phase
             of this project the core team of Jaago Bharat got established.
           </li>
           <li>
-            <br />
-            <Spanh3>S.M.I.L.E.</Spanh3>has different stages like : collecting
+            <Spanh3>S.M.I.L.E.</Spanh3> has different stages like : collecting
             paper waste, getting raw materials, workplace, workers, final
             product and selling the copies.
           </li>
@@ -1528,26 +1544,23 @@ const SMILE = (
 
       <Weth2>Feedback from people</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
             Volunteer friends, college teachers, school teachers all helped them
             in buying the notebooks.
           </li>
           <li>
-            <br />
-            <Spanh3>
-              In the second phase the copies were made by the parents whose
-              children are having cancer and they belong to an underprivileged
-              background, so they don’t have enough money for their treatment.
-              So the copies made by them were sold and the money raised was all
-              donated to the treatment of the children.
-            </Spanh3>
+            In the second phase the copies were made by the parents whose
+            children are having cancer and they belong to an underprivileged
+            background, so they don’t have enough money for their treatment. So
+            the copies made by them were sold and the money raised was all
+            donated to the treatment of the children.
           </li>
         </ul>
       </Wetp>
       <Weth2>Collaboration</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
             Aadi Kautilya coaching academy- Who helped in this project
             financially as well as helped in selling the notebooks to their own
@@ -1660,17 +1673,16 @@ const Ecobrick = (
       <img src={ecobrick1} alt="" style={{ width: "85%", margin: "auto" }} />
       <Weth2>What problems are we solving ?</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
-            <br />
             <Spanh3>Plastic Waste scenario :</Spanh3>
             According to Union Environment Minister Bhupender Yadav, India
             generates 3.5 million tonnes of plastic waste annually. The only way
             to solve this problem is the person/family/community who generates
             this waste, takes initiative to reduce its plastic waste.
           </li>
+          <br />
           <li>
-            <br />
             <Spanh3>Lack of skilled women labour: </Spanh3>Data from the
             Periodic Labour Force Survey (PLFS) (2019-20) shows female labour
             force participation at 22.8 percent, compared to a far higher 56.8
@@ -1678,8 +1690,8 @@ const Ecobrick = (
             workforce dropped to 16.9 percent following the first year of the
             pandemic, while for men it remained largely the same.
           </li>
+          <br />
           <li>
-            <br />
             <Spanh3>PET bottles waste :</Spanh3> According to industry data,
             more than 14 lakh tonnes of PET plastics are consumed annually in
             India, even with the world’s highest recycling rate of 80 per cent.
@@ -1695,7 +1707,7 @@ const Ecobrick = (
       />
       <Weth2>What we get after installing or doing this?</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
             We trained more than 20 slum women on how to make ecobricks.
             Ecobrick making can be done from their home itself, so during COVID
@@ -1723,7 +1735,7 @@ const Ecobrick = (
         <div>
           <Weth2>Feedback from people:</Weth2>
           <Wetp>
-            <ul>
+            <ul style={{ textAlign: "left" }}>
               <li>
                 A lot of NGO’s like Humara Kartavy and schools like GRADS
                 International school & Earth Paradise school started making
@@ -1751,7 +1763,7 @@ const Ecobrick = (
       </div>
       <Weth2>Collaboration</Weth2>
       <Wetp>
-        <ul>
+        <ul style={{ textAlign: "left" }}>
           <li>
             We collaborated with Enactus JMC to supply them 2000 Ecobricks for
             their Project Sugam which aims to make public toilet made out of
@@ -1799,7 +1811,7 @@ const Ecobrick = (
         <br />
       </div>
       <br />
-      <div style={{ margin: "auto", width: "60%"}}>
+      <div style={{ margin: "auto", width: "60%" }}>
         <Carousel
           showArrows={true}
           infiniteLoop={true}
@@ -1828,7 +1840,7 @@ const Ecobrick = (
         </Carousel>
       </div>
       <br />
-      <div style={{ margin: "auto", width: "60%"}}>
+      <div style={{ margin: "auto", width: "60%" }}>
         <Carousel
           showArrows={true}
           infiniteLoop={true}
