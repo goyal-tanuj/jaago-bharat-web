@@ -1,7 +1,10 @@
 .links {
-  background-color: #005e37;
   font-weight: 650;
   text-align: center;
+}
+
+.overlay {
+  background-color: #004428ab;
 }
 
 .links h2 {

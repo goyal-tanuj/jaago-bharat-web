@@ -1,201 +1,233 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
-  color:grey;
+  color: grey;
 }
-h1,h2,h3{
-  color:black;
+h1,
+h2,
+h3 {
+  color: black;
 }
-.footerimage{
-  background-image:url(../images/homepage/footer.png);
-  box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,.75);
-    text-align: center;
-    padding: 7% 7% 50px;
-    background-size: cover;
+.footerimage {
+  background-image: url(../images/homepage/footer.png);
+  box-shadow: inset 13px -18px 0 2000px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 7% 7% 50px;
+  background-size: cover;
 }
-.footerimage h1{
+.footerimage h1 {
   color: rgb(255, 217, 0);
-    border: 4px solid rgb(255, 136, 0);
-    border-left: 0;
-    border-right: 0;
-    padding: 7%;
-    font-size: 1.5rem;
+  border: 4px solid rgb(255, 136, 0);
+  border-left: 0;
+  border-right: 0;
+  padding: 7%;
+  font-size: 1.5rem;
 }
 /* section two */
-.two{
+.two {
   text-align: center;
   padding: 1rem 9%;
-  font-size:1.3rem;
+  font-size: 1.3rem;
 }
-.two .above{
-  padding:4rem 14rem 1.5rem 14rem;
+.two .above {
+  padding: 4rem 14rem 1.5rem 14rem;
 }
-.above h1{
+.above h1 {
   font-size: 2rem;
   font-weight: 700;
 }
-.above p{
+.above p {
   padding-top: 1rem;
 }
-.two .below{
+.two .below {
   display: flex;
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
-.two .below .box img{
+.two .below .box img {
   height: 5rem;
 }
-.two .below .box h3{
-  padding-top:1.5rem ;
+.two .below .box h3 {
+  padding-top: 1.5rem;
   font-size: 1rem;
   font-weight: 650;
 }
-.two .below .box p{
+.two .below .box p {
   padding: 1rem;
 }
-.blogs{
-  margin:1rem auto;
+.blogs {
+  margin: 1rem auto;
 }
-.blogs h2{
+.blogs h2 {
   text-align: center;
   position: relative;
   top: 2rem;
   font-size: 2.5rem;
   font-weight: 700;
 }
-.blogslist{
+.blogslist {
   display: flex;
   margin-top: 5rem;
   padding: 0rem 2rem;
 }
-.blogbox{
-  margin: .1rem 2rem;
+.blogbox {
+  margin: 0.1rem 2rem;
 }
-.blogbox h3{
+.blogbox h3 {
   font-size: 1.3rem;
   font-weight: revert;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-.blogbox .category{
-  
+.blogbox .category {
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
-@media (max-width: 998px){
-  .two{
+@media (max-width: 998px) {
+  .two {
     text-align: center;
   }
-  .two .above{
-    padding:3rem 1rem 1rem;
+  .two .above {
+    padding: 3rem 1rem 1rem;
     font-size: 1.2rem;
   }
-  .above h1{
+  .above h1 {
     font-size: 1.5rem;
   }
-  .above p{
+  .above p {
     padding-top: 2rem;
   }
-  .two .below{
+  .two .below {
     display: block;
     padding: 2rem 1rem;
   }
-  .two .below .box{
-    margin:3em 0rem
+  .two .below .box {
+    margin: 3em 0rem;
   }
-  .three .blogs{
+  .three .blogs {
     display: block;
     padding: 2rem 1rem;
   }
-  .blogslist{
+  .blogslist {
     display: block;
   }
-  .blogbox{
+  .blogbox {
     margin: 2.3rem auto;
   }
-  .footerimage h1{
+  .footerimage h1 {
     font-size: 2rem;
   }
+}
+
+.footertext {
+  color: white;
 }
 
 .carousel.carousel-slider .control-arrow {
   display: block !important;
 }
-.four{
-  margin-top: 5rem;
-  color: white;
-}  
-.four .touch{
-  background-image: linear-gradient(rgba(12, 255, 154, 0.2),rgb(0, 94, 55));
+.four {
+  background-image: url("../images/misc/trees.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 2% 6% 4%;
+  margin-top: 5rem;
+  color: white;
+}
+
+.fcontainer {
+  padding: 4% 4%;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fheading {
+  color: white;
+}
+
+hr {
+  border-top: 2px solid rgba(255, 255, 255, 0.5)
+}
+
+
+.touch {
+  width: 25%;
+  padding: 0 2%;
 }
 
 .touch li {
   color: white;
 }
-.four h1{    
-  color:white;
+.four h1 {
+  color: white;
   line-height: 7rem;
-  text-transform: capitalize;}
-.four ul{line-height: 3rem;}
-.links table{    text-align: left;
-  width: 85%;
-  padding: 3rem;
+  text-transform: capitalize;
 }
-.links td{
-  padding: 1rem;
-}
-.ani{
-  position: relative;
-}
-.whole{
-  box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,0.75);
-  min-height: 100% ;
-  background-repeat:  noRepeat ;
-  background-size:  cover ;
+.four ul {
+  line-height: 3rem;
+  padding-left: 15px;
 }
 
-.heading{
+.ani {
+  position: relative;
+}
+.whole {
+  box-shadow: inset 13px -18px 0 2000px rgba(0, 0, 0, 0.75);
+  min-height: 100%;
+  background-repeat: noRepeat;
+  background-size: cover;
+}
+
+@media (max-width: 998px) {
+  .fcontainer {
+    flex-direction: column;
+  }
+
+  .touch {
+    width: auto;
+  }
+}
+
+.heading {
   padding-top: 10%;
   padding-bottom: 8%;
 }
-.content{
+.content {
   padding: 4rem 20%;
 }
-.changedisplay{
-  display:flex;
-  align-items:center ;
+.changedisplay {
+  display: flex;
+  align-items: center;
   justify-content: space-evenly;
   padding-left: 1%;
 }
-.layerimage{
+.layerimage {
   background-image: url(../images/misc/manure-1.png);
-  box-shadow: inset 13px -18px 0 2000px rgba(0,0,0,0.75);
+  box-shadow: inset 13px -18px 0 2000px rgba(0, 0, 0, 0.75);
   padding: 1%;
-  width:60%;
-  margin:auto;
+  width: 60%;
+  margin: auto;
 }
-.widthclass{
+.widthclass {
   width: 50%;
 }
-@media (max-width: 998px){
-  .content{
+@media (max-width: 998px) {
+  .content {
     padding: 2rem 8%;
   }
-  .heading{
+  .heading {
     padding-top: 34%;
-    padding-bottom: 12%;}
-  .changedisplay{
+    padding-bottom: 12%;
+  }
+  .changedisplay {
     display: block;
   }
-  .widthclass{
-    width:95%;
+  .widthclass {
+    width: 95%;
   }
-  .layerimage{
+  .layerimage {
     padding: 2%;
-  width:85%;
+    width: 85%;
   }
 }

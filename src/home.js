@@ -81,18 +81,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="four">
-        <div className="touch">
-          <h1>Get in touch</h1>
-          <ul>
-            <li>Mr. Parth Gautam- 7678697168 (Team Leader)</li>
-
-            <li>Mr. Chirag Batra - 9899668723 (Team Leader)</li>
-            <td></td>
-            <li>Ms. Amisha Mehta- 9167855663 (HR member)</li>
-          </ul>
-        </div>
-      </section>
     </>
   );
 }
