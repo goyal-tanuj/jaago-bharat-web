@@ -4,6 +4,9 @@ import Bloglist from "./components/blogs";
 import one from "./images/homepage/globe.png";
 import two from "./images/homepage/mic.png";
 import three from "./images/homepage/tailor.png";
+import cropped from "./images/homepage/cropped.jpg";
+import img from "./images/homepage/img.png";
+import footer from "./images/homepage/footer.png";
 
 const Descr = function (props) {
   return (
@@ -21,7 +24,7 @@ const Descr = function (props) {
 export default function Home() {
   return (
     <>
-      <Carousel />
+      <Carousel bimg1={cropped} bimg={img} bimg2={footer}/>
       <section className="two">
         <div className="above">
           <h1>" Responsible Citizens, Developed Nations "</h1>

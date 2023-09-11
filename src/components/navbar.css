@@ -8,15 +8,11 @@ a {
 li {
   text-decoration: none;
 }
+.one{
+  color:a;
+}
 .icon a {
-  color: black;
-}
-.one a {
-  transition: color, background-color, 1s;
-}
-.one a:hover {
-  color: rgb(255, 230, 0);
-  background-color: rgb(194, 188, 188, 0.3);
+  color:white;
 }
 .wheel {
   color: white;
@@ -26,11 +22,10 @@ li {
   top: 18rem;
 }
 .changings {
-  background-color: white;
+  background-color: #fdb04b;
   box-shadow: 0rem 0.2rem 1rem 0.2rem #888484;
 }
-.dropdown a,
-.changings a {
+.dropdown a{
   color: black;
   transition: color 1s;
 }
@@ -66,14 +61,12 @@ li {
   height: 5rem;
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .icon {
   display: none;
 }
 .menu-link ul li {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 1.4rem 1rem;
   font-size: 1rem;
   list-style: none;
 }
@@ -98,7 +91,7 @@ li {
   display: block;
   height: fit-content;
 }
-.dropdown li {
+.dropdown ul li {
   padding: 0.4em;
 }
 @media (max-width: 1080px) {
@@ -117,8 +110,8 @@ li {
 @media (max-width: 998px) {
   .mainnav {
     position: fixed;
-    background-color: white;
-    height: 5rem;
+    background-color: #fdb04b;
+    height: 6rem;
     grid-template-columns: 1rem 1fr 2fr 1fr 1rem;
     box-shadow: 0rem 0.2rem 1rem 0.2rem #888484;
   }
@@ -142,15 +135,9 @@ li {
     top: 10px;
     right: 2px;
   }
-  .one a {
-    color: black;
-  }
-  .one a:hover {
-    color: black;
-  }
   .mobile-menu-link {
     color: black;
-    background-color: white;
+    background-color: #fdb04b;
     height: fit-content;
     display: grid;
     grid-column: 1/6;
@@ -172,12 +159,11 @@ li {
     display: block;
     padding-top: 1rem;
     padding-left: 1rem;
-    transition: background-color 1s;
   }
   button {
     border: none;
     display: inline;
-    background-color: antiquewhite;
+    background-color: #fdb04b;
     position: absolute;
     right: 2rem;
   }
