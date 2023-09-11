@@ -174,21 +174,6 @@ export default function Navbar() {
               <Link onClick={linkfunction} to="#">
                 Support us{" "}
               </Link>
-              <span className="icondrop" style={{ color: "white" }}>
-                <IoMdArrowDropdown />
-              </span>
-              <button onClick={clickfunction3}>
-                {dropclick3 ? <IoIosArrowDropdown /> : "x"}
-              </button>
-              <div className="dropdown">
-                <ul>
-                  <li>
-                    <Link onClick={linkfunction} to="/Donate">
-                      Donate
-                    </Link>
-                  </li>
-                </ul>
-              </div>
             </li>
           </ul>
           <div className="icon">

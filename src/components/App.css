@@ -2,16 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: grey;
 }
-h1,
-h2,
-h3 {
-  color: black;
-}
+
 .footerimage {
   background-image: url(../images/homepage/footer.png);
-  box-shadow: inset 13px -18px 0 2000px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 13px -18px 0 2000px rgba(0 0 0 / 44%);
   text-align: center;
   padding: 7% 7% 50px;
   background-size: cover;
@@ -131,7 +126,6 @@ h3 {
   background-image: url("../images/misc/trees.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 5rem;
   color: white;
 }
 
@@ -173,7 +167,7 @@ hr {
   position: relative;
 }
 .whole {
-  box-shadow: inset 13px -18px 0 2000px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 13px -18px 0 2000px rgba(0 0 0 / 44%);
   min-height: 100%;
   background-repeat: noRepeat;
   background-size: cover;
@@ -194,7 +188,7 @@ hr {
   padding-bottom: 8%;
 }
 .content {
-  padding: 4rem 20%;
+  padding: 3rem 7%
 }
 .changedisplay {
   display: flex;
@@ -205,9 +199,12 @@ hr {
 .layerimage {
   background-image: url(../images/misc/manure-1.png);
   box-shadow: inset 13px -18px 0 2000px rgba(0, 0, 0, 0.75);
-  padding: 1%;
-  width: 60%;
-  margin: auto;
+  padding: 1.2% 2%;
+  width: 100%;
+  color:white;
+  height: 32rem;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 15px yellow; */
 }
 .widthclass {
   width: 50%;
@@ -224,10 +221,23 @@ hr {
     display: block;
   }
   .widthclass {
-    width: 95%;
-  }
-  .layerimage {
-    padding: 2%;
     width: 85%;
   }
+  .layerimage {
+    height:35rem;
+    padding: 2%;
+    width: 85%;
+    margin: auto;
+  }
+}
+.iconstyle{
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #006dff;
+  transition: 0.5s;
+}
+.iconstyle:hover{
+  background-color: #006dff;
+  color:white;
 }

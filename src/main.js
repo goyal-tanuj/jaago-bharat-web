@@ -6,8 +6,9 @@ export default function Main(props) {
     height: "fit-content",
     fontSize: "187%",
     backgroundImage: "url(" + props.backimg + ")",
-    boxShadow: "inset 13px -18px 0 2000px rgba(0,0,0,.75)",
-    backgroundSize: "cover"
+    boxShadow: "inset 13px -18px 0 2000px rgba(0 0 0 / 44%)",
+    backgroundSize: "cover",
+    color: "orange"
   };
 
   const contentStyle = {
@@ -21,7 +22,7 @@ export default function Main(props) {
     <>
       <div className="whole">
         <div className="heading" style={headerStyle}>
-          <h1 style={{ color: "white" }}>{props.header}</h1>
+          <h1 >{props.header}</h1>
         </div>
         <div className="content" style={contentStyle}>
           {props.description}

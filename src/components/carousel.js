@@ -1,8 +1,6 @@
 import React from 'react'
-import cropped from "../images/homepage/cropped.jpg";
-import img from "../images/homepage/img.png";
-import footer from "../images/homepage/footer.png";
-export default function Carousel() {
+import "./App.css"
+export default function Carousel(props) {
   return (
     <>
 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -13,15 +11,15 @@ export default function Carousel() {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-100" src={footer} alt="First slide"  style={{height:'40rem'}}/>
+      <img className="d-block w-100 " src={ props.bimg } alt="First slide"  style={{height:'40rem'}}/>
       <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100" src={cropped} alt="Second slide" style={{height:'40rem'}}/>
+      <img className="d-block w-100" src={ props.bimg1 } alt="Second slide" style={{height:'40rem'}}/>
       <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100" src={img} alt="Third slide" style={{height:'40rem'}}/>
+      <img className="d-block w-100" src={ props.bimg2 } alt="Third slide" style={{height:'40rem'}}/>
       <div class="carousel-caption d-none d-md-block"></div>
     </div>
   </div>
