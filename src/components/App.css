@@ -173,7 +173,7 @@ hr {
   background-size: cover;
 }
 
-@media (max-width: 998px) {
+@media (max-width: 1024px) {
   .fcontainer {
     flex-direction: column;
   }

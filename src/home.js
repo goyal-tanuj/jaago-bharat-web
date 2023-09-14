@@ -7,6 +7,8 @@ import three from "./images/homepage/tailor.png";
 import cropped from "./images/homepage/cropped.jpg";
 import img from "./images/homepage/img.png";
 import footer from "./images/homepage/footer.png";
+import {listData} from "./components/loader";
+
 
 const Descr = function (props) {
   return (
@@ -22,6 +24,8 @@ const Descr = function (props) {
 };
 
 export default function Home() {
+  const list = listData(3);
+  const colors = ["purple", "red", "blue"]
   return (
     <>
       <Carousel bimg1={cropped} bimg={img} bimg2={footer}/>
@@ -60,27 +64,7 @@ export default function Home() {
         <div className="blogs">
           <h2>Blog</h2>
           <div className="blogslist">
-            <Bloglist
-              colors="purple"
-              category="Uncategorised"
-              dateevent="2nd October 2019 | Event 3"
-              content="After searching nearly for one year, finally we got a perfect location for donating different books that you all people 
-          donated i.e at Lal Bahadur Shastri library ,Sadullapur, Greater Noida. The village has students of"
-            />
-            <Bloglist
-              colors="blue"
-              category="Uncategorised"
-              dateevent="2nd October 2019 | Event 3"
-              content="After searching nearly for one year, finally we got a perfect location for donating different books that you all people 
-          donated i.e at Lal Bahadur Shastri library ,Sadullapur, Greater Noida. The village has students of"
-            />
-            <Bloglist
-              colors="red"
-              category="Uncategorised"
-              dateevent="2nd October 2019 | Event 3"
-              content="After searching nearly for one year, finally we got a perfect location for donating different books that you all people 
-          donated i.e at Lal Bahadur Shastri library ,Sadullapur, Greater Noida. The village has students of"
-            />
+            {list.map((x, i) => <Bloglist colors={colors[i]} category={x.tags[0]} dateevent={x.title} content={x.plain.slice(0, 200)}/>)}
           </div>
         </div>
       </section>

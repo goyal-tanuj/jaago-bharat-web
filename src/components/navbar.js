@@ -170,11 +170,17 @@ export default function Navbar() {
                 Get Involved
               </Link>
             </li>
+            <li>
+              <Link onClick={linkfunction} to="/Blog">
+                Blog
+              </Link>
+            </li>
             <li className={dropclick3 ? "dropclass" : "drop3"}>
               <Link onClick={linkfunction} to="#">
                 Support us{" "}
               </Link>
             </li>
+            
           </ul>
           <div className="icon">
             <Link to="#" onClick={myFunction}>

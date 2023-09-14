@@ -22,12 +22,31 @@ import {
   Ecobrick
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import BlogPage from "./blogRouter";
+import BlogList from "./BlogList";
+import ScrollTop from "./scrollTop";
+
+
+
 function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route
+          path="/Blog/:id"
+          element={
+            <BlogPage backimg={logo} header="Gallery" description={Gallery} />
+          }
+        />
+        <Route
+          path="/Blog"
+          element={
+            <BlogList backimg={logo} />
+          }
+        />
         <Route
           path="/Gallery"
           element={
