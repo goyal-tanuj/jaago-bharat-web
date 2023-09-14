@@ -64,7 +64,7 @@ export default function Home() {
         <div className="blogs">
           <h2>Blog</h2>
           <div className="blogslist">
-            {list.map((x, i) => <Bloglist colors={colors[i]} category={x.tags[0]} dateevent={x.title} content={x.plain.slice(0, 200)}/>)}
+            {list.map((x, i) => <Bloglist colors={colors[i]} category={x.tags[0]} dateevent={x.title} content={x.plain.slice(0, 200)} link={x.link}/>)}
           </div>
         </div>
       </section>
