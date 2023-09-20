@@ -1,6 +1,5 @@
 import React from "react";
 import ReactMarkdown from 'react-markdown'
-import ReMarkEmoji from "@fec/remark-a11y-emoji";
 import {CopyToClipboard} from "react-copy-to-clipboard";
 import "./Blog.css";
 import remarkGfm from 'remark-gfm'
@@ -26,7 +25,7 @@ export default function Main(props) {
             <span className="date">{data.date}</span>
             <span className="author">By {data.author}</span>
           </div>
-          <ReactMarkdown children={content} remarkPlugins={[remarkGfm, ReMarkEmoji]} />
+          <ReactMarkdown children={content} remarkPlugins={[remarkGfm]} />
           <div className="tags-holder">
             <div>Tags: {data.tags.map((x, i) => <span className="tag">{i !== data.tags.length - 1 ? x + ', ': x + ' ' }</span>)}</div>
             <div className="icons">
