@@ -106,6 +106,10 @@ blockquote {
   color: black;
 }
 
+.copy {
+  cursor: pointer;
+}
+
 @media (max-width: 998px) {
   .blogitem {
     border-bottom: 2px rgba(184, 184, 184, 0.7) solid;

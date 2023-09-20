@@ -1,6 +1,7 @@
 import React from "react";
 import ReactMarkdown from 'react-markdown'
 import ReMarkEmoji from "@fec/remark-a11y-emoji";
+import {CopyToClipboard} from "react-copy-to-clipboard";
 import "./Blog.css";
 import remarkGfm from 'remark-gfm'
 
@@ -32,7 +33,12 @@ export default function Main(props) {
               <span>Share this article:</span>
               <a href="https://www.facebook.com"><img alt="facebook" src="/facebook.png" className="shareicon"/></a>
               <a href="https://www.instagram.com"><img alt="instagram" src="/instagram.png" className="shareicon"/></a>
-              <a href="www.facebook.com"><img alt="copy" src="/link.png" className="shareicon"/></a>
+              <CopyToClipboard text={data.title + ": " + window.location.href}>
+                <div className="copy">
+                  <button></button>
+                  <img alt="copy" src="/link.png" className="shareicon"/>
+                </div>
+              </CopyToClipboard>
             </div>
           </div>
         </div>
