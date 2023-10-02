@@ -35,6 +35,11 @@
 .above p {
   padding-top: 1rem;
 }
+
+.below {
+  justify-content: center;
+}
+
 .two .below {
   display: flex;
   margin-bottom: 2rem;
