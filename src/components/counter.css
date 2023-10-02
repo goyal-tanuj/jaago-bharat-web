@@ -1,0 +1,31 @@
+.counter-area {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.count-head {
+  font-size: 2rem;
+  border-bottom: 1px black solid;
+  text-align: center;
+}
+
+.count-text {
+    font-size: 2rem;
+}
+
+@media (max-width: 998px) {
+  .counter-area {
+    flex-direction: column;
+  }
+
+  .count {
+    padding-bottom: 2rem;
+  }
+}

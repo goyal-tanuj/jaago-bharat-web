@@ -11,15 +11,15 @@ export default function Carousel(props) {
   </ol>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-100 " src={ props.bimg } alt="First slide"  style={{height:'40rem'}}/>
+      <img className="d-block w-100 " src={ props.bimg } alt="First slide"/>
       <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100" src={ props.bimg1 } alt="Second slide" style={{height:'40rem'}}/>
+      <img className="d-block w-100" src={ props.bimg1 } alt="Second slide"/>
       <div class="carousel-caption d-none d-md-block"></div>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100" src={ props.bimg2 } alt="Third slide" style={{height:'40rem'}}/>
+      <img className="d-block w-100" src={ props.bimg2 } alt="Third slide"/>
       <div class="carousel-caption d-none d-md-block"></div>
     </div>
   </div>

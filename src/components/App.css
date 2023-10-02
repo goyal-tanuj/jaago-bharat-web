@@ -122,6 +122,15 @@
 .carousel.carousel-slider .control-arrow {
   display: block !important;
 }
+
+.carousel-inner {
+  height: 50rem;
+}
+
+.carousel-item {
+  translate: 0 -15rem;
+}
+
 .four {
   background-image: url("../images/misc/trees.jpg");
   background-size: cover;
@@ -209,6 +218,34 @@ hr {
 .widthclass {
   width: 50%;
 }
+
+.iconstyle{
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #006dff;
+  transition: 0.5s;
+}
+.iconstyle:hover{
+  background-color: #006dff;
+  color:white;
+}
+
+.social-embed {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.embed {
+  width: 33%
+}
+
+.form {
+  width: 100%;
+  height: 15rem;
+}
+
 @media (max-width: 998px) {
   .content {
     padding: 2rem 8%;
@@ -229,15 +266,36 @@ hr {
     width: 85%;
     margin: auto;
   }
+  .social-embed {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .embed {
+    width: 100%;
+    padding: .5rem 2rem;
+  }
+
+  .carousel-inner {
+    height: 25rem;
+  }
+  
+  .carousel-item {
+    translate: 0;
+  }
+
+  .carousel {
+    padding-top: 2.5rem;
+  }
+} 
+
+.imagedesign{  
+  border-radius: 5%;
+  transition: padding 1.1s;
+  border:black solid 2px;
 }
-.iconstyle{
-  border-radius: 50%;
-  height: 2.5rem;
-  width: 2.5rem;
-  color: #006dff;
-  transition: 0.5s;
-}
-.iconstyle:hover{
-  background-color: #006dff;
-  color:white;
+.imagedesign:hover{
+  border: 3px solid yellowgreen;
+  padding: 0.4rem;
+  border-radius: 5.5%;
 }

@@ -1,14 +1,21 @@
 import React from "react";
 import Carousel from "./components/carousel";
 import Bloglist from "./components/blogs";
-import one from "./images/homepage/globe.png";
-import two from "./images/homepage/mic.png";
-import three from "./images/homepage/tailor.png";
-import cropped from "./images/homepage/cropped.jpg";
-import img from "./images/homepage/img.png";
-import footer from "./images/homepage/footer.png";
-import {listData} from "./components/loader";
+import { listData } from "./components/loader";
+import Count from "./components/counter";
 
+const one =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fhomepage%2Fglobe.png?alt=media";
+const two =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fhomepage%2Fmic.png?alt=media";
+const three =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fhomepage%2Ftailor.png?alt=media";
+const cropped =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fhomepage%2Fcropped.jpg?alt=media";
+const img =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fhomepage%2Fimg.png?alt=media";
+const footer =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fhomepage%2Ffooter.png?alt=media";
 
 const Descr = function (props) {
   return (
@@ -25,10 +32,10 @@ const Descr = function (props) {
 
 export default function Home() {
   const list = listData(3);
-  const colors = ["purple", "red", "blue"]
+  const colors = ["purple", "red", "blue"];
   return (
     <>
-      <Carousel bimg1={cropped} bimg={img} bimg2={footer}/>
+      <Carousel bimg1={cropped} bimg={img} bimg2={footer} />
       <section className="two">
         <div className="above">
           <h1>" Responsible Citizens, Developed Nations "</h1>
@@ -64,7 +71,52 @@ export default function Home() {
         <div className="blogs">
           <h2>Blog</h2>
           <div className="blogslist">
-            {list.map((x, i) => <Bloglist colors={colors[i]} category={x.tags[0]} dateevent={x.title} content={x.plain.slice(0, 200)} link={x.link}/>)}
+            {list.map((x, i) => (
+              <Bloglist
+                colors={colors[i]}
+                category={x.tags[0]}
+                dateevent={x.title}
+                content={x.plain.slice(0, 200)}
+                link={x.link}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="counter-area">
+          <Count title="Waste Workers Empowered" limit={1542} time={5} />
+          <Count title="People Engaged" limit={4452} time={5} />
+          <Count title="Carbon Reduced (kgs)" limit={8745} time={5} />
+        </div>
+        <div className="social-embed">
+          <div className="embed">
+            <div
+              class="fb-page"
+              data-href="https://www.facebook.com/JaagoBharatTrust"
+              data-tabs="timeline"
+              data-width="5000"
+              data-height=""
+              data-small-header="false"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="true"
+            >
+              <blockquote
+                cite="https://www.facebook.com/JaagoBharatTrust"
+                class="fb-xfbml-parse-ignore"
+              >
+                <a href="https://www.facebook.com/JaagoBharatTrust">
+                  Jaago Bharat Trust
+                </a>
+              </blockquote>
+            </div>
+          </div>
+          <div className="embed">
+            <a
+              class="twitter-timeline"
+              href="https://twitter.com/J_B_trust?ref_src=twsrc%5Etfw"
+            >
+              Tweets by J_B_trust
+            </a>{" "}
           </div>
         </div>
       </section>

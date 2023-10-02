@@ -23,9 +23,6 @@ export default function Navbar() {
   };
 
   const [dropclick3, setdropclick3] = useState(true);
-  const clickfunction3 = function () {
-    setdropclick3(!dropclick3);
-  };
   const [showmediaicons, setshowmediaicons] = useState(false);
   const myFunction = function () {
     setshowmediaicons(!showmediaicons);

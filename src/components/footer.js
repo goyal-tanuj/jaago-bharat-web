@@ -19,9 +19,9 @@ export default function Footer() {
             <h2 className="fheading">Get in touch</h2>
             <hr />
             <ul>
-              <li>Mr. Parth Gautam- 7678697168 (Team Leader)</li>
-              <li>Mr. Chirag Batra - 9899668723 (Team Leader)</li>
-              <li>Ms. Amisha Mehta- 9167855663 (HR member)</li>
+              <li>Akash Arya - 9582071411</li>
+              <li>Abhinav Priyadarshi - 9534563317</li>
+              <li>Neetu Keswani- 9811861985</li>
             </ul>
           </div>
           <div className="touch">
@@ -42,11 +42,7 @@ export default function Footer() {
           <div className="touch">
             <h2 className="fheading">Reach Us</h2>
             <hr />
-            <ul>
-              <li>Address</li>
-              <li>Mobile No.</li>
-              <li>Email</li>
-            </ul>
+            <iframe title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdvIXaAxU-5rhZ3lIcB2Xh9Of2oURNWBhzUxKrf2ZFMMmnuqQ/viewform?embedded=true" frameborder="0" className="form" >Loading…</iframe>
           </div>
         </div>
         <div className="links">

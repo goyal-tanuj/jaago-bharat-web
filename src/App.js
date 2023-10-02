@@ -4,8 +4,8 @@ import Home from "./home";
 import Main from "./main";
 import logo from "./images/homepage/footer.png";
 import {
- What_we_do,
-   Who_we_are,
+  What_we_do,
+  Who_we_are,
   Ourstory,
   Ourfounder,
   Ourteam,
@@ -19,14 +19,12 @@ import {
   AnnualReport,
   GetInvolved,
   Donate,
-  Ecobrick
+  Ecobrick,
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BlogPage from "./blogRouter";
 import BlogList from "./BlogList";
 import ScrollTop from "./scrollTop";
-
-
 
 function App() {
   return (
@@ -41,12 +39,7 @@ function App() {
             <BlogPage backimg={logo} header="Gallery" description={Gallery} />
           }
         />
-        <Route
-          path="/Blog"
-          element={
-            <BlogList backimg={logo} />
-          }
-        />
+        <Route path="/Blog" element={<BlogList backimg={logo} />} />
         <Route
           path="/Gallery"
           element={
@@ -56,31 +49,41 @@ function App() {
         <Route
           path="/Publications"
           element={
-            <Main backimg={logo} header="Publications" description={Publications} />
+            <Main
+              backimg={logo}
+              header="Publications"
+              description={Publications}
+            />
           }
         />
         <Route
           path="/AnnualReport"
           element={
-            <Main backimg={logo} header="Annual Report" description={AnnualReport} />
+            <Main
+              backimg={logo}
+              header="Annual Report"
+              description={AnnualReport}
+            />
           }
         />
         <Route
           path="/GetInvolved"
           element={
-            <Main backimg={logo} header="Get Involved" description={GetInvolved} />
+            <Main
+              backimg={logo}
+              header="Get Involved"
+              description={GetInvolved}
+            />
           }
         />
         <Route
           path="/Donate"
-          element={
-            <Main backimg={logo} header="Donate" description={Donate} />
-          }
+          element={<Main backimg={logo} header="Donate" description={Donate} />}
         />
         <Route
           path="/Who we are"
           element={
-            <Main backimg={logo} header="Who We Are" description={ Who_we_are} />
+            <Main backimg={logo} header="Who We Are" description={Who_we_are} />
           }
         />
         <Route
