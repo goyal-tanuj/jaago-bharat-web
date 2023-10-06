@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/misc/logo-white.png";
+import { Link } from "react-router-dom";
 import "./footer.css";
 export default function Footer() {
   return (
@@ -34,9 +35,9 @@ export default function Footer() {
               <li>
                 <a href="/">About Us</a>
               </li>
-              <li>
-                <a href="/">Gallery</a>
-              </li>
+              <li><Link to="/Gallery">
+                      Gallery
+                    </Link></li>
             </ul>
           </div>
           <div className="touch">

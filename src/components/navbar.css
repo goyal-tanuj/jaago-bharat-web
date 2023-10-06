@@ -26,7 +26,7 @@ li {
   box-shadow: 0rem 0.2rem 1rem 0.2rem #888484;
 }
 .dropdown a{
-  color: black;
+  color: rgba(15, 58, 4, 0.959);
   transition: color 1s;
 }
 .mainnav {
@@ -93,6 +93,7 @@ li {
 }
 .dropdown ul li {
   padding: 0.4em;
+  border-bottom: 2px solid #e1dddd;
 }
 @media (max-width: 1080px) {
   .mainnav {
@@ -169,5 +170,9 @@ li {
   }
   .dropclass:hover .dropdown {
     display: none;
+  }
+  .dropdown ul li {
+    padding: 0.4em;
+    border:none;
   }
 }

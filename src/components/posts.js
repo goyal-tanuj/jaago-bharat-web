@@ -7,126 +7,246 @@ import styled from "styled-components";
 import "../../src/components/App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
-const gallery_14_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2014%2Fimage102.jpg?alt=media";
-const gallery_16_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage5.jpg?alt=media";
-const gallery_16_2 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage23.jpg?alt=media";
-const gallery_16_3 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage25.jpg?alt=media";
-const gallery_16_4 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage30.jpg?alt=media";
-const gallery_16_5 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage33.jpg?alt=media";
-const gallery_16_6 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage80.jpg?alt=media";
-const gallery_16_7 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage83.jpg?alt=media";
-const gallery_16_8 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage84.jpg?alt=media";
-const gallery_16_9 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage89.jpg?alt=media";
-const gallery_16_10 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage113.jpg?alt=media";
-const gallery_16_11 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage118.jpg?alt=media";
-const gallery_17_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage10.jpg?alt=media";
-const gallery_17_2 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage21.jpg?alt=media";
-const gallery_17_3 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage22.jpg?alt=media";
-const gallery_17_4 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage37.jpg?alt=media";
-const gallery_17_5 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage38.jpg?alt=media";
-const gallery_17_6 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage85.jpg?alt=media";
-const gallery_17_7 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage92.jpg?alt=media";
-const gallery_17_8 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage98.jpg?alt=media";
-const gallery_18_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage35.jpg?alt=media";
-const gallery_18_2 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage39.jpg?alt=media";
-const gallery_18_3 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage40.jpg?alt=media";
-const gallery_18_4 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage42.jpg?alt=media";
-const gallery_18_5 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage66.jpg?alt=media";
-const gallery_18_6 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage87.jpg?alt=media";
-const gallery_18_7 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage103.jpg?alt=media";
-const gallery_19_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage2.jpg?alt=media";
-const gallery_19_2 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage7.jpg?alt=media";
-const gallery_19_3 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage8.jpg?alt=media";
-const gallery_19_4 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage9.jpg?alt=media";
-const gallery_19_5 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage31.jpg?alt=media";
-const gallery_19_6 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage41.jpg?alt=media";
-const gallery_19_7 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage65.jpg?alt=media";
-const gallery_19_8 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage88.jpg?alt=media";
-const gallery_20_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage1.jpg?alt=media";
-const gallery_20_2 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage3.jpg?alt=media";
-const gallery_20_3 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage6.jpg?alt=media";
-const gallery_20_4 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage24.jpg?alt=media";
-const gallery_20_5 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage26.jpg?alt=media";
-const gallery_20_6 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage27.jpg?alt=media";
-const gallery_20_7 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage28.jpg?alt=media";
-const gallery_20_8 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage29.jpg?alt=media";
-const gallery_20_9 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage32.jpg?alt=media";
-const gallery_20_10 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage34.jpg?alt=media";
-const gallery_20_11 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage36.jpg?alt=media";
-const gallery_20_12 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage101.jpg?alt=media";
-const gallery_20_13 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage122.jpg?alt=media";
-const gallery_21_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage4.png?alt=media";
-const gallery_21_2 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage11.jpg?alt=media";
-const gallery_21_3 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage12.jpg?alt=media";
-const gallery_21_4 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage13.jpg?alt=media";
-const gallery_21_5 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage14.jpg?alt=media";
-const gallery_21_6 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage15.jpg?alt=media";
-const gallery_21_7 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage16.jpg?alt=media";
-const gallery_21_8 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage17.jpg?alt=media";
-const gallery_21_9 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage18.png?alt=media";
-const gallery_21_10 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage19.jpg?alt=media";
-const gallery_21_11 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage20.jpg?alt=media";
-const gallery_21_12 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage44.jpg?alt=media";
-const gallery_21_13 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage45.jpg?alt=media";
-const gallery_21_14 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage46.jpg?alt=media";
-const gallery_21_15 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage47.jpg?alt=media";
-const gallery_21_16 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage48.jpg?alt=media";
-const gallery_21_17 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage49.jpg?alt=media";
-const gallery_21_18 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage50.jpg?alt=media";
-const gallery_21_19 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage51.jpg?alt=media";
-const gallery_21_20 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage52.jpg?alt=media";
-const gallery_21_21 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage53.jpg?alt=media";
-const gallery_21_22 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage54.jpg?alt=media";
-const gallery_21_23 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage55.jpg?alt=media";
-const gallery_21_24 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage56.jpg?alt=media";
-const gallery_21_25 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage57.jpg?alt=media";
-const gallery_21_26 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage58.jpg?alt=media";
-const gallery_21_27 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage59.jpg?alt=media";
-const gallery_21_28 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage60.jpg?alt=media";
-const gallery_21_29 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage61.jpg?alt=media";
-const gallery_21_30 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage62.jpg?alt=media";
-const gallery_21_31 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage63.jpg?alt=media";
-const gallery_21_32 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage64.jpg?alt=media";
-const gallery_21_33 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage67.jpg?alt=media";
-const gallery_21_34 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage68.jpg?alt=media";
-const gallery_21_35 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage69.jpg?alt=media";
-const gallery_21_36 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage70.jpg?alt=media";
-const gallery_21_37 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage71.jpg?alt=media";
-const gallery_21_38 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage72.jpg?alt=media";
-const gallery_21_39 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage73.jpg?alt=media";
-const gallery_21_40 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage75.jpg?alt=media";
-const gallery_21_41 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage77.jpg?alt=media";
-const gallery_21_42 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage79.jpg?alt=media";
-const gallery_21_43 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage82.jpg?alt=media";
-const gallery_21_44 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage86.jpg?alt=media";
-const gallery_21_45 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage90.jpg?alt=media";
-const gallery_21_46 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage91.jpg?alt=media";
-const gallery_21_47 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage93.jpg?alt=media";
-const gallery_21_48 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage94.jpg?alt=media";
-const gallery_21_49 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage95.jpg?alt=media";
-const gallery_21_50 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage96.jpg?alt=media";
-const gallery_21_51 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage97.jpg?alt=media";
-const gallery_21_52 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage99.jpg?alt=media";
-const gallery_21_53 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage100.jpg?alt=media";
-const gallery_21_54 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage104.jpg?alt=media";
-const gallery_21_55 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage105.jpg?alt=media";
-const gallery_21_56 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage106.jpg?alt=media";
-const gallery_21_57 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage107.jpg?alt=media";
-const gallery_21_58 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage108.jpg?alt=media";
-const gallery_21_59 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage109.jpg?alt=media";
-const gallery_21_60 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage110.jpg?alt=media";
-const gallery_21_61 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage11.jpg?alt=media";
-const gallery_21_62 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage112.jpg?alt=media";
-const gallery_21_63 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage114.jpg?alt=media";
-const gallery_21_64 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage115.jpg?alt=media";
-const gallery_21_65 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage116.jpg?alt=media";
-const gallery_21_66 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage117.jpg?alt=media";
-const gallery_21_67 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage119.png?alt=media";
-const gallery_21_68 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage120.jpg?alt=media";
-const gallery_22_1 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage74.jpg?alt=media";
-const gallery_22_2 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage76.jpg?alt=media";
-const gallery_22_3 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage78.png?alt=media";
-const gallery_22_4 = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage81.png?alt=media";
+const gallery_14_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2014%2Fimage102.jpg?alt=media";
+const gallery_16_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage5.jpg?alt=media";
+const gallery_16_2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage23.jpg?alt=media";
+const gallery_16_3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage25.jpg?alt=media";
+const gallery_16_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage30.jpg?alt=media";
+const gallery_16_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage33.jpg?alt=media";
+const gallery_16_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage80.jpg?alt=media";
+const gallery_16_7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage83.jpg?alt=media";
+const gallery_16_8 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage84.jpg?alt=media";
+const gallery_16_9 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage89.jpg?alt=media";
+const gallery_16_10 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage113.jpg?alt=media";
+const gallery_16_11 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage118.jpg?alt=media";
+const gallery_17_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage10.jpg?alt=media";
+const gallery_17_2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage21.jpg?alt=media";
+const gallery_17_3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage22.jpg?alt=media";
+const gallery_17_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage37.jpg?alt=media";
+const gallery_17_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage38.jpg?alt=media";
+const gallery_17_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage85.jpg?alt=media";
+const gallery_17_7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage92.jpg?alt=media";
+const gallery_17_8 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage98.jpg?alt=media";
+const gallery_18_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage35.jpg?alt=media";
+const gallery_18_2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage39.jpg?alt=media";
+const gallery_18_3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage40.jpg?alt=media";
+const gallery_18_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage42.jpg?alt=media";
+const gallery_18_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage66.jpg?alt=media";
+const gallery_18_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage87.jpg?alt=media";
+const gallery_18_7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage103.jpg?alt=media";
+const gallery_19_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage2.jpg?alt=media";
+const gallery_19_2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage7.jpg?alt=media";
+const gallery_19_3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage8.jpg?alt=media";
+const gallery_19_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage9.jpg?alt=media";
+const gallery_19_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage31.jpg?alt=media";
+const gallery_19_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage41.jpg?alt=media";
+const gallery_19_7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage65.jpg?alt=media";
+const gallery_19_8 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage88.jpg?alt=media";
+const gallery_20_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage1.jpg?alt=media";
+const gallery_20_2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage3.jpg?alt=media";
+const gallery_20_3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage6.jpg?alt=media";
+const gallery_20_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage24.jpg?alt=media";
+const gallery_20_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage26.jpg?alt=media";
+const gallery_20_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage27.jpg?alt=media";
+const gallery_20_7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage28.jpg?alt=media";
+const gallery_20_8 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage29.jpg?alt=media";
+const gallery_20_9 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage32.jpg?alt=media";
+const gallery_20_10 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage34.jpg?alt=media";
+const gallery_20_11 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage36.jpg?alt=media";
+const gallery_20_12 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage101.jpg?alt=media";
+const gallery_20_13 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2020%2Fimage122.jpg?alt=media";
+const gallery_21_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage4.png?alt=media";
+const gallery_21_2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage11.jpg?alt=media";
+const gallery_21_3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage12.jpg?alt=media";
+const gallery_21_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage13.jpg?alt=media";
+const gallery_21_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage14.jpg?alt=media";
+const gallery_21_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage15.jpg?alt=media";
+const gallery_21_7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage16.jpg?alt=media";
+const gallery_21_8 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage17.jpg?alt=media";
+const gallery_21_9 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage18.png?alt=media";
+const gallery_21_10 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage19.jpg?alt=media";
+const gallery_21_11 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage20.jpg?alt=media";
+const gallery_21_12 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage44.jpg?alt=media";
+const gallery_21_13 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage45.jpg?alt=media";
+const gallery_21_14 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage46.jpg?alt=media";
+const gallery_21_15 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage47.jpg?alt=media";
+const gallery_21_16 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage48.jpg?alt=media";
+const gallery_21_17 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage49.jpg?alt=media";
+const gallery_21_18 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage50.jpg?alt=media";
+const gallery_21_19 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage51.jpg?alt=media";
+const gallery_21_20 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage52.jpg?alt=media";
+const gallery_21_21 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage53.jpg?alt=media";
+const gallery_21_22 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage54.jpg?alt=media";
+const gallery_21_23 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage55.jpg?alt=media";
+const gallery_21_24 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage56.jpg?alt=media";
+const gallery_21_25 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage57.jpg?alt=media";
+const gallery_21_26 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage58.jpg?alt=media";
+const gallery_21_27 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage59.jpg?alt=media";
+const gallery_21_28 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage60.jpg?alt=media";
+const gallery_21_29 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage61.jpg?alt=media";
+const gallery_21_30 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage62.jpg?alt=media";
+const gallery_21_31 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage63.jpg?alt=media";
+const gallery_21_32 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage64.jpg?alt=media";
+const gallery_21_33 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage67.jpg?alt=media";
+const gallery_21_34 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage68.jpg?alt=media";
+const gallery_21_35 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage69.jpg?alt=media";
+const gallery_21_36 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage70.jpg?alt=media";
+const gallery_21_37 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage71.jpg?alt=media";
+const gallery_21_38 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage72.jpg?alt=media";
+const gallery_21_39 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage73.jpg?alt=media";
+const gallery_21_40 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage75.jpg?alt=media";
+const gallery_21_41 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage77.jpg?alt=media";
+const gallery_21_42 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage79.jpg?alt=media";
+const gallery_21_43 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage82.jpg?alt=media";
+const gallery_21_44 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage86.jpg?alt=media";
+const gallery_21_45 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage90.jpg?alt=media";
+const gallery_21_46 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage91.jpg?alt=media";
+const gallery_21_47 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage93.jpg?alt=media";
+const gallery_21_48 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage94.jpg?alt=media";
+const gallery_21_49 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage95.jpg?alt=media";
+const gallery_21_50 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage96.jpg?alt=media";
+const gallery_21_51 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage97.jpg?alt=media";
+const gallery_21_52 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage99.jpg?alt=media";
+const gallery_21_53 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage100.jpg?alt=media";
+const gallery_21_54 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage104.jpg?alt=media";
+const gallery_21_55 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage105.jpg?alt=media";
+const gallery_21_56 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage106.jpg?alt=media";
+const gallery_21_57 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage107.jpg?alt=media";
+const gallery_21_58 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage108.jpg?alt=media";
+const gallery_21_59 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage109.jpg?alt=media";
+const gallery_21_60 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage110.jpg?alt=media";
+const gallery_21_61 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage11.jpg?alt=media";
+const gallery_21_62 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage112.jpg?alt=media";
+const gallery_21_63 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage114.jpg?alt=media";
+const gallery_21_64 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage115.jpg?alt=media";
+const gallery_21_65 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage116.jpg?alt=media";
+const gallery_21_66 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage117.jpg?alt=media";
+const gallery_21_67 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage119.png?alt=media";
+const gallery_21_68 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2021%2Fimage120.jpg?alt=media";
+const gallery_22_1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage74.jpg?alt=media";
+const gallery_22_2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage76.jpg?alt=media";
+const gallery_22_3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage78.png?alt=media";
+const gallery_22_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2022%2Fimage81.png?alt=media";
 const ecobrick1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fecobrick%2Fecobrick-0001-768x1087.png?alt=media";
 const ecobrick2 =
@@ -175,7 +295,40 @@ const partner5 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage5.png?alt=media";
 const partner7 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
-const TdStyle = styled.div`
+const team1 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam1.jpg?alt=media&token=65fc0cc8-3327-48f4-8d95-d352977c9d1b";
+const team2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam2.jpg?alt=media&token=e09d6739-e3c9-4dd1-bcf6-e40e896f99a2";
+const team3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam3.jpg?alt=media&token=ae518f06-a346-4ea7-b481-1a945b180c19";
+const team4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
+
+const team5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
+
+const team6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam6.jpg?alt=media&token=59829b62-3ce1-4575-8c0a-e79f28f9a096";
+const team7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
+
+const team8 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
+
+const team9 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam9.jpg?alt=media&token=5ac330ac-50dc-4b3a-bdc0-cbd15e6403e6";
+const team10 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam10.jpg?alt=media&token=54e8f066-162f-4b19-bb60-2eee8fb6f23c";
+const team11 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam11.jpg?alt=media&token=6b398622-1448-452a-bee6-e525b957d91f";
+const team12 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam12.jpg?alt=media&token=fdd18131-402f-4588-973f-bca0cf7572a3";
+const team13 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam13.jpg?alt=media&token=810f2677-7611-42b0-b4e4-9041f93355c8";
+const team14 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam14.jpg?alt=media&token=c2725321-7bc6-46a6-b53d-fa38439d3340";
+
+  const TdStyle = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   @media (max-width: 998px) {
@@ -205,15 +358,16 @@ const Changedh2 = styled.h2`
 const Changeddiv = styled.div`
   letterspacing: 0.1rem;
   lineheight: 2rem;
-  padding: 2rem 2rem;
-
+  border-bottom: 1px solid #3a343452;
+  padding: 1rem 2rem 1rem 2rem;
   @media (min-width: 998px) {
     box-shadow: 0px 0px 10px #33313859;
     margin: 28px 1px;
     border-left: 3px solid #ff2f009c;
     transition: transform 1s;
-    changeddiv:hover {
-      transform: scale(1.2, 1.2);
+    :hover {
+      border-bottom: 3px #00ff39 solid;
+      border-left: 5.3px solid #00ff39;
     }
   }
 `;
@@ -1859,6 +2013,7 @@ const Overview = (
     <h1>This will be updated shortly!</h1>
   </div>
 );
+
 const Ourteam = (
   <div style={{ textAlign: "left" }}>
     <Changeddiv>
@@ -1871,7 +2026,29 @@ const Ourteam = (
       <TdStyle>
         <TrStyle>
           <img
-            src={ecobrick1}
+            src={team1}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Team founder</Spanh3>
+          <br />
+          <Spanh4> Prashasti Tripathi</Spanh4>
+          <br />
+          <a href="#">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+        <TrStyle>
+          <img
+            src={team6}
             style={{
               height: "15rem",
               width: "15rem",
@@ -1883,22 +2060,18 @@ const Ourteam = (
           <br />
           <Spanh3>Founding Member </Spanh3>
           <br />
-          <Spanh4>Mr. Vikram negi </Spanh4>
+          <Spanh4> Vikram negi </Spanh4>
           <br />
           <a href="#">
             <TiSocialLinkedinCircular className="iconstyle" />
           </a>{" "}
           &nbsp;&nbsp;
-          <a href="#">
-            <TiSocialFacebookCircular className="iconstyle" />
-          </a>
-          <br />
           <br />
         </TrStyle>
 
         <TrStyle>
           <img
-            src={ecobrick1}
+            src={team7}
             style={{
               height: "15rem",
               width: "15rem",
@@ -1910,22 +2083,18 @@ const Ourteam = (
           <br />
           <Spanh3>Founding Member </Spanh3>
           <br />
-          <Spanh4>Mr. Saksham sangal </Spanh4>
+          <Spanh4> Saksham sangal </Spanh4>
           <br />
           <a href="#">
             <TiSocialLinkedinCircular className="iconstyle" />
           </a>{" "}
           &nbsp;&nbsp;
-          <a href="#">
-            <TiSocialFacebookCircular className="iconstyle" />
-          </a>
-          <br />
           <br />
         </TrStyle>
 
         <TrStyle>
           <img
-            src={ecobrick1}
+            src={team1}
             style={{
               height: "15rem",
               width: "15rem",
@@ -1935,51 +2104,20 @@ const Ourteam = (
             }}
           />
           <br />
-          <Spanh3>General manager</Spanh3>
+          <Spanh3>Team Leader of reasource Management Team</Spanh3>
           <br />
-          <Spanh4>Mr. Sumit Agarwal</Spanh4>
+          <Spanh4>Urmi Maitra</Spanh4>
           <br />
-          <a href="#">
+          <a href="https://www.linkedin.com/in/urmi-maitra-abb3011b5/">
             <TiSocialLinkedinCircular className="iconstyle" />
           </a>{" "}
           &nbsp;&nbsp;
-          <a href="#">
-            <TiSocialFacebookCircular className="iconstyle" />
-          </a>
-          <br />
           <br />
         </TrStyle>
 
         <TrStyle>
           <img
-            src={ecobrick1}
-            style={{
-              height: "15rem",
-              width: "15rem",
-              borderRadius: "50%",
-              border: "dashed 2px black",
-              padding: "12px",
-            }}
-          />
-          <br />
-          <Spanh3>HR</Spanh3>
-          <br />
-          <Spanh4>Ms. Amisha Mehta </Spanh4>
-          <br />
-          <a href="#">
-            <TiSocialLinkedinCircular className="iconstyle" />
-          </a>{" "}
-          &nbsp;&nbsp;
-          <a href="#">
-            <TiSocialFacebookCircular className="iconstyle" />
-          </a>
-          <br />
-          <br />
-        </TrStyle>
-
-        <TrStyle>
-          <img
-            src={ecobrick1}
+            src={team2}
             style={{
               height: "15rem",
               width: "15rem",
@@ -1991,22 +2129,18 @@ const Ourteam = (
           <br />
           <Spanh3>Team Leader</Spanh3>
           <br />
-          <Spanh4>Mr. Vikram negi </Spanh4>
+          <Spanh4>Shivani Jalotia </Spanh4>
           <br />
-          <a href="#">
+          <a href=" https://www.linkedin.com/in/shivani-jalotia-a5098498/">
             <TiSocialLinkedinCircular className="iconstyle" />
           </a>{" "}
           &nbsp;&nbsp;
-          <a href="#">
-            <TiSocialFacebookCircular className="iconstyle" />
-          </a>
-          <br />
           <br />
         </TrStyle>
 
         <TrStyle>
           <img
-            src={ecobrick1}
+            src={team3}
             style={{
               height: "15rem",
               width: "15rem",
@@ -2018,16 +2152,218 @@ const Ourteam = (
           <br />
           <Spanh3>Team Leader</Spanh3>
           <br />
-          <Spanh4>Ms. Videhi Shah</Spanh4>
+          <Spanh4>Chirag Batra</Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/chiragbatra18/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team4}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>HR Associate</Spanh3>
+          <br />
+          <Spanh4>Abhinav Priyadarshi </Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/abhinav-priyadarshi-798408173/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team5}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>HR Associate</Spanh3>
+          <br />
+          <Spanh4>Neetu Keshwani </Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/neetu-keswani-58b9175/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team6}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>HR Associate</Spanh3>
+          <br />
+          <Spanh4> Akash Arya </Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/akash1081/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team14}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Ex General manager</Spanh3>
+          <br />
+          <Spanh4> Sumit Agarwal</Spanh4>
           <br />
           <a href="#">
             <TiSocialLinkedinCircular className="iconstyle" />
           </a>{" "}
           &nbsp;&nbsp;
-          <a href="#">
-            <TiSocialFacebookCircular className="iconstyle" />
-          </a>
           <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team13}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Ex HR associate</Spanh3>
+          <br />
+          <Spanh4> Amisha Mehta </Spanh4>
+          <br />
+          <a href="#">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team9}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Ex Team Leader</Spanh3>
+          <br />
+          <Spanh4> Videhi Shah</Spanh4>
+          <br />
+          <a href="#">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+        <TrStyle>
+          <img
+            src={team10}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Ex Team Leader</Spanh3>
+          <br />
+          <Spanh4> Aman Jain </Spanh4>
+          <br />
+          <a href="#">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team11}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Ex HR associate </Spanh3>
+          <br />
+          <Spanh4> Haimanti Dhar </Spanh4>
+          <br />
+          <a href="#">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={team12}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Ex HR associate</Spanh3>
+          <br />
+          <Spanh4> Tabassum Jahan</Spanh4>
+          <br />
+          <a href="#">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
           <br />
         </TrStyle>
       </TdStyle>
@@ -2038,25 +2374,41 @@ const Who_we_are = (
   <div style={{ textAlign: "left" }}>
     <Changeddiv>
       <p>
-        Jaago Bharat Trust , is a non-profit organization working from 2014
-        across the Noida NCR region.
+        JAAGO BHARAT was founded in the year 2014 by Mr. Prashasti Tripathi. He
+        is an alumni of IIT Kanpur and has started his own coaching academy and
+        in the year 2014, he decided to start an NGO to contribute something
+        towards the society. His main focus was always to promote education and
+        water conservation, and also to invoke a sense of activism and
+        responsibility among the citizens so that the people rather than
+        complaining start completing their basic civic fundamental duties.
+      </p>
+    </Changeddiv>
+    <Changeddiv>
+      <p>
+        Now our organisation works on many environmental issues as well as on
+        many social welfare issues. Since 2014 we are working non stop in this
+        domain. We will not stop unless we achieve our dream "Responsible
+        Citizens, Developed Nations"
       </p>
     </Changeddiv>
     <Changeddiv>
       <h4>
-        <Changedh2>AIM-</Changedh2>
+        <Changedh2>OUR VISION-</Changedh2>
+      </h4>
+      <p>
+        Jaago Bharat was established to bring in the forefront the issues which
+        are relevant for any developed society/nation but are left out in
+        oblivion. And still is
+      </p>
+    </Changeddiv>
+    <Changeddiv>
+      <h4>
+        <Changedh2>OUR MISSION-</Changedh2>
       </h4>
       <p>
         Jaago Bharat primarily aims to bring the deplorable condition of Our
         Environment, Water bodies, Waste management and Education, in the
         forefront.
-      </p>
-      <br />
-      <p>
-        We are an operational NGO, meaning we plan and carry out
-        boots-on-the-ground projects to accomplish our objectives. This requires
-        a great deal of careful planning, communication, and local involvement
-        for each project.
       </p>
     </Changeddiv>
   </div>
@@ -2064,26 +2416,44 @@ const Who_we_are = (
 const What_we_do = (
   <div style={{ textAlign: "left" }}>
     <Changeddiv>
+      <h4>
+        <Changedh2>OUR WORK-</Changedh2>
+      </h4>
+      <p>
+        Jaago Bharat primarily aims to bring the deplorable condition of Our
+        Environment, Water bodies, Waste management and Education, in the
+        forefront.
+      </p>
+    </Changeddiv>
+    <Changeddiv>
       <Changedh2>Our main objectives include:</Changedh2>
       <br />
       <ul style={{ marginLeft: "3rem" }}>
         <li>Sustainable Development</li>
         <li>Skill Development</li>
         <li>Social Awareness</li>
-        <li>Environment</li>
       </ul>
     </Changeddiv>
     <Changeddiv>
       <p>
         We are working towards many environmental issues like Wet Waste
-        Management, Rainwater Harvesting, Plastic Waste Ecobrick, Old Clothes
-        Revamping.
+        Management, Rainwater Harvesting, Plastic Waste Ecobrick. Apart from our
+        environmental projects we also have projects related to social welfare
+        issues- Old Clothes Revamping (Project Vastraay) & Project S.M.I.L.E in
+        which we conduct skill development programmes to uplift and empowers the
+        unskilled & lesser privileged sections of our society.
       </p>
       <p>
-        Our work related to waste management has been published in many
-        newspapers & magazines and we also have won 2nd prize for our Wet Waste
-        Composter on Divisional Innovation Exhibition, organized by Regional
-        Science & Technology Centre, Ghaziabad.
+        Also we frequently conduct awareness sessions for students to make them
+        aware about the importance of wetlands, natural resources and wildlife.
+      </p>
+      <p>
+        We have been recognised by many schools and our stories has been
+        published in their school magazines. Our work related to waste
+        management has been published in many newspapers & magazines and we also
+        have won 2nd prize for our Wet Waste Composter on Divisional Innovation
+        Exhibition, organised by Regional Science & Technology Centre,
+        Ghaziabad.
       </p>
     </Changeddiv>
   </div>
