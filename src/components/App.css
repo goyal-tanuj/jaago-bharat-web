@@ -283,6 +283,8 @@ hr {
 
   .carousel-inner {
     height: 25rem;
+    width: 100%;
+    overflow: hidden;
   }
   
   .carousel-item {
@@ -303,4 +305,23 @@ hr {
   border: 3px solid yellowgreen;
   padding: 0.4rem;
   border-radius: 5.5%;
+}
+
+.partnerImgs {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 998px) {
+  .partnerImgs {
+    flex-direction: column;
+  }
+
+  .partnerImgs > * {
+    padding: 2rem 0;
+  }
+   
+  .partnerImgs > div > img {
+    width: 100%;
+  }
 }

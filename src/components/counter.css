@@ -28,4 +28,8 @@
   .count {
     padding-bottom: 2rem;
   }
+
+  .count-head {
+    border-bottom: 0;
+  }
 }

@@ -22,7 +22,6 @@ export default function Navbar() {
     setdropclick2(!dropclick2);
   };
 
-  const [dropclick3, setdropclick3] = useState(true);
   const [showmediaicons, setshowmediaicons] = useState(false);
   const myFunction = function () {
     setshowmediaicons(!showmediaicons);
@@ -31,7 +30,6 @@ export default function Navbar() {
     setdropclick(true);
     setdropclick1(true);
     setdropclick2(true);
-    setdropclick3(true);
   }, [showmediaicons]);
 
   const [changelink, setchangelink] = useState(false);
@@ -58,7 +56,7 @@ export default function Navbar() {
           <ul>
             <li className={dropclick ? "dropclass" : "drop"}>
               <Link onClick={linkfunction} to="/Who we are">
-                Who we are{" "}
+                Who We Are{" "}
               </Link>
               <span className="icondrop" style={{ color: "white" }}>
                 {" "}
@@ -71,17 +69,17 @@ export default function Navbar() {
                 <ul>
                   <li>
                     <Link onClick={linkfunction} to="/Our story">
-                      Our story
+                      Our Story
                     </Link>
                   </li>
                   <li>
                     <Link onClick={linkfunction} to="/Our Founders">
-                      Our founder
+                      Our Founder
                     </Link>
                   </li>
                   <li>
                     <Link onClick={linkfunction} to="/Our team">
-                      Our team
+                      Our Team
                     </Link>
                   </li>
                 </ul>
@@ -89,7 +87,7 @@ export default function Navbar() {
             </li>
             <li className={dropclick1 ? "dropclass" : "drop1"}>
               <Link onClick={linkfunction} to="/What we do">
-                What we do{" "}
+                What We Do{" "}
               </Link>
               <span className="icondrop" style={{ color: "white" }}>
                 <IoMdArrowDropdown />
@@ -101,27 +99,27 @@ export default function Navbar() {
                 <ul>
                   <li>
                     <Link onClick={linkfunction} to="/An overview">
-                      An overview
+                      An Overview
                     </Link>
                   </li>
                   <li>
                     <Link onClick={linkfunction} to="/Eco brick">
-                      Eco-brick
+                      Eco-Brick
                     </Link>
                   </li>
                   <li>
                     <Link onClick={linkfunction} to="/Wet-Waste-Management">
-                      Wet waste management
+                      Wet Waste Management
                     </Link>
                   </li>
                   <li>
                     <Link onClick={linkfunction} to="/Water-conservation">
-                      water conservation
+                      Water Conservation
                     </Link>
                   </li>
                   <li>
                     <Link onClick={linkfunction} to="/SMILE">
-                      project s.m.i.l.e
+                      Project S.M.I.L.E
                     </Link>
                   </li>
                 </ul>
@@ -150,13 +148,8 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={linkfunction} to="/Publications">
-                      Our publications
-                    </Link>
-                  </li>
-                  <li>
                     <Link onClick={linkfunction} to="/Gallery">
-                      Our gallery
+                      Our Gallery
                     </Link>
                   </li>
                 </ul>
@@ -170,11 +163,6 @@ export default function Navbar() {
             <li>
               <Link onClick={linkfunction} to="/Blog">
                 Blog
-              </Link>
-            </li>
-            <li className={dropclick3 ? "dropclass" : "drop3"}>
-              <Link onClick={linkfunction} to="#">
-                Support us{" "}
               </Link>
             </li>
             

@@ -41,7 +41,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="touch">
-            <h2 className="fheading">Reach Us</h2>
+            <h2 className="fheading">Get Involved</h2>
             <hr />
             <iframe title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdvIXaAxU-5rhZ3lIcB2Xh9Of2oURNWBhzUxKrf2ZFMMmnuqQ/viewform?embedded=true" frameborder="0" className="form" >Loading…</iframe>
           </div>

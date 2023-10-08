@@ -176,3 +176,6 @@ li {
     border:none;
   }
 }
+.dropdown > ul > * {
+  border-bottom: gray 1px solid;
+}

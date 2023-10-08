@@ -2510,7 +2510,7 @@ const Ourfounder = (
       </h5>
       <br />
       <Changeddiv>
-        He is in alumunus of IIT kanpur and has started his own coaching academy
+        He is an alumunus of IIT kanpur and has started his own coaching academy
         and in the year 2014, he decided to start an NGO to contribute something
         towards society. Step by step he gathered people of his contacts and
         form the team. He always promotes the new ideas of his team members and
@@ -2530,24 +2530,21 @@ const Partners = (
   <div style={{ textAlign: "left" }}>
     <Changeddiv>
       <Changedh2>Jaago Bharat Partners</Changedh2>
-      <Spanh3>GRADS International School</Spanh3>
+      <p>
+        Wanna Join us to help the environment or society reach us at email id
+      </p>
+    </Changeddiv>
+    <Changeddiv>
+      <Changedh2>GRADS International School</Changedh2>
       <p>
         Mrs Aditi Basu Roy, the principal of GRADS International School is one
         of the most prominent partner of Jaago Bharat Team. We have conducted
         many awareness drive and training session with them.
       </p>
-    </Changeddiv>
-    <Changeddiv>
-      <TdStyle>
-        <TrStyle>
+      <div className="partnerImgs">
+      <TrStyle>
           <img
-            src={partner1}
-            style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
-          ></img>
-        </TrStyle>
-        <TrStyle>
-          <img
-            src={partner2}
+            src={partner5}
             style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
           ></img>
         </TrStyle>
@@ -2557,7 +2554,7 @@ const Partners = (
             style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
           ></img>
         </TrStyle>
-      </TdStyle>
+      </div>
     </Changeddiv>
     <Changeddiv>
       <Changedh2>JSocial Action for forest & Environment (SAFE)</Changedh2>
@@ -2567,18 +2564,10 @@ const Partners = (
         with them on many aspects regarding sharing our volunteer, conducting
         different awareness drive and much more.
       </p>
-    </Changeddiv>
-    <Changeddiv>
-      <TdStyle>
+      <div className="partnerImgs">
         <TrStyle>
           <img
             src={partner4}
-            style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
-          ></img>
-        </TrStyle>
-        <TrStyle>
-          <img
-            src={partner5}
             style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
           ></img>
         </TrStyle>
@@ -2588,7 +2577,7 @@ const Partners = (
             style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
           ></img>
         </TrStyle>
-      </TdStyle>
+      </div>
     </Changeddiv>
     <Changeddiv>
       <Changedh2>Sumangla Kapoor</Changedh2>
@@ -2596,6 +2585,30 @@ const Partners = (
         Her approach and efforts towards social work is commendable. She has
         been an incredible part of the team.
       </p>
+      <div className="partnerImgs">
+        <TrStyle>
+          <img
+            src={partner2}
+            style={{ height: "30rem", borderRadius: "10px" }}
+          ></img>
+        </TrStyle>
+      </div>
+    </Changeddiv>
+    <Changeddiv>
+      <Changedh2>Enactus India</Changedh2>
+      <p>
+        Enactus is the world’s largest experiential learning platform dedicated
+        to creating a better world while developing the next generation of
+        entrepreneurial leaders and social innovators
+      </p>
+      <div className="partnerImgs">
+        <TrStyle>
+          <img
+            src={partner1}
+            style={{ height: "30rem", borderRadius: "10px" }}
+          ></img>
+        </TrStyle>
+      </div>
     </Changeddiv>
   </div>
 );

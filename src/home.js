@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "./components/carousel";
 import Bloglist from "./components/blogs";
-import { listData } from "./components/loader";
+import { homeList } from "./components/loader";
 import Count from "./components/counter";
 
 const one =
@@ -31,7 +31,7 @@ const Descr = function (props) {
 };
 
 export default function Home() {
-  const list = listData(3);
+  const list = homeList(3);
   const colors = ["purple", "red", "blue"];
   return (
     <>

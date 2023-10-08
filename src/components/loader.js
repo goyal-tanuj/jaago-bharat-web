@@ -6,6 +6,18 @@ export default function Main(id) {
   return post;
 }
 
+export function homeList(num) {
+  const out = [];
+  const list = [2, 4, 5]
+  for (let i = 0; i < num; i++) {
+    const post = posts[list[i]];
+    post.link = "/blog/" + i;
+    post.plain = removeMD(post.desc);
+    out.push(post);
+  }
+  return out;
+}
+
 export function listData(num) {
   const out = [];
   for (let i = 0; i < num; i++) {
