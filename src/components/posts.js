@@ -2,7 +2,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 
 import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { TiSocialFacebookCircular } from "react-icons/ti";
 import styled from "styled-components";
 import "../../src/components/App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -312,6 +311,7 @@ const team6 =
 const team7 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
 
+// eslint-disable-next-line no-unused-vars
 const team8 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
 
