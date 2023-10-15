@@ -1,6 +1,9 @@
 import React from "react";
+
 import logo from "../images/misc/logo-white.png";
 import { Link } from "react-router-dom";
+import Form from "./form";
+
 import "./footer.css";
 export default function Footer() {
   return (
@@ -35,15 +38,15 @@ export default function Footer() {
               <li>
                 <a href="/">About Us</a>
               </li>
-              <li><Link to="/Gallery">
-                      Gallery
-                    </Link></li>
+              <li>
+                <Link to="/Gallery">Gallery</Link>
+              </li>
             </ul>
           </div>
           <div className="touch">
             <h2 className="fheading">Get Involved</h2>
             <hr />
-            <iframe title="form" src="https://docs.google.com/forms/d/e/1FAIpQLSdvIXaAxU-5rhZ3lIcB2Xh9Of2oURNWBhzUxKrf2ZFMMmnuqQ/viewform?embedded=true" frameborder="0" className="form" >Loading…</iframe>
+            <Form />
           </div>
         </div>
         <div className="links">

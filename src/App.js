@@ -1,3 +1,5 @@
+import {Toaster} from "react-hot-toast";
+
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Home from "./home";
@@ -30,6 +32,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Toaster />
       <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>

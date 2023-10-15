@@ -7,19 +7,30 @@ const { getFirestore } = require("firebase-admin/firestore");
 
 initializeApp();
 
-// Take the text parameter passed to this HTTP endpoint and insert it into
-// Firestore under the path /messages/:documentId/original
-exports.addmessage = onRequest(async (req, res) => {
-  // Grab the text parameter.
-  const original = req.query.text;
-  // Push the new message into Firestore using the Firebase Admin SDK.
+exports.addcontact = onRequest({ cors: true }, async (req, res) => {
+  // name email phone zipcode
+  const name = req.query.name;
+  if (!name) return res.status(400).send({ error: "bad request" });
+  const email = req.query.email;
+  if (!validateEmail(email))
+    return res.status(400).send({ error: "bad request" });
+  const phone = req.query.phone;
+  if (!/^\d+$/.test(phone))
+    return res.status(400).send({ error: "bad request" });
+  const zipcode = req.query.zipcode;
+  if (!/^\d+$/.test(zipcode))
+    return res.status(400).send({ error: "bad request" });
   const writeResult = await getFirestore()
-    .collection("messages")
-    .add({ original: original });
-  // Send back a message that we've successfully written the message
-  res.json({ result: `Message with ID: ${writeResult.id} added.` });
+    .collection("contactus")
+    .add({ name, email, phone, zipcode });
+  console.log(`Message with ID: ${writeResult.id} added.`);
+  res.json({ result: `ok` });
 });
 
-exports.addcontact = onRequest({ cors: true }, async (req, res) => {
-    
-});
+const validateEmail = (email) => {
+  return String(email)
+    .toLowerCase()
+    .match(
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+};

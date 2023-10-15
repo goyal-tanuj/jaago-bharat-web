@@ -1,0 +1,37 @@
+.formBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.formItem {
+    background-color: aliceblue;
+    margin: .5rem;
+    padding: .8rem;
+    border: #04311b  2px solid;
+    border-radius: 2rem;
+}
+
+.formItem:focus {
+    border-radius: 2rem;
+    transition-duration: 200ms;
+    outline: #007a3f 2px solid;
+}
+
+.formSubmit {
+    margin: .5rem;
+    padding: .8rem;
+    border-radius: 2rem;
+    background-color: #007a3f;
+    color: white;
+    border: #007a3f00 3px solid;
+    transition-duration: 500ms;
+}
+
+.formSubmit:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    border: #007a3f 3px solid;
+}
