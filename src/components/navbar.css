@@ -179,3 +179,7 @@ li {
 .dropdown > ul > * {
   border-bottom: gray 1px solid;
 }
+
+.dropdown > ul > *:last-child {
+  border-bottom: none;
+}
