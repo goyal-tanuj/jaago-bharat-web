@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Carousel from "./components/carousel";
 import Bloglist from "./components/blogs";
 import { homeList } from "./components/loader";

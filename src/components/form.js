@@ -5,9 +5,13 @@ import toast from "react-hot-toast";
 import "./form.css";
 
 export default function App() {
-  const { register, handleSubmit } = useForm();
+  const {
+    register,
+    handleSubmit,
+  } = useForm();
   const onSubmit = async (data) => {
-    const url = "https://addcontact-w4dwmgxs2a-uc.a.run.app/?";
+    const url =
+      "http://127.0.0.1:5001/jaagobharatwebdev/us-central1/addcontact?";
     const res = fetch(
       url +
         "name=" +
@@ -20,10 +24,10 @@ export default function App() {
         data.Zipcode
     );
     toast.promise(res, {
-      loading: "Sending...",
-      success: "Success!",
-      error: "Error",
-    });
+        loading: "Sending...",
+        success: "Success!",
+        error: "Error"
+    })
   };
 
   return (
@@ -52,7 +56,7 @@ export default function App() {
         {...register("Zipcode", { required: true, max: 999999, maxLength: 6 })}
         className="formItem"
       />
-
+      <br/><br/>
       <input type="submit" className="formSubmit" />
     </form>
   );

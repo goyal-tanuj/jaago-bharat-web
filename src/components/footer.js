@@ -43,8 +43,8 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="touch">
-            <h2 className="fheading">Get Involved</h2>
+          <div className="touch" style={{background:'white', padding:'1.5rem', borderRadius:'1rem'}}> 
+            <h2 className="fheading" style={{color:'black'}}>Get Involved</h2>
             <hr />
             <Form />
           </div>
