@@ -32,9 +32,12 @@ const Descr = function (props) {
 
 export default function Home() {
   const [list, setList] = useState([]);
-
+  const [gotData, setGotData] = useState(false);
   // useEffect(() => {
-  homeList(3, setList);
+  if (!gotData) {
+    homeList(3, setList);
+    setGotData(true);
+  }
   // }, []);
 
   const colors = ["purple", "red", "blue"];

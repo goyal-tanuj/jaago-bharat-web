@@ -7,8 +7,13 @@ import { useState } from "react";
 export default function Main() {
   let { id } = useParams();
   const [data, setData] = useState([]);
+  const [gotData, setGotData] = useState(false);
   // useEffect(() => {
-  loader(id, setData);
+  if (!gotData) {
+    loader(id, setData);
+    setGotData(true);
+  }
+  // useEffect(() => {
   // }, [id]);
   return (
     <>
