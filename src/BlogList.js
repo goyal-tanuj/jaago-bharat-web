@@ -1,11 +1,16 @@
-import React from "react";
+import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { listData } from "./components/loader";
 import "./Blog.css";
 import { Link } from "react-router-dom";
 
 export default function Main(props) {
-  const list = listData(6);
+  const [list, setList] = useState([]);
+
+  // useEffect(() => {
+  listData(6, setList);
+  // }, []);
+
   const headerStyle = {
     backgroundImage: "url(" + props.backimg + ")",
   };
@@ -29,12 +34,17 @@ function BlogItem(data) {
   data.descp = data.plain.slice(0, 500);
   return (
     <div className="blogitem">
-      <Link to={data.link} className="item-link"><h1 className="item-title">{data.title}</h1></Link>
+      <Link to={data.link} className="item-link">
+        <h1 className="item-title">{data.title}</h1>
+      </Link>
       <div className="subhead">
         <span className="item-author">{data.author}</span>
         <span className="item-date">{data.date}</span>
       </div>
-      <p className="item-desc"><ReactMarkdown children={data.descp}/>...</p>
+      <p className="item-desc">
+        <ReactMarkdown children={data.descp} />
+        ...
+      </p>
     </div>
   );
 }

@@ -8,9 +8,9 @@ export default function Main(props) {
   const headerStyle = {
     backgroundImage: "url(" + props.backimg + ")",
   };
-
+  
   const data = props.data;
-
+  if(!data.tags) data.tags = [];
   const content = data.desc //.split('\n').map(x => <p className="para">{x}</p>);
 
   return (

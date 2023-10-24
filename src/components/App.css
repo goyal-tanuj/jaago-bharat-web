@@ -70,6 +70,7 @@
   display: flex;
   margin-top: 5rem;
   padding: 0rem 2rem;
+  justify-content: space-evenly;
 }
 .blogbox {
   margin: 0.1rem 2rem;
