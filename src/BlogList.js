@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { listData } from "./components/loader";
 import "./Blog.css";
@@ -6,13 +6,9 @@ import { Link } from "react-router-dom";
 
 export default function Main(props) {
   const [list, setList] = useState([]);
-  const [gotData, setGotData] = useState(false);
-  // useEffect(() => {
-  if (!gotData) {
+  useEffect(() => {
     listData(6, setList);
-    setGotData(true);
-  }
-  // }, []);
+  }, []);
 
   const headerStyle = {
     backgroundImage: "url(" + props.backimg + ")",

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Carousel from "./components/carousel";
 import Bloglist from "./components/blogs";
 import { homeList } from "./components/loader";
@@ -32,13 +32,9 @@ const Descr = function (props) {
 
 export default function Home() {
   const [list, setList] = useState([]);
-  const [gotData, setGotData] = useState(false);
-  // useEffect(() => {
-  if (!gotData) {
+  useEffect(() => {
     homeList(3, setList);
-    setGotData(true);
-  }
-  // }, []);
+  }, []);
 
   const colors = ["purple", "red", "blue"];
   return (
