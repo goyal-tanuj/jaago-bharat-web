@@ -11,7 +11,7 @@ export default function App() {
   } = useForm();
   const onSubmit = async (data) => {
     const url =
-      "http://127.0.0.1:5001/jaagobharatwebdev/us-central1/addcontact?";
+      "https://addcontact-w4dwmgxs2a-uc.a.run.app/?";
     const res = fetch(
       url +
         "name=" +
