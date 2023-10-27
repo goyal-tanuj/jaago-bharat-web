@@ -152,13 +152,13 @@ export default function Navbar() {
                       Our Gallery
                     </Link>
                   </li>
+                  <li>
+                    <Link onClick={linkfunction} to="/Achievements">
+                      Achievements
+                    </Link>
+                  </li>
                 </ul>
               </div>
-            </li>
-            <li>
-              <Link onClick={linkfunction} to="/GetInvolved">
-                Get Involved
-              </Link>
             </li>
             <li>
               <Link onClick={linkfunction} to="/Blog">

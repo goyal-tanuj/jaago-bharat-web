@@ -22,6 +22,7 @@ import {
   GetInvolved,
   Donate,
   Ecobrick,
+  Achievements
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BlogPage from "./blogRouter";
@@ -48,7 +49,12 @@ function App() {
           element={
             <Main backimg={logo} header="Gallery" description={Gallery} />
           }
-        />
+        /><Route
+        path="/Achievements"
+        element={
+          <Main backimg={logo} header="Achievements" description={Achievements} />
+        }
+      />
         <Route
           path="/Publications"
           element={

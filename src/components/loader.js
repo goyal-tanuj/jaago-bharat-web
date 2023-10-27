@@ -8,7 +8,6 @@ export default async function Main(id, setState) {
   console.log(post);
   post.desc = post.desc.replaceAll("\\n", "\n");
   post.plain = removeMD(post.desc);
-  console.log(post);
   setState(post);
 }
 

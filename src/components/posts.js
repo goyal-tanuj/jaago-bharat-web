@@ -328,7 +328,7 @@ const team13 =
 const team14 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam14.jpg?alt=media&token=c2725321-7bc6-46a6-b53d-fa38439d3340";
 
-  const TdStyle = styled.div`
+const TdStyle = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   @media (max-width: 998px) {
@@ -346,6 +346,7 @@ const TdStylesec = styled.div`
 const TrStyle = styled.div`
   text-align: center;
   height: fit-content;
+  margin: 1rem;
 `;
 const Changedh2 = styled.h2`
   margin-bottom: 1rem;
@@ -2542,7 +2543,7 @@ const Partners = (
         many awareness drive and training session with them.
       </p>
       <div className="partnerImgs">
-      <TrStyle>
+        <TrStyle>
           <img
             src={partner5}
             style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
@@ -3403,7 +3404,74 @@ const Ecobrick = (
     </div>
   </>
 );
-
+const Achievements = (
+  <Changeddiv>
+    <Changedh2>Awards & Recognition Page</Changedh2>
+    <Spanh3> Some of our major achievements are:-</Spanh3>
+    <br />
+    <br />
+    <ul>&nbsp;
+      <li>
+        There have been many articles in newspapers about the customer
+        response that are using our composter & also in magazines about our team
+        initiative.
+      </li>
+      <br />
+      <br />
+      &nbsp;<li>
+        Our composter has been awarded second prize in the Regional
+        science & technology exhibition by the UP govt.
+      </li>
+      <br />
+      <br />&nbsp;
+      <li>
+         We have helped many different organisations and NGOs in their
+        events and projects.
+      </li><br/><br/>&nbsp;
+      <li>
+         There have been many articles in newspapers about the customer
+        response that are using our composter & also in magazines about our team
+        initiative.
+      </li>
+      <br />
+      <br />&nbsp;
+      <li>
+         Apart from society & urban people we have Also taken some
+        initiatives to help Villages and rural people like providing the books
+        to the underprivileged students at free of cost and also conducted some
+        tree plantation drives in the rural side.
+      </li>
+      <br />
+      <br />&nbsp;
+      <li>
+         At the time of crisis our NGO is always ready to provide support
+        like in 2018 we have conducted a football tournament to raise the funds
+        for the Kerala flood victims and also now we have provided Ration kit to
+        migrant workers.
+      </li>
+      <br />
+      <br />&nbsp;
+      <li>
+        To support the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) & recently
+        Aatm Nirbhar we have also conducted a skill development programme.
+      </li>
+      <br />
+      <br />&nbsp;
+      <li>
+        I think our organisation is the one which has covered all the aspects
+        like, social issues, environment issues etc and not just given the
+        awareness but also has provided a sustainable solution.
+      </li>
+      <br />
+      <br />&nbsp;
+      <li>
+        We have never taken the money from anyone to support our project so the
+        major questions arises how our projects run??? The answer to this is we
+        had always tried to make the projects self sustainable
+      </li>
+    </ul>
+  </Changeddiv>
+);
 export {
   Who_we_are,
   What_we_do,
@@ -3421,4 +3489,5 @@ export {
   GetInvolved,
   Donate,
   Ecobrick,
+  Achievements,
 };
