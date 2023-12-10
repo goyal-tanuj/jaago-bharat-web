@@ -3415,55 +3415,47 @@ const Achievements = (
         There have been many articles in newspapers about the customer
         response that are using our composter & also in magazines about our team
         initiative.
-      </li>
-      <br />
-      <br />
+     
       &nbsp;<li>
         Our composter has been awarded second prize in the Regional
         science & technology exhibition by the UP govt.
       </li>
-      <br />
-      <br />&nbsp;
+      &nbsp;
       <li>
          We have helped many different organisations and NGOs in their
         events and projects.
-      </li><br/><br/>&nbsp;
+      </li>&nbsp;
       <li>
          There have been many articles in newspapers about the customer
         response that are using our composter & also in magazines about our team
         initiative.
       </li>
-      <br />
-      <br />&nbsp;
+     &nbsp;
       <li>
          Apart from society & urban people we have Also taken some
         initiatives to help Villages and rural people like providing the books
         to the underprivileged students at free of cost and also conducted some
         tree plantation drives in the rural side.
       </li>
-      <br />
-      <br />&nbsp;
+      &nbsp;
       <li>
          At the time of crisis our NGO is always ready to provide support
         like in 2018 we have conducted a football tournament to raise the funds
         for the Kerala flood victims and also now we have provided Ration kit to
         migrant workers.
       </li>
-      <br />
-      <br />&nbsp;
+      &nbsp;
       <li>
         To support the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) & recently
         Aatm Nirbhar we have also conducted a skill development programme.
       </li>
-      <br />
-      <br />&nbsp;
+      &nbsp;
       <li>
         I think our organisation is the one which has covered all the aspects
         like, social issues, environment issues etc and not just given the
         awareness but also has provided a sustainable solution.
       </li>
-      <br />
-      <br />&nbsp;
+      &nbsp;
       <li>
         We have never taken the money from anyone to support our project so the
         major questions arises how our projects run??? The answer to this is we
