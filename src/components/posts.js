@@ -9,57 +9,57 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 const gallery_14_1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2014%2Fimage102.jpg?alt=media";
 const gallery_16_1 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage5.jpg?alt=media";
-const gallery_16_2 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage23.jpg?alt=media";
-const gallery_16_3 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage25.jpg?alt=media";
-const gallery_16_4 =
+const gallery_16_2 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage30.jpg?alt=media";
-const gallery_16_5 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage33.jpg?alt=media";
-const gallery_16_6 =
+const gallery_16_3 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage80.jpg?alt=media";
+const gallery_16_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage84.jpg?alt=media";
+const gallery_16_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage113.jpg?alt=media";
+const gallery_16_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage118.jpg?alt=media";
 const gallery_16_7 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage83.jpg?alt=media";
 const gallery_16_8 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage84.jpg?alt=media";
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage33.jpg?alt=media";
 const gallery_16_9 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage89.jpg?alt=media";
 const gallery_16_10 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage113.jpg?alt=media";
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage23.jpg?alt=media";
 const gallery_16_11 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage118.jpg?alt=media";
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2016%2Fimage5.jpg?alt=media";
 const gallery_17_1 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage10.jpg?alt=media";
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage92.jpg?alt=media";
 const gallery_17_2 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage21.jpg?alt=media";
 const gallery_17_3 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage22.jpg?alt=media";
-const gallery_17_4 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage37.jpg?alt=media";
+const gallery_17_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage10.jpg?alt=media";
 const gallery_17_5 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage38.jpg?alt=media";
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage22.jpg?alt=media";
 const gallery_17_6 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage85.jpg?alt=media";
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage38.jpg?alt=media";
 const gallery_17_7 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage92.jpg?alt=media";
-const gallery_17_8 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage98.jpg?alt=media";
+const gallery_17_8 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2017%2Fimage85.jpg?alt=media";
 const gallery_18_1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage35.jpg?alt=media";
 const gallery_18_2 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage39.jpg?alt=media";
-const gallery_18_3 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage40.jpg?alt=media";
-const gallery_18_4 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage42.jpg?alt=media";
-const gallery_18_5 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage66.jpg?alt=media";
-const gallery_18_6 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage87.jpg?alt=media";
-const gallery_18_7 =
+const gallery_18_3 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage103.jpg?alt=media";
+const gallery_18_4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage66.jpg?alt=media";
+const gallery_18_5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage39.jpg?alt=media";
+const gallery_18_6 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage42.jpg?alt=media";
+const gallery_18_7 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2018%2Fimage40.jpg?alt=media";
 const gallery_19_1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2019%2Fimage2.jpg?alt=media";
 const gallery_19_2 =
@@ -458,12 +458,12 @@ const Gallery = (
       <br />
       <div className="changedisplay">
         <p>
-          Team Jaago Bharat participated in the tree plantation drive in village
-          Khaipur near Noida extension. It was a great experience for all of us.
-          Also interacted with the students of Rainbow public school and planted
-          trees in the school premises. All the students participated in the
-          plantation with enthusiasm. We told them about the importance of
-          planting trees and preserving them and had a great time with the kids.
+          Under our "A Warm smile" campaign, on 26th January, our team members
+          visited an orphanage in sector 12, Noida and spent several hours,
+          dancing, singing with the kids. They taught kids about the history and
+          relevance of Republic Day. They also told them the importance of
+          cleanliness and hygiene in life. It was a real pleasure for them to meet
+          those kids. The feeling and the satisfaction cannot be put into words.
         </p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img
@@ -475,12 +475,12 @@ const Gallery = (
       <br />
       <br />
       <p>
-        Under our "A Warm smile" campaign, on 26th January, our team members
-        visited an orphanage in sector 12, Noida and spent several hours,
-        dancing, singing with the kids. They taught kids about the history and
-        relevance of Republic Day. They also told them the importance of
-        cleanliness and hygiene in life. It was a real pleasure for them to meet
-        those kids. The feeling and the satisfaction cannot be put into words.
+          Team Jaago Bharat participated in the tree plantation drive in village
+          Khaipur near Noida extension. It was a great experience for all of us.
+          Also interacted with the students of Rainbow public school and planted
+          trees in the school premises. All the students participated in the
+          plantation with enthusiasm. We told them about the importance of
+          planting trees and preserving them and had a great time with the kids.
       </p>
       <br />
       <br />
@@ -725,9 +725,7 @@ const Gallery = (
       <br />
       <br />
       <p>
-        On Independence Day, Team Jaago Bharat organized a plantation drive at
-        village Kheri Bhanauta, Greater Noida. The event was a great success and
-        was attended by various college students.
+      Team Jaago Bharat organized a fund-raising football tournament to help the flood affected people of Kerala. We felt blessed to stand with solidarity with them in their hard times. In total 6 teams participated in the tournament and the money raised was send to Kerala.
       </p>
       <br />
       <TdStylesec>
