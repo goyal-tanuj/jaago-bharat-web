@@ -3408,54 +3408,46 @@ const Achievements = (
   <Changeddiv>
     <Changedh2>Awards & Recognition Page</Changedh2>
     <Spanh3> Some of our major achievements are:-</Spanh3>
-    <br />
-    <br />
-    <ul>&nbsp;
+    <ul>
       <li>
         There have been many articles in newspapers about the customer
         response that are using our composter & also in magazines about our team
         initiative.
-     
-      &nbsp;<li>
+     </li>
+      <li>
         Our composter has been awarded second prize in the Regional
         science & technology exhibition by the UP govt.
       </li>
-      &nbsp;
       <li>
          We have helped many different organisations and NGOs in their
         events and projects.
-      </li>&nbsp;
+      </li>
       <li>
          There have been many articles in newspapers about the customer
         response that are using our composter & also in magazines about our team
         initiative.
       </li>
-     &nbsp;
       <li>
          Apart from society & urban people we have Also taken some
         initiatives to help Villages and rural people like providing the books
         to the underprivileged students at free of cost and also conducted some
         tree plantation drives in the rural side.
       </li>
-      &nbsp;
       <li>
          At the time of crisis our NGO is always ready to provide support
         like in 2018 we have conducted a football tournament to raise the funds
         for the Kerala flood victims and also now we have provided Ration kit to
         migrant workers.
       </li>
-      &nbsp;
       <li>
         To support the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) & recently
         Aatm Nirbhar we have also conducted a skill development programme.
       </li>
-      &nbsp;
       <li>
         I think our organisation is the one which has covered all the aspects
         like, social issues, environment issues etc and not just given the
         awareness but also has provided a sustainable solution.
       </li>
-      &nbsp;
       <li>
         We have never taken the money from anyone to support our project so the
         major questions arises how our projects run??? The answer to this is we

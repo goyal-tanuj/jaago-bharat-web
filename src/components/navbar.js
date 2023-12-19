@@ -98,7 +98,7 @@ export default function Navbar() {
               <div className="dropdown">
                 <ul>
                   <li>
-                    <Link onClick={linkfunction} to="/An overview">
+                    <Link onClick={linkfunction} to="/What we do">
                       An Overview
                     </Link>
                   </li>
