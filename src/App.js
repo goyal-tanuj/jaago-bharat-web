@@ -98,7 +98,7 @@ function App() {
         <Route
           path="/What We Do"
           element={
-            <Main backimg={logo} header="What We Do" description={What_we_do} />
+            <Main backimg={logo} header="An Overview" description={What_we_do} />
           }
         />
         <Route
