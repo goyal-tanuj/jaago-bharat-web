@@ -2538,7 +2538,7 @@ const Partners = (
       </div>
     </Changeddiv>
     <Changeddiv>
-      <Changedh2>JSocial Action for forest & Environment (SAFE)</Changedh2>
+      <Changedh2>Social Action for forest & Environment (SAFE)</Changedh2>
       <p>
         Mr Vikrant Tongad, founder of SAFE is one of the most remarkable
         Environmentalist across Delhi NCR. Team Jaago Bharat has collaborated
