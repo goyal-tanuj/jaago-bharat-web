@@ -330,3 +330,27 @@ textarea:focus,
 button:focus {
     outline: none;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.h-40 {
+  height: 40rem;
+}

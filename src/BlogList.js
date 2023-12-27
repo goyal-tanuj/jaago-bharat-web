@@ -41,8 +41,7 @@ function BlogItem(data) {
         <span className="item-date">{data.date}</span>
       </div>
       <p className="item-desc">
-        <ReactMarkdown children={data.descp} />
-        ...
+        <ReactMarkdown children={data.descp} /><Link to={data.link} style={{"color": "blue"}}>Continue Reading...</Link>
       </p>
     </div>
   );

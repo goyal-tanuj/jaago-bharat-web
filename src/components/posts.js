@@ -5,7 +5,8 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import styled from "styled-components";
 import "../../src/components/App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-
+const prefix = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2F"
+const postfix = "?alt=media"
 const gallery_14_1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2014%2Fimage102.jpg?alt=media";
 const gallery_16_1 =
@@ -358,7 +359,7 @@ const Changeddiv = styled.div`
   border-bottom: 1px solid #3a343452;
   padding: 1rem 2rem 1rem 2rem;
   @media (min-width: 998px) {
-    box-shadow: 0px 0px 10px #33313859;
+    box-shadow: 0px 0px 1rem #33313859;
     margin: 28px 1px;
     border-left: 3px solid #ff2f009c;
     transition: transform 1s;
@@ -2473,11 +2474,13 @@ const Ourstory = (
 const Ourfounder = (
   <>
     <div style={{ textAlign: "left" }}>
+    <div className="flex justify-center">
       <img
-        src={founder}
-        srcset=""
-        style={{ height: "18rem", borderRadius: "10%" }}
-      />
+          src={founder}
+          srcset=""
+          style={{ height: "35rem", borderRadius: "10%" }}
+        />
+    </div>
       <br />
       <br />
       <h5
@@ -2526,13 +2529,13 @@ const Partners = (
         <TrStyle>
           <img
             src={partner5}
-            style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
+            style={{ width: "95%", height: "20rem", borderRadius: "1rem" }}
           ></img>
         </TrStyle>
         <TrStyle>
           <img
             src={partner3}
-            style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
+            style={{ width: "95%", height: "20rem", borderRadius: "1rem" }}
           ></img>
         </TrStyle>
       </div>
@@ -2549,13 +2552,13 @@ const Partners = (
         <TrStyle>
           <img
             src={partner4}
-            style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
+            style={{ width: "95%", height: "20rem", borderRadius: "1rem" }}
           ></img>
         </TrStyle>
         <TrStyle>
           <img
             src={partner7}
-            style={{ width: "95%", height: "20rem", borderRadius: "10px" }}
+            style={{ width: "95%", height: "20rem", borderRadius: "1rem" }}
           ></img>
         </TrStyle>
       </div>
@@ -2570,7 +2573,7 @@ const Partners = (
         <TrStyle>
           <img
             src={partner2}
-            style={{ height: "30rem", borderRadius: "10px" }}
+            style={{ height: "30rem", borderRadius: "1rem" }}
           ></img>
         </TrStyle>
       </div>
@@ -2586,7 +2589,7 @@ const Partners = (
         <TrStyle>
           <img
             src={partner1}
-            style={{ height: "30rem", borderRadius: "10px" }}
+            style={{ height: "30rem", borderRadius: "1rem" }}
           ></img>
         </TrStyle>
       </div>
@@ -2728,37 +2731,42 @@ const Wet_waste_management = (
           wet waste composter and their feedback are:-
           <br />
           <br />
-          <img src={wet_waste_2} style={{ width: "45%" }} />
-          <br />
-          <Spanh3>Mrs. Madhu ji from sector 47 NOIDA.</Spanh3>
+          <div className="flex justify-center flex-col">
+            <img src={wet_waste_2} style={{ objectFit: "contain" }} />
+            <br />
+            <Spanh3>Mrs. Madhu ji from sector 47 NOIDA.</Spanh3>
+          </div>
           <br /> “Jaago Bharat NGO ka home composter with starting kit is very
           useful and easy to handle. It has two pot with 10-15 holes and two
           stands to keep under matkas. Very gud social initiative by Jaago
           Bharat and its volunteers. I purchased it immediately when I saw it
           and using to process our wet kitchen waste daily.”
         </p>
-        <br />
-        <img src={wet_waste_3} style={{ width: "45%" }} />
-        <p>
+          <div className="flex justify-center flex-col">
+          <br />
+          <img src={wet_waste_3} style={{ objectFit: "contain" }} />
           <Spanh3>Mrs Garima Tripathi ji from homes 121 Noida.</Spanh3>
+        </div>
+        <p>
           <br /> “We are preparing manure from wet waste in these composters for
           last one year. This is very easiest and simplest method of home
           Composting.
         </p>
-        <br />
-        <img src={wet_waste_4} style={{ width: "45%" }} />
-        <p>
+          <div className="flex justify-center flex-col">
+          <br />
+          <img src={wet_waste_4} style={{ objectFit: "contain" }} />
           <Spanh3>Mr Ashok Kumar from Greater Noida </Spanh3>
+        </div>
+        <p>
           <br />
           “This is the most easy way of home composting. You can start
           composting in your home as their is no smell or insects nearby it. I
           do wish more people would take it on- its so easy.”
         </p>
-        <img src={wet_waste_5} style={{ width: "45%" }} />
-        <p>
-          <br />
+        <div className="flex justify-center flex-col">
+        <img src={wet_waste_5} style={{ objectFit: "contain" }} />
           <Spanh3>Vermicomposting Inaugration at GRADS School</Spanh3>
-        </p>
+        </div>
       </p>
     </Changeddiv>
     <Changeddiv>
@@ -3052,21 +3060,21 @@ const SMILE = (
         <p>
           <ul>
             <li>
-              Aadi Kautilya coaching academy- Who helped in this project
+              <div style={{"fontWeight": "bold"}}>Aadi Kautilya Coaching Academy</div> - Who helped in this project
               financially as well as helped in selling the notebooks to their
               own students.
             </li>
             <li>
-              St Jude India Child care centre – Who provided the workspace and
+              <div style={{"fontWeight": "bold"}}>St Jude India Child Care Centre</div> – Who provided the workspace and
               workers to make the copies for the second phase.
             </li>
             <li>
-              Assisi Convent school sec 17 Noida – Provided workspace & workers
+              <div style={{"fontWeight": "bold"}}>Assisi Convent School Sec-17 Noida</div> – Provided workspace & workers
               for first phase , purchased copy from us and given paper waste in
               both phases.
             </li>
             <li>
-              GTBIT college theatre group- for giving us a space to put our
+              <div style={{"fontWeight": "bold"}}>GTBIT College Theatre Group</div> - For giving us a space to put our
               stall in their fest
             </li>
           </ul>
@@ -3434,6 +3442,22 @@ const Achievements = (
         had always tried to make the projects self sustainable
       </li>
     </ul>
+    <div className="flex flex-col">
+      <div className="flex flex-row justify-around h-40">
+        <img src={prefix + "achivements%2Fnews6.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
+        <img src={prefix + "achivements%2Fnews4.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
+      </div>
+      <div className="flex flex-row justify-around h-40">
+        <img src={prefix + "achivements%2Fnews1.jpeg" + postfix} style={{"paddingTop": "1rem"}}></img>
+        <img src={prefix + "achivements%2Fnews7.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
+      </div>
+      <div className="flex flex-col justify-around">
+        <img src={prefix + "achivements%2Fnews3.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
+        <img src={prefix + "achivements%2Fnews5.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
+        <img src={prefix + "achivements%2Fnews8.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
+        <img src={prefix + "achivements%2Fnews9.jpeg" + postfix} style={{"paddingTop": "1rem"}}></img>
+      </div>
+    </div>
   </Changeddiv>
 );
 export {
