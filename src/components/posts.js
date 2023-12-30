@@ -281,8 +281,6 @@ const Smile1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FSMILE.jpg?alt=media";
 const smile2 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FCalculation%20converting%20paper%20sheets%20to%20trees.jpg?alt=media&token=3503faaf-2f86-416d-a5a1-793845f277df";
-const smile3 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FIMG-20180325-WA0004.jpg?alt=media&token=fa9e1501-8eb6-4813-8d34-7d531528c8ad";
 const smile4 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FWhatsApp%20Image%202019-02-26%20at%2022.05.33.jpeg?alt=media&token=a254fb95-598a-41cd-a107-83368942e8d2";
 const smile5 =
