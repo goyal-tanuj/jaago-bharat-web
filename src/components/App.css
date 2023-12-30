@@ -354,3 +354,23 @@ button:focus {
 .h-40 {
   height: 40rem;
 }
+
+.story-title {
+  padding: 0 5%;
+}
+
+.story-para {
+  padding: 0 5%;
+  color: grey;
+}
+
+@media (max-width: 998px) {
+  .story-title {
+    padding: 0 2.5%;
+  }
+  
+  .story-para {
+    padding: 0 2.5%;
+    color: grey;
+  }
+}

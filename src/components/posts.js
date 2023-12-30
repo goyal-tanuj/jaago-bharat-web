@@ -300,29 +300,11 @@ const partner7 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
 const team1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam1.jpg?alt=media&token=65fc0cc8-3327-48f4-8d95-d352977c9d1b";
-const team2 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam2.jpg?alt=media&token=e09d6739-e3c9-4dd1-bcf6-e40e896f99a2";
-const team3 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam3.jpg?alt=media&token=ae518f06-a346-4ea7-b481-1a945b180c19";
-const team4 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
-
-const team5 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
-
-const team6 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam6.jpg?alt=media&token=59829b62-3ce1-4575-8c0a-e79f28f9a096";
-const team7 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
-
-// eslint-disable-next-line no-unused-vars
-const team8 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
 
 const team9 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam9.jpg?alt=media&token=5ac330ac-50dc-4b3a-bdc0-cbd15e6403e6";
 const team10 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam10.jpg?alt=media&token=54e8f066-162f-4b19-bb60-2eee8fb6f23c";
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Faman.jpg?alt=media&token=54e8f066-162f-4b19-bb60-2eee8fb6f23c";
 const team11 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam11.jpg?alt=media&token=6b398622-1448-452a-bee6-e525b957d91f";
 const team12 =
@@ -2005,7 +1987,8 @@ const Overview = (
     <h1>This will be updated shortly!</h1>
   </div>
 );
-
+const vikram = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2FVikram%20Negi.jpg?alt=media"
+const saksham = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2FSaksham Sangal.jpg?alt=media"
 const Ourteam = (
   <div style={{ textAlign: "left" }}>
     <Changeddiv>
@@ -2015,6 +1998,8 @@ const Ourteam = (
       possible, as long as communities are in the driver’s seat of change.
     </Changeddiv>
     <Changeddiv>
+    <h1 className="story-title">Our Founding Members:</h1>
+    <p className="story-para">Without them this journey would not have begun</p>
       <TdStyle>
         <TrStyle>
           <img
@@ -2030,7 +2015,7 @@ const Ourteam = (
           <br />
           <Spanh3>Team founder</Spanh3>
           <br />
-          <Spanh4> Prashasti Tripathi</Spanh4>
+          <Spanh4>Prashasti Tripathi</Spanh4>
           <br />
           <a href="#">
             <TiSocialLinkedinCircular className="iconstyle" />
@@ -2040,7 +2025,7 @@ const Ourteam = (
         </TrStyle>
         <TrStyle>
           <img
-            src={team6}
+            src={vikram}
             style={{
               height: "15rem",
               width: "15rem",
@@ -2052,7 +2037,7 @@ const Ourteam = (
           <br />
           <Spanh3>Founding Member </Spanh3>
           <br />
-          <Spanh4> Vikram negi </Spanh4>
+          <Spanh4> Vikram Negi</Spanh4>
           <br />
           <a href="#">
             <TiSocialLinkedinCircular className="iconstyle" />
@@ -2063,7 +2048,7 @@ const Ourteam = (
 
         <TrStyle>
           <img
-            src={team7}
+            src={saksham}
             style={{
               height: "15rem",
               width: "15rem",
@@ -2075,7 +2060,7 @@ const Ourteam = (
           <br />
           <Spanh3>Founding Member </Spanh3>
           <br />
-          <Spanh4> Saksham sangal </Spanh4>
+          <Spanh4>Saksham Sangal</Spanh4>
           <br />
           <a href="#">
             <TiSocialLinkedinCircular className="iconstyle" />
@@ -2083,145 +2068,10 @@ const Ourteam = (
           &nbsp;&nbsp;
           <br />
         </TrStyle>
-
-        <TrStyle>
-          <img
-            src={team1}
-            style={{
-              height: "15rem",
-              width: "15rem",
-              borderRadius: "50%",
-              border: "dashed 2px black",
-              padding: "12px",
-            }}
-          />
-          <br />
-          <Spanh3>Team Leader of reasource Management Team</Spanh3>
-          <br />
-          <Spanh4>Urmi Maitra</Spanh4>
-          <br />
-          <a href="https://www.linkedin.com/in/urmi-maitra-abb3011b5/">
-            <TiSocialLinkedinCircular className="iconstyle" />
-          </a>{" "}
-          &nbsp;&nbsp;
-          <br />
-        </TrStyle>
-
-        <TrStyle>
-          <img
-            src={team2}
-            style={{
-              height: "15rem",
-              width: "15rem",
-              borderRadius: "50%",
-              border: "dashed 2px black",
-              padding: "12px",
-            }}
-          />
-          <br />
-          <Spanh3>Team Leader</Spanh3>
-          <br />
-          <Spanh4>Shivani Jalotia </Spanh4>
-          <br />
-          <a href=" https://www.linkedin.com/in/shivani-jalotia-a5098498/">
-            <TiSocialLinkedinCircular className="iconstyle" />
-          </a>{" "}
-          &nbsp;&nbsp;
-          <br />
-        </TrStyle>
-
-        <TrStyle>
-          <img
-            src={team3}
-            style={{
-              height: "15rem",
-              width: "15rem",
-              borderRadius: "50%",
-              border: "dashed 2px black",
-              padding: "12px",
-            }}
-          />
-          <br />
-          <Spanh3>Team Leader</Spanh3>
-          <br />
-          <Spanh4>Chirag Batra</Spanh4>
-          <br />
-          <a href="https://www.linkedin.com/in/chiragbatra18/">
-            <TiSocialLinkedinCircular className="iconstyle" />
-          </a>{" "}
-          &nbsp;&nbsp;
-          <br />
-        </TrStyle>
-
-        <TrStyle>
-          <img
-            src={team4}
-            style={{
-              height: "15rem",
-              width: "15rem",
-              borderRadius: "50%",
-              border: "dashed 2px black",
-              padding: "12px",
-            }}
-          />
-          <br />
-          <Spanh3>HR Associate</Spanh3>
-          <br />
-          <Spanh4>Abhinav Priyadarshi </Spanh4>
-          <br />
-          <a href="https://www.linkedin.com/in/abhinav-priyadarshi-798408173/">
-            <TiSocialLinkedinCircular className="iconstyle" />
-          </a>{" "}
-          &nbsp;&nbsp;
-          <br />
-        </TrStyle>
-
-        <TrStyle>
-          <img
-            src={team5}
-            style={{
-              height: "15rem",
-              width: "15rem",
-              borderRadius: "50%",
-              border: "dashed 2px black",
-              padding: "12px",
-            }}
-          />
-          <br />
-          <Spanh3>HR Associate</Spanh3>
-          <br />
-          <Spanh4>Neetu Keshwani </Spanh4>
-          <br />
-          <a href="https://www.linkedin.com/in/neetu-keswani-58b9175/">
-            <TiSocialLinkedinCircular className="iconstyle" />
-          </a>{" "}
-          &nbsp;&nbsp;
-          <br />
-        </TrStyle>
-
-        <TrStyle>
-          <img
-            src={team6}
-            style={{
-              height: "15rem",
-              width: "15rem",
-              borderRadius: "50%",
-              border: "dashed 2px black",
-              padding: "12px",
-            }}
-          />
-          <br />
-          <Spanh3>HR Associate</Spanh3>
-          <br />
-          <Spanh4> Akash Arya </Spanh4>
-          <br />
-          <a href="https://www.linkedin.com/in/akash1081/">
-            <TiSocialLinkedinCircular className="iconstyle" />
-          </a>{" "}
-          &nbsp;&nbsp;
-          <br />
-        </TrStyle>
-
+      </TdStyle>
+    <h1 className="story-title">Our Prominent Ex- Members:</h1>
+    <p className="story-para">Without them this journey would not have begun</p>
+      <TdStyle>
         <TrStyle>
           <img
             src={team14}
@@ -2353,6 +2203,147 @@ const Ourteam = (
           <Spanh4> Tabassum Jahan</Spanh4>
           <br />
           <a href="#">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+        </TdStyle>
+        <h1 className="story-title">Our Current Team Members:</h1>
+        <p className="story-para">Without them this journey would not have begun</p>
+        <TdStyle>
+        <TrStyle>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Furmi.jpeg?alt=media"
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Team Leader</Spanh3>
+          <br />
+          <Spanh4>Urmi Maitra</Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/urmi-maitra-abb3011b5/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={"https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fshivani.jpg?alt=media&token=e943b98b-e4e5-4ccc-b47f-281b00a691b4"}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Team Leader</Spanh3>
+          <br />
+          <Spanh4>Shivani Jalotia </Spanh4>
+          <br />
+          <a href=" https://www.linkedin.com/in/shivani-jalotia-a5098498/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={"https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fchirag.jpg?alt=media"}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>Team Leader</Spanh3>
+          <br />
+          <Spanh4>Chirag Batra</Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/chiragbatra18/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={"https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fabhinav.jpg?alt=media"}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>HR Associate</Spanh3>
+          <br />
+          <Spanh4>Abhinav Priyadarshi </Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/abhinav-priyadarshi-798408173/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={"https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fdefault.jpg?alt=media"}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>HR Associate</Spanh3>
+          <br />
+          <Spanh4>Neetu Keshwani </Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/neetu-keswani-58b9175/">
+            <TiSocialLinkedinCircular className="iconstyle" />
+          </a>{" "}
+          &nbsp;&nbsp;
+          <br />
+        </TrStyle>
+
+        <TrStyle>
+          <img
+            src={"https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fakash.jpg?alt=media"}
+            style={{
+              height: "15rem",
+              width: "15rem",
+              borderRadius: "50%",
+              border: "dashed 2px black",
+              padding: "12px",
+            }}
+          />
+          <br />
+          <Spanh3>HR Associate</Spanh3>
+          <br />
+          <Spanh4> Akash Arya </Spanh4>
+          <br />
+          <a href="https://www.linkedin.com/in/akash1081/">
             <TiSocialLinkedinCircular className="iconstyle" />
           </a>{" "}
           &nbsp;&nbsp;
