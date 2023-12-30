@@ -3,7 +3,7 @@ import React from "react";
 import logo from "../images/misc/logo-white.png";
 import { Link } from "react-router-dom";
 import Form from "./form";
-
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaLinkedin } from "react-icons/fa";
 import "./footer.css";
 export default function Footer() {
   return (
@@ -24,7 +24,9 @@ export default function Footer() {
             <hr />
             <ul>
               <li>Akash Arya - 9582071411</li>
-              <li>Abhinav Priyadarshi - 9534563317</li>
+              <li style={{ whiteSpace: "nowrap" }}>
+                Abhinav Priyadarshi - 9534563317
+              </li>
               <li>Neetu Keswani- 9811861985</li>
             </ul>
           </div>
@@ -43,13 +45,35 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="touch" style={{background:'white', padding:'1.5rem', borderRadius:'1rem'}}> 
-            <h2 className="fheading" style={{color:'black'}}>Get Involved</h2>
+          <div
+            className="touch"
+            style={{
+              background: "white",
+              padding: "1.5rem",
+              borderRadius: "1rem",
+            }}
+          >
+            <h2 className="fheading" style={{ color: "black" }}>
+              Get Involved
+            </h2>
             <hr />
             <Form />
           </div>
         </div>
         <div className="links">
+          <a href="https://www.facebook.com/JaagoBharatTrust/" target="_blank" rel="noreferrer">
+          <FaFacebook color="#1877f2" className="iconf"/>
+          </a> <a href="https://www.instagram.com/jaagobharattrust/" target="_blank" rel="noreferrer">
+          <FaInstagram color="#c13584" className="iconf"/>
+          </a> <a href="https://twitter.com/J_B_trust?s=08" target="_blank" rel="noreferrer">
+          <FaTwitter color="#1da1f2" className="iconf"/>
+          </a> <a href="https://www.youtube.com/c/JAAGOBHARATTRUST" target="_blank" rel="noreferrer">
+          <FaYoutube color="#ff0000" className="iconf"/>
+          </a> <a href="https://www.linkedin.com/company/jaago-bharat-trust" target="_blank" rel="noreferrer">
+          <FaLinkedin color="#0a66c2" className="iconf"/>
+          </a>
+        </div>
+        <div className="endf">
           <h2>© All Rights Reserved Jaago Bharat Foundation</h2>
         </div>
       </div>
