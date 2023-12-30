@@ -275,7 +275,8 @@ const wet_waste_4 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwetwaste%2Fwet_waste_5.png?alt=media";
 const wet_waste_5 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwetwaste%2Fwet_waste_6.png?alt=media";
-const Water_conservation_1 =
+const wet_waste_6="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwetwaste%2FWhatsApp%20Image%202023-05-18%20at%2022.21.28.jpeg?alt=media&token=f09f75b7-eafa-4bed-8613-d96fedaf6a80";
+  const Water_conservation_1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2FWater_conservation_1.jpg?alt=media";
 const Smile1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FSMILE.jpg?alt=media";
@@ -300,7 +301,11 @@ const partner5 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage5.png?alt=media";
 const partner7 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage7.png?alt=media";
-const team1 =
+const partner8=
+"https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2FWhatsApp%20Image%202023-12-30%20at%209.32.57%20PM.jpeg?alt=media&token=a7996a9d-a5cc-46d0-b6b5-04540cf02511";
+const partner9=
+"https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2FWhatsApp%20Image%202023-12-30%20at%209.32.58%20PM%20(1).jpeg?alt=media&token=f0e63e9b-0ceb-4a2a-9bdb-452ec062a016";
+  const team1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam1.jpg?alt=media&token=65fc0cc8-3327-48f4-8d95-d352977c9d1b";
 const team2 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam2.jpg?alt=media&token=e09d6739-e3c9-4dd1-bcf6-e40e896f99a2";
@@ -331,9 +336,11 @@ const team12 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam12.jpg?alt=media&token=fdd18131-402f-4588-973f-bca0cf7572a3";
 const team13 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam13.jpg?alt=media&token=810f2677-7611-42b0-b4e4-9041f93355c8";
-const team14 =
-  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam14.jpg?alt=media&token=c2725321-7bc6-46a6-b53d-fa38439d3340";
-
+const team14 ="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fteam%2Fteam14.jpg?alt=media&token=c2725321-7bc6-46a6-b53d-fa38439d3340";
+const Water_conservation_2="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2FPhoto%20from%20Akash.jpg?alt=media&token=ab888c4c-ff75-4b69-99e8-64087d031b9f";
+const Water_conservation_3="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2FWhatsApp%20Image%202022-02-06%20at%2019.32.03.jpeg?alt=media&token=feaba683-9024-40ca-a9bd-331a6aa5a76c";
+const Water_conservation_4="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2FStages%20of%20the%20project.jpg?alt=media&token=3ac23dfe-816e-4182-83c0-2db95f696b57";
+const Water_conservation_5="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2F1)%20Designing.jpeg?alt=media&token=90c24717-50db-4480-9757-18aa2fb0689e";
 const TdStyle = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
@@ -2606,7 +2613,30 @@ const Partners = (
         </TrStyle>
       </div>
     </Changeddiv>
+    <Changeddiv>
+      <Changedh2>Aadi Kautilya</Changedh2>
+      <p>
+      Aadi kautilya coaching academy, has always supported our vision & projects
+       by helping in planning, providing capital and space for our varied initiatives. <br/>
+       St jude India Child care centre is our trusted partener whom we have collaborated since 2019.
+      </p>
+      <div className="partnerImgs">
+        <TrStyle>
+          <img
+            src={partner8}
+            style={{ width: "95%", height: "20rem", borderRadius: "1rem" }}
+          ></img>
+        </TrStyle>
+        <TrStyle>
+          <img
+            src={partner9}
+            style={{ width: "95%", height: "20rem", borderRadius: "1rem" }}
+          ></img>
+        </TrStyle>
+      </div>
+    </Changeddiv>
   </div>
+  
 );
 // to do
 const Wet_waste_management = (
@@ -2775,10 +2805,12 @@ const Wet_waste_management = (
           composting in your home as their is no smell or insects nearby it. I
           do wish more people would take it on- its so easy.”
         </p>
-        <div className="flex justify-center flex-col">
-        <img src={wet_waste_5} style={{ objectFit: "contain" }} />
-          <Spanh3>Vermicomposting Inaugration at GRADS School</Spanh3>
-        </div>
+        <div className="changedisplay">
+          <p>
+        <Spanh3>Vermicomposting Inaugration at GRADS School</Spanh3>
+        <img src={wet_waste_5} style={{ width:"75%"}} /></p>
+          <p>
+        <img src={wet_waste_6} style={{width:"75%"}} /></p></div>
       </p>
     </Changeddiv>
     <Changeddiv>
@@ -2821,6 +2853,7 @@ const WaterConservation = (
       <Changeddiv>
         <Changedh2>Report on Rainwater Harvesting Project: Noida</Changedh2>
         <Changedh2>About the Project:</Changedh2>
+        <div className="changedisplay">
         <p>
           <ul>
             <li>
@@ -2841,6 +2874,7 @@ const WaterConservation = (
             </li>
           </ul>
         </p>
+        <img src={Water_conservation_1} style={{ width: "25%" }} /></div>
       </Changeddiv>
       <Changeddiv>
         <Changedh2>What is the project about?</Changedh2>
@@ -2882,8 +2916,8 @@ const WaterConservation = (
                 depleting groundwater levels.
               </li>
             </ul>
-          </p>
-          <img className="widthclass" src={Water_conservation_1} />
+          </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img className="widthclass imagedesign" src={Water_conservation_4} style={{width:"40%"}} />
         </div>
       </Changeddiv>
       <Changeddiv>
@@ -2927,6 +2961,21 @@ const WaterConservation = (
         </p>
       </Changeddiv>
     </div>
+    <Changeddiv>
+        <p>
+          <TdStyle>
+            <TrStyle>
+              <img className="imagedesign" src={Water_conservation_5} style={{ width: "95%" ,height:"25rem" }} />
+            </TrStyle>
+            <TrStyle>
+              <img className="imagedesign" src={Water_conservation_3} style={{ width: "95%" ,height:"25rem"}} />
+            </TrStyle>
+            <TrStyle>
+              <img className="imagedesign" src={Water_conservation_2} style={{ width: "95%" ,height:"25rem"}} />
+            </TrStyle>
+          </TdStyle>
+        </p>
+      </Changeddiv>
   </>
 );
 const SMILE = (

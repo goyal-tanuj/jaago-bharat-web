@@ -122,18 +122,6 @@
   color: white;
 }
 
-.carousel.carousel-slider .control-arrow {
-  display: block !important;
-}
-
-.carousel-inner {
-  height: 50rem;
-}
-
-.carousel-item {
-  translate: 0 -15rem;
-}
-
 .four {
   background-image: url("../images/misc/trees.jpg");
   background-size: cover;
@@ -279,19 +267,6 @@ hr {
     padding: .5rem 2rem;
   }
 
-  .carousel-inner {
-    height: 25rem;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .carousel-item {
-    translate: 0;
-  }
-
-  .carousel {
-    padding-top: 2.5rem;
-  }
 } 
 
 .imagedesign{  

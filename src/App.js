@@ -33,7 +33,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Toaster />
+      {/* <Toaster /> */}
       <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>
