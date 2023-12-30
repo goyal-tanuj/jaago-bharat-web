@@ -276,8 +276,17 @@ const wet_waste_5 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwetwaste%2Fwet_waste_6.png?alt=media";
 const Water_conservation_1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2FWater_conservation_1.jpg?alt=media";
-const Smile =
+const Smile1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FSMILE.jpg?alt=media";
+const smile2 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FCalculation%20converting%20paper%20sheets%20to%20trees.jpg?alt=media&token=3503faaf-2f86-416d-a5a1-793845f277df";
+const smile3 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FIMG-20180325-WA0004.jpg?alt=media&token=fa9e1501-8eb6-4813-8d34-7d531528c8ad";
+const smile4 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2FWhatsApp%20Image%202019-02-26%20at%2022.05.33.jpeg?alt=media&token=a254fb95-598a-41cd-a107-83368942e8d2";
+const smile5 =
+  "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fsmile%2F7bd8b3eb-3266-4322-9b09-baade7bacb00.jpg?alt=media&token=e17a24c5-f23a-4a32-a1cd-ed5c153970cc";
+
 const partner1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fpartners%2Fimage1.png?alt=media";
 const partner2 =
@@ -458,8 +467,9 @@ const Gallery = (
           visited an orphanage in sector 12, Noida and spent several hours,
           dancing, singing with the kids. They taught kids about the history and
           relevance of Republic Day. They also told them the importance of
-          cleanliness and hygiene in life. It was a real pleasure for them to meet
-          those kids. The feeling and the satisfaction cannot be put into words.
+          cleanliness and hygiene in life. It was a real pleasure for them to
+          meet those kids. The feeling and the satisfaction cannot be put into
+          words.
         </p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <img
@@ -471,12 +481,12 @@ const Gallery = (
       <br />
       <br />
       <p>
-          Team Jaago Bharat participated in the tree plantation drive in village
-          Khaipur near Noida extension. It was a great experience for all of us.
-          Also interacted with the students of Rainbow public school and planted
-          trees in the school premises. All the students participated in the
-          plantation with enthusiasm. We told them about the importance of
-          planting trees and preserving them and had a great time with the kids.
+        Team Jaago Bharat participated in the tree plantation drive in village
+        Khaipur near Noida extension. It was a great experience for all of us.
+        Also interacted with the students of Rainbow public school and planted
+        trees in the school premises. All the students participated in the
+        plantation with enthusiasm. We told them about the importance of
+        planting trees and preserving them and had a great time with the kids.
       </p>
       <br />
       <br />
@@ -721,7 +731,10 @@ const Gallery = (
       <br />
       <br />
       <p>
-      Team Jaago Bharat organized a fund-raising football tournament to help the flood affected people of Kerala. We felt blessed to stand with solidarity with them in their hard times. In total 6 teams participated in the tournament and the money raised was send to Kerala.
+        Team Jaago Bharat organized a fund-raising football tournament to help
+        the flood affected people of Kerala. We felt blessed to stand with
+        solidarity with them in their hard times. In total 6 teams participated
+        in the tournament and the money raised was send to Kerala.
       </p>
       <br />
       <TdStylesec>
@@ -854,21 +867,21 @@ const Gallery = (
         cleaning a part of wetland in Surajpur, Greater Noida.
       </p>
       <TdStylesec>
-      <TrStyle>
+        <TrStyle>
           <img
             className="imagedesign"
             src={gallery_19_1}
             style={{ width: "100%", height: "25rem" }}
           />
         </TrStyle>
-      <TrStyle>
+        <TrStyle>
           <img
             className="imagedesign"
             src={gallery_19_7}
             style={{ width: "100%", height: "25rem" }}
           />
         </TrStyle>
-        </TdStylesec>
+      </TdStylesec>
       <br />
     </Changeddiv>
     <Changeddiv>
@@ -900,16 +913,15 @@ const Gallery = (
         </TrStyle>
       </TdStylesec>
       <br />
-        <p>
-          In continuation of Mission 2020, Team Jaago Bharat along with team
-          SAFE planted trees at Ch. Charan Singh Kushti academy, Bamheta,
-          Ghaziabad. The participants included members of Jaago Bharat,
-          employees of Cognizant, village Pradhaan, and others. The event also
-          included interesting interactive session where everyone shared their
-          concern about the environment and discussed the possible steps to
-          preserve it.
-        </p>
-        <TdStylesec>
+      <p>
+        In continuation of Mission 2020, Team Jaago Bharat along with team SAFE
+        planted trees at Ch. Charan Singh Kushti academy, Bamheta, Ghaziabad.
+        The participants included members of Jaago Bharat, employees of
+        Cognizant, village Pradhaan, and others. The event also included
+        interesting interactive session where everyone shared their concern
+        about the environment and discussed the possible steps to preserve it.
+      </p>
+      <TdStylesec>
         <TrStyle>
           <img
             className="imagedesign"
@@ -919,18 +931,18 @@ const Gallery = (
         </TrStyle>
       </TdStylesec>
       <br />
-        <p>
-          On National Science Day - 28th February, Team Jaago Bharat in
-          collaboration with Team SAFE organized an event at Grads School,
-          Greater Noida to spread awareness about wetlands. The event was
-          attended by the students, teachers and staff of the school. The event
-          included interesting activities like interactive sessions with the
-          students from grade 1 to 8. These sessions focused on the importance,
-          functions and problems related with wetlands. The team also attended
-          the science fair and got to know about different science
-          projects/models prepared by the students.
-        </p>
-        <TdStylesec>
+      <p>
+        On National Science Day - 28th February, Team Jaago Bharat in
+        collaboration with Team SAFE organized an event at Grads School, Greater
+        Noida to spread awareness about wetlands. The event was attended by the
+        students, teachers and staff of the school. The event included
+        interesting activities like interactive sessions with the students from
+        grade 1 to 8. These sessions focused on the importance, functions and
+        problems related with wetlands. The team also attended the science fair
+        and got to know about different science projects/models prepared by the
+        students.
+      </p>
+      <TdStylesec>
         <TrStyle>
           <img
             className="imagedesign"
@@ -997,7 +1009,7 @@ const Gallery = (
         day-to-day life.
       </p>
       <TdStylesec>
-      <TrStyle>
+        <TrStyle>
           <img
             className="imagedesign"
             src={gallery_20_12}
@@ -1045,13 +1057,13 @@ const Gallery = (
             src={gallery_20_13}
             style={{ width: "100%", height: "25rem" }}
           />
-        <TrStyle>
-          <img
-            className="imagedesign"
-            src={gallery_20_7}
-            style={{ width: "100%", height: "25rem" }}
-          />
-        </TrStyle>
+          <TrStyle>
+            <img
+              className="imagedesign"
+              src={gallery_20_7}
+              style={{ width: "100%", height: "25rem" }}
+            />
+          </TrStyle>
         </TrStyle>
       </TdStylesec>
     </Changeddiv>
@@ -2722,44 +2734,59 @@ const Wet_waste_management = (
     </Changeddiv>
     <Changeddiv>
       <Changedh2>Feedback from people</Changedh2>
-      <p>
-        <p>
-          More than 12 families across Noida, Greater Noida region are using our
+
+      More than 12 families across Noida, Greater Noida region are using our
           wet waste composter and their feedback are:-
+      <TdStylesec>
+        <TrStyle><img
+          className="imagedesign"
+            src={wet_waste_2}
+            style={{ width: "100%", height: "25rem" }}
+          />
           <br />
-          <br />
-          <img src={wet_waste_2} style={{ width: "45%" }} />
-          <br />
+          <br/>
           <Spanh3>Mrs. Madhu ji from sector 47 NOIDA.</Spanh3>
           <br /> “Jaago Bharat NGO ka home composter with starting kit is very
           useful and easy to handle. It has two pot with 10-15 holes and two
           stands to keep under matkas. Very gud social initiative by Jaago
           Bharat and its volunteers. I purchased it immediately when I saw it
           and using to process our wet kitchen waste daily.”
-        </p>
-        <br />
-        <img src={wet_waste_3} style={{ width: "45%" }} />
-        <p>
-          <Spanh3>Mrs Garima Tripathi ji from homes 121 Noida.</Spanh3>
-          <br /> “We are preparing manure from wet waste in these composters for
-          last one year. This is very easiest and simplest method of home
-          Composting.
-        </p>
-        <br />
-        <img src={wet_waste_4} style={{ width: "45%" }} />
-        <p>
-          <Spanh3>Mr Ashok Kumar from Greater Noida </Spanh3>
+        </TrStyle>
+        <TrStyle><img
+         className="imagedesign"
+          src={wet_waste_3}
+          style={{ width: "100%", height: "25rem" }}
+          />
           <br />
-          “This is the most easy way of home composting. You can start
-          composting in your home as their is no smell or insects nearby it. I
+          <br />
+          <p>
+            <Spanh3>Mrs Garima Tripathi ji from homes 121 Noida.</Spanh3>
+            <br /> “We are preparing manure from wet waste in these composters for
+            last one year. This is very easiest and simplest method of home
+            Composting.
+          </p>
+        </TrStyle>
+      </TdStylesec>
+      <TdStylesec>
+        <TrStyle><img
+          className="imagedesign"
+            src={wet_waste_4}
+            style={{ width: "100%", height: "25rem" }}
+          /><br />
+          <br /><p>
+          “This is the most easy way of home composting. You can start<br/>
+          composting in your home as their is <br/>no smell or insects nearby it. I
           do wish more people would take it on- its so easy.”
         </p>
-        <img src={wet_waste_5} style={{ width: "45%" }} />
-        <p>
+          </TrStyle>
+          <TrStyle><img
+          className="imagedesign"
+          src={wet_waste_5}
+          style={{ width: "100%", height: "25rem" }}/><br />
           <br />
           <Spanh3>Vermicomposting Inaugration at GRADS School</Spanh3>
-        </p>
-      </p>
+        </TrStyle>
+      </TdStylesec>
     </Changeddiv>
     <Changeddiv>
       <Changedh2>Collaboration</Changedh2>
@@ -2959,46 +2986,62 @@ const SMILE = (
             </Spanh4>
             <br />
           </p>
-          <img className="widthclass" src={Smile} />
+          <img className="widthclass" src={Smile1} />
         </div>
       </Changeddiv>
       <Changeddiv>
         <Changedh2>Why we need this</Changedh2>
-        <p>
-          Project S.M.I.L.E caters as a single solution to this three-fold
-          problem. We generate employment and empower the unskilled and lesser
-          privileged sections of our society. This not only makes them
-          financially independent, but also increases their employability. The
-          notebooks are made from recycled paper, thus directly reducing the
-          amount of paper that is wasted. Some of the copies that are made and
-          the old books that we get during collection are given to the slum
-          children.
-        </p>
+        <div className="changedisplay">
+          <img
+            className="imagedesign"
+            src={smile2}
+            style={{ width: "100%", height: "25rem" }}
+          />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p>
+            Project S.M.I.L.E caters as a single solution to this three-fold
+            problem. We generate employment and empower the unskilled and lesser
+            privileged sections of our society. This not only makes them
+            financially independent, but also increases their employability. The
+            notebooks are made from recycled paper, thus directly reducing the
+            amount of paper that is wasted. Some of the copies that are made and
+            the old books that we get during collection are given to the slum
+            children.
+          </p>
+        </div>
       </Changeddiv>
       <Changeddiv>
         <Changedh2>What problems are we solving ?</Changedh2>
-        <p>
-          <ul>
-            <li>
-              <Spanh3>PAPER WASTE :</Spanh3>In India, annually, more than
-              9,000,000 tonnes of paper is dumped in landfills while only
-              3,000,000 gets recycled, leading to increased deforestation.
-            </li>
-            <li>
-              <Spanh3>Unemployability & unskilled labour :</Spanh3>According to
-              a report published by the Centre for Monitoring Indian Economy
-              (CMIE), India has 53 million unemployed people as of Dec 202 also
-              according to the latest India Skills Report (ISR), not even half
-              the Indian graduates are employable as they lack the skills that
-              are in demand today. A mere 45 percent of 2021 graduates were
-              found to be job-ready.
-            </li>
-            <li>
-              <Spanh3>Lack of will & resources to provide education :</Spanh3>
-              Lack of will & resources to provide education
-            </li>
-          </ul>
-        </p>
+        <div className="changedisplay">
+          <p>
+            <ul>
+              <li>
+                <Spanh3>PAPER WASTE :</Spanh3>In India, annually, more than
+                9,000,000 tonnes of paper is dumped in landfills while only
+                3,000,000 gets recycled, leading to increased deforestation.
+              </li>
+              <li>
+                <Spanh3>Unemployability & unskilled labour :</Spanh3>According
+                to a report published by the Centre for Monitoring Indian
+                Economy (CMIE), India has 53 million unemployed people as of Dec
+                202 also according to the latest India Skills Report (ISR), not
+                even half the Indian graduates are employable as they lack the
+                skills that are in demand today. A mere 45 percent of 2021
+                graduates were found to be job-ready.
+              </li>
+              <li>
+                <Spanh3>Lack of will & resources to provide education :</Spanh3>
+                Lack of will & resources to provide education
+              </li>
+            </ul>
+          </p>{" "}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img
+            className="imagedesign"
+            src={smile4}
+            style={{ width: "100%", height: "25rem" }}
+          />
+        </div>
       </Changeddiv>
       <Changeddiv>
         <Changedh2>What we get after installing or doing this</Changedh2>
@@ -3073,8 +3116,7 @@ const SMILE = (
         </p>
       </Changeddiv>
       <Changeddiv>
-        <Changedh2>Impact of project in numbers</Changedh2>
-        <p>
+        <Changedh2>Impact of project in numbers</Changedh2><p>
           <br />
           <dl style={{ listStyle: "none" }}>
             <dt>
@@ -3117,6 +3159,14 @@ const SMILE = (
             </dd>
           </dl>
         </p>
+
+      </Changeddiv>
+      <Changeddiv>
+            <img
+              className="imagedesign"
+              src={smile5}
+              style={{ width: "100%" }}
+            />
       </Changeddiv>
     </div>
   </>
@@ -3390,34 +3440,34 @@ const Achievements = (
     <Spanh3> Some of our major achievements are:-</Spanh3>
     <ul>
       <li>
-        There have been many articles in newspapers about the customer
-        response that are using our composter & also in magazines about our team
-        initiative.
-     </li>
-      <li>
-        Our composter has been awarded second prize in the Regional
-        science & technology exhibition by the UP govt.
-      </li>
-      <li>
-         We have helped many different organisations and NGOs in their
-        events and projects.
-      </li>
-      <li>
-         There have been many articles in newspapers about the customer
-        response that are using our composter & also in magazines about our team
+        There have been many articles in newspapers about the customer response
+        that are using our composter & also in magazines about our team
         initiative.
       </li>
       <li>
-         Apart from society & urban people we have Also taken some
-        initiatives to help Villages and rural people like providing the books
-        to the underprivileged students at free of cost and also conducted some
-        tree plantation drives in the rural side.
+        Our composter has been awarded second prize in the Regional science &
+        technology exhibition by the UP govt.
       </li>
       <li>
-         At the time of crisis our NGO is always ready to provide support
-        like in 2018 we have conducted a football tournament to raise the funds
-        for the Kerala flood victims and also now we have provided Ration kit to
-        migrant workers.
+        We have helped many different organisations and NGOs in their events and
+        projects.
+      </li>
+      <li>
+        There have been many articles in newspapers about the customer response
+        that are using our composter & also in magazines about our team
+        initiative.
+      </li>
+      <li>
+        Apart from society & urban people we have Also taken some initiatives to
+        help Villages and rural people like providing the books to the
+        underprivileged students at free of cost and also conducted some tree
+        plantation drives in the rural side.
+      </li>
+      <li>
+        At the time of crisis our NGO is always ready to provide support like in
+        2018 we have conducted a football tournament to raise the funds for the
+        Kerala flood victims and also now we have provided Ration kit to migrant
+        workers.
       </li>
       <li>
         To support the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) & recently
