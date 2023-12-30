@@ -103,9 +103,6 @@
     display: block;
     padding: 2rem 1rem;
   }
-  .two .below .box {
-    margin: 3em 0rem;
-  }
   .three .blogs {
     display: block;
     padding: 2rem 1rem;
@@ -332,4 +329,28 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.h-40 {
+  height: 40rem;
 }
