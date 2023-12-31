@@ -11,7 +11,7 @@ export default async function Main(id, setState) {
 
 export async function homeList(num, setList) {
   const out = [];
-  const list = [2, 4, 5];
+  // const list = [2, 4, 5];
   for (let i = 0; i < num; i++) {
     const post = await getPost(i);
     post.link = "/blog/" + i;
