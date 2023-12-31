@@ -122,6 +122,11 @@ export default function Navbar() {
                       Project S.M.I.L.E
                     </Link>
                   </li>
+                  <li>
+                    <Link onClick={linkfunction} to="/Vastraay">
+                      Project Vastraay
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </li>
