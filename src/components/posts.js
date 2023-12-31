@@ -321,6 +321,9 @@ const Water_conservation_2="https://firebasestorage.googleapis.com/v0/b/jaagobha
 const Water_conservation_3="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2FWhatsApp%20Image%202022-02-06%20at%2019.32.03.jpeg?alt=media&token=feaba683-9024-40ca-a9bd-331a6aa5a76c";
 const Water_conservation_4="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2FStages%20of%20the%20project.jpg?alt=media&token=3ac23dfe-816e-4182-83c0-2db95f696b57";
 const Water_conservation_5="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fwaterconservation%2F1)%20Designing.jpeg?alt=media&token=90c24717-50db-4480-9757-18aa2fb0689e";
+const vastraay_1="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fvastraay%2FSewa%20mela%20edited.jpeg?alt=media&token=2036216f-97ab-4106-acc8-f45013cc4c02";
+const vastraay_2="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fvastraay%2Fvastraay%20mask%20making.jpeg?alt=media&token=6f61aa10-adef-4576-b523-c8af4937b196";
+const vastraay_3="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fprojects%2Fvastraay%2FHandbag%20For%20Vastraay(1).jpeg?alt=media&token=83edea94-eafa-4dd4-a1dd-4da4bb93d571";
 const TdStyle = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
@@ -3486,6 +3489,80 @@ const Achievements = (
     <AchivementFormat title="2019- Article Published in Assisi convent School Annual magazine" image="a2019-1.jpg" />
     <AchivementFormat title="2018-  Article published on Samvada Magazine" image="a2018-1.jpg" />
   </div>
+);
+const Ecobrick = (
+  <>
+    <div style={{ textAlign: "left" }}>
+    <Changeddiv>
+  <Changedh2>Project Vastraay</Changedh2>
+        <p>
+          All households, once or twice a year, segregate the old clothes and discards
+          them. As per studies conducted, 73 per cent of all such clothes end up in
+          landfill for various reasons such as lack of collection systems and ineffective
+          redistribution. In a survey conducted in 2017, among young people aged
+          between 20-30 years, it was found that 68% of the people buy new clothes
+          every month and impulsive buying was the main reason behind their
+          purchasing intention. Also, when asked, the majority of them responded that
+          they would like to donate the discarded clothes to a NGO or any other
+          charitable cause. But in the absence of any professional help, awareness and
+          knowledge in this front, people end up dumping or reselling these clothes. It is
+          estimated that with the current pace of urban waste being generated, India
+          will need a fresh landfill of the same size as that of its capital, New Delhi.
+          Further, reselling these clothes benefits only the traders and does nothing to
+          improve the economic health of the needy. However, donating such clothes to
+          our organization will help us solve a bigger problem. As a society, it is our
+          responsibility and moral duty to help economically backward people to raise
+          their living standards.
+        </p>
+      </Changeddiv>
+      <Changeddiv>
+        Jaago Bharat Front, through its initiative Vastraay, looks forward to serving the
+        purpose of both providing employment to the women population in slum areas
+        
+        and managing waste through utilization of old clothing. As the name suggests,
+        Vastraay is Vastra + Aay, which means Earning through Clothes. In Vaastray we
+        are dedicated to the cause of educating women, living in slums, to make usable
+        things such as masks, rugs, doormats, bags, etc. through reusing old clothes.
+        Vastraay is one such effort of Jaago Bharat that aims at the economic and skill
+        development of such people while catering to the issue of waste management.
+        What we do with the old clothes is not the recycling but the upcycling, which is
+        a greener version of the recycling. Unlike recycling, upcycling does not involve
+        breaking down of clothes material/fabric through any
+        chemical/heat/mechanical process rather involves conversion of one form of
+        cloth to the other through the means of cutting and stitching, thus changing
+        the usability of the cloth.</Changeddiv>
+      <Changeddiv>
+          Another NGO, i.e.Jan Jagriti Foundation has joined hands with us to help in this
+          noble cause and has donated a few stitching machines, which are being used
+          to train these women to make carry bags, masks, doormats, pillow covers etc.
+          out of old clothes. This way we are able to develop a community of artisans,
+          who through their skillset can improve its standard of living.</Changeddiv>
+          <Changeddiv>Further, Jaago Bharat organizes small Melas/Trade Fairs in societies/residential
+          complexes, thus providing a platform for these hand-made products to be sold.
+          We would like to invite every responsible citizen to contribute to this noble
+          cause by donating their old clothes, time or funds. It is only through the
+          channelized efforts of aware citizens that we can make a positive difference to
+          the community and the environment.
+      </Changeddiv>
+
+      
+    <Changeddiv>
+        <p>
+          <TdStyle>
+            <TrStyle>
+              <img className="imagedesign" src={vastraay_1} style={{ width: "95%" ,height:"25rem" }} />
+            </TrStyle>
+            <TrStyle>
+              <img className="imagedesign" src={vastraay_2} style={{ width: "95%" ,height:"25rem"}} />
+            </TrStyle>
+            <TrStyle>
+              <img className="imagedesign" src={vastraay_3} style={{ width: "95%" ,height:"25rem"}} />
+            </TrStyle>
+          </TdStyle>
+        </p>
+      </Changeddiv>
+    </div>
+  <>
 );
 
 function AchivementFormat(props) {
