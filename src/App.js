@@ -6,7 +6,6 @@ import logo from "./images/homepage/footer.png";
 import {
   What_we_do,
   Who_we_are,
-  Ourstory,
   Ourfounder,
   Ourteam,
   Wet_waste_management,
@@ -26,6 +25,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BlogPage from "./blogRouter";
 import BlogList from "./BlogList";
 import ScrollTop from "./scrollTop";
+import Ourstory from "./story";
 
 function App() {
   return (
@@ -100,9 +100,7 @@ function App() {
         />
         <Route
           path="/Our Story"
-          element={
-            <Main backimg={logo} header="Our Story" description={Ourstory} />
-          }
+          element={<Ourstory />}
         />
         <Route
           path="/An overview"
