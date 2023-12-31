@@ -1,6 +1,4 @@
-import { useState, useEffect } from "react";
 import {Carousel1} from "./components/carousel";
-import { homeList } from "./components/loader";
 import styled from "styled-components";
 
 const img2="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fstory%2F2.jpg?alt=media";
@@ -15,18 +13,6 @@ const img3="https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspo
     }
   }
 `;
- const Descr = function (props) {
-  return (
-    <div className="box">
-      <div className="ani">
-        <div className="anilayer"></div>
-        <img src={props.image} alt="" />
-        <h3>{props.desc}</h3>
-      </div>
-      <p>{props.content}</p>
-    </div>
-  );
-};
 
 export default function Home() {
 
