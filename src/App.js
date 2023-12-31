@@ -49,7 +49,7 @@ function App() {
         /><Route
         path="/Achievements"
         element={
-          <Main backimg={logo} header="Achievements" description={Achievements} />
+          <Main backimg={logo} header="Achievements and Recognitions" description={Achievements} />
         }
       />
         <Route

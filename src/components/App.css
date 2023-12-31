@@ -349,3 +349,31 @@ button:focus {
     color: grey;
   }
 }
+
+.achi {
+  display: flex;
+  flex-direction: column;
+}
+
+.atitle {
+  font-size: 2rem;
+}
+
+.achimg {
+  width: 70%;
+}
+.imgcenter {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 10px;
+}
+.achitem {
+  padding-top: 10px;
+}
+
+@media (max-width: 998px) {
+  .atitle {
+    font-size: 1.5rem;
+  }
+}

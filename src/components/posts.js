@@ -5,7 +5,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import styled from "styled-components";
 import "../../src/components/App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-const prefix = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2F"
+const prefix = "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images"
 const postfix = "?alt=media"
 const gallery_14_1 =
   "https://firebasestorage.googleapis.com/v0/b/jaagobharatwebdev.appspot.com/o/images%2Fgallery%2F2014%2Fimage102.jpg?alt=media";
@@ -3465,73 +3465,41 @@ const Ecobrick = (
   </>
 );
 const Achievements = (
-  <Changeddiv>
-    <Changedh2>Awards & Recognition Page</Changedh2>
-    <Spanh3> Some of our major achievements are:-</Spanh3>
-    <ul>
-      <li>
-        There have been many articles in newspapers about the customer response
-        that are using our composter & also in magazines about our team
-        initiative.
-      </li>
-      <li>
-        Our composter has been awarded second prize in the Regional science &
-        technology exhibition by the UP govt.
-      </li>
-      <li>
-        We have helped many different organisations and NGOs in their events and
-        projects.
-      </li>
-      <li>
-        There have been many articles in newspapers about the customer response
-        that are using our composter & also in magazines about our team
-        initiative.
-      </li>
-      <li>
-        Apart from society & urban people we have Also taken some initiatives to
-        help Villages and rural people like providing the books to the
-        underprivileged students at free of cost and also conducted some tree
-        plantation drives in the rural side.
-      </li>
-      <li>
-        At the time of crisis our NGO is always ready to provide support like in
-        2018 we have conducted a football tournament to raise the funds for the
-        Kerala flood victims and also now we have provided Ration kit to migrant
-        workers.
-      </li>
-      <li>
-        To support the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) & recently
-        Aatm Nirbhar we have also conducted a skill development programme.
-      </li>
-      <li>
-        I think our organisation is the one which has covered all the aspects
-        like, social issues, environment issues etc and not just given the
-        awareness but also has provided a sustainable solution.
-      </li>
-      <li>
-        We have never taken the money from anyone to support our project so the
-        major questions arises how our projects run??? The answer to this is we
-        had always tried to make the projects self sustainable
-      </li>
-    </ul>
-    <div className="flex flex-col">
-      <div className="flex flex-row justify-around h-40">
-        <img src={prefix + "achivements%2Fnews6.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
-        <img src={prefix + "achivements%2Fnews4.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
-      </div>
-      <div className="flex flex-row justify-around h-40">
-        <img src={prefix + "achivements%2Fnews1.jpeg" + postfix} style={{"paddingTop": "1rem"}}></img>
-        <img src={prefix + "achivements%2Fnews7.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
-      </div>
-      <div className="flex flex-col justify-around">
-        <img src={prefix + "achivements%2Fnews3.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
-        <img src={prefix + "achivements%2Fnews5.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
-        <img src={prefix + "achivements%2Fnews8.jpg" + postfix} style={{"paddingTop": "1rem"}}></img>
-        <img src={prefix + "achivements%2Fnews9.jpeg" + postfix} style={{"paddingTop": "1rem"}}></img>
-      </div>
-    </div>
-  </Changeddiv>
+  <div className="achi">
+    <h1 className="aheading">Our Awards:</h1>
+    <hr />
+    <AchivementFormat title="2023 - Felicitated for making Ecobricks for Project Sugam" image="2023-1.jpg" />
+    <AchivementFormat title="2022- Waste Management Partner for Noida Grand Marathon" image="2022-1.png" />
+    <AchivementFormat title="" image="2022-2.png" />
+    <AchivementFormat title="2021- Our female volunteers felicitated for their work towards social issues. " image="2021-1.jpg" />
+    <AchivementFormat title="2021- Award for organising Various activities on Going Green Event " image="2021-2.jpg" />
+    <AchivementFormat title="2021- HCL Recognition for Clean Noida Initiative" image="2021-3.jpg" />
+    <AchivementFormat title="2021- Covid warrior award" image="2021-4.jpg" />
+    <AchivementFormat title="2018 - Our Wet Waste Composter selected for State level competition" image="2018-1.jpg" />
+    <h1 className="aheading">Our Awards:</h1>
+    <hr />
+    <AchivementFormat title="2023-  Collaboration with Enactus Team for Project Sugam" image="a2023-1.jpg" />
+    <AchivementFormat title="2021-  Inauguration of Vermicompost Bed" image="a2021-1.jpg" />
+    <AchivementFormat title="2021- Mega Plastic collection drive" image="a2021-2.jpg" />
+    <AchivementFormat title="2021-  Project Vastraay Begins" image="a2021-3.jpg" />
+    <AchivementFormat title="2020- Wetland Visit" image="a2020-1.png" />
+    <AchivementFormat title="2019- Article Published in Assisi convent School Annual magazine" image="a2019-1.jpg" />
+    <AchivementFormat title="2018-  Article published on Samvada Magazine" image="a2018-1.jpg" />
+  </div>
 );
+
+function AchivementFormat(props) {
+  return (
+    <div className="achitem">
+      <h3 className="atitle">{props.title}</h3>
+      <div className="imgcenter">
+        <img className="achimg" src={prefix + "%2Fachivements%2F" + props.image + postfix} alt={props.title} />
+      </div>
+    <hr />
+    </div>
+  )
+}
+
 export {
   Who_we_are,
   What_we_do,
