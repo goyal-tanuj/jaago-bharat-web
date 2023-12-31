@@ -118,7 +118,7 @@ function App() {
           element={
             <Main
               backimg={logo}
-              header="Our Founders"
+              header="Our Founder"
               description={Ourfounder}
             />
           }
