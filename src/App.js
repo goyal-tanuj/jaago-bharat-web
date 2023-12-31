@@ -19,7 +19,7 @@ import {
   GetInvolved,
   Donate,
   Ecobrick,
-  Achievements
+  Achievements,Vastraay
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import BlogPage from "./blogRouter";
@@ -160,6 +160,12 @@ function App() {
           path="/Eco brick"
           element={
             <Main backimg={logo} header="Eco-Brick" description={Ecobrick} />
+          }
+        />
+          <Route
+          path="/Vastraay"
+          element={
+            <Main backimg={logo} header="Project-Vastraay" description={Vastraay} />
           }
         />
       </Routes>
