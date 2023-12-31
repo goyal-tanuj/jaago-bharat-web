@@ -3490,7 +3490,7 @@ const Achievements = (
     <AchivementFormat title="2018-  Article published on Samvada Magazine" image="a2018-1.jpg" />
   </div>
 );
-const Ecobrick = (
+const Vastraay = (
   <>
     <div style={{ textAlign: "left" }}>
     <Changeddiv>
@@ -3595,4 +3595,5 @@ export {
   Donate,
   Ecobrick,
   Achievements,
+  Vastraay
 };
