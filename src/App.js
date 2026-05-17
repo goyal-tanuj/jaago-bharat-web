@@ -22,6 +22,7 @@ import {
   Achievements,Vastraay
 } from "./components/posts";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import BlogPage from "./blogRouter";
 import BlogList from "./BlogList";
 import ScrollTop from "./scrollTop";
@@ -31,6 +32,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Toaster position="top-center" />
       <ScrollTop />
       <Routes>
         <Route path="/" element={<Home />}></Route>

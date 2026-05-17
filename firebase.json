@@ -8,10 +8,17 @@
     ],
     "rewrites": [
       {
+        "source": "/api/blog/:id",
+        "function": "readBlog"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
     ]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
   },
   "functions": [
     {

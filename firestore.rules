@@ -1,0 +1,42 @@
+rules_version = '2';
+
+// =============================================================================
+// Jaago Bharat — Firestore security rules
+// -----------------------------------------------------------------------------
+// Conservative defaults. The frontend SPA only ever READS the `blogs` collection
+// (via the readBlog Cloud Function, not directly). All writes happen via Cloud
+// Functions running as the Firebase Admin SDK, which bypasses these rules.
+//
+// VERIFY against production rules in the Firebase console before merging — if
+// production currently grants broader access (e.g. open read on `blogs`), this
+// file will tighten that and may break unknown integrations.
+// =============================================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Public blog content. Reads are public (mirrors what readBlog returns
+    // anyway); writes only via Admin SDK in Cloud Functions.
+    match /blogs/{blogId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    // Internal system documents (e.g. blogIndex counter). Never client-readable.
+    match /system/{docId} {
+      allow read, write: if false;
+    }
+
+    // Contact-form submissions contain PII. Writes only via the addcontact
+    // Cloud Function (Admin SDK). No client read/write under any condition.
+    match /contactus/{docId} {
+      allow read, write: if false;
+    }
+
+    // Default-deny everything else. Add explicit `match` blocks above as new
+    // collections are introduced.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

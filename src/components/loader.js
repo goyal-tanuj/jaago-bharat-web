@@ -1,6 +1,9 @@
 import removeMD from "markdown-to-text";
 
-const url = "https://readblog-w4dwmgxs2a-uc.a.run.app?id=";
+// Served via the Firebase Hosting rewrite `/api/blog/:id` → readBlog function.
+// Keeps the call same-origin, avoids hardcoding the function's run.app URL/region,
+// and lets us swap regions/codebases without a frontend deploy.
+const buildUrl = (id) => `/api/blog/${encodeURIComponent(id)}`;
 
 export default async function Main(id, setState) {
   const post = await getPost(id);
@@ -40,7 +43,7 @@ function getPost(id) {
       if (sessionStorage.getItem(id)) {
         return resolve(JSON.parse(sessionStorage.getItem(id)));
       }
-      const response = await fetch(url + id);
+      const response = await fetch(buildUrl(id));
       const post = await response.json();
       sessionStorage.setItem(id, JSON.stringify(post));
       return resolve(post);
