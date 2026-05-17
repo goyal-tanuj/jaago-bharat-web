@@ -1,0 +1,1 @@
+- [CRA jest test broken on main](project_cra_test_broken.md) — App.test.js fails on main due to ESM react-markdown + placeholder assertion; do not blame your changes
