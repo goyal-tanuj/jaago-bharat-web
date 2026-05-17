@@ -24,3 +24,10 @@ yarn-error.log*
 .firebase/
 
 *.log
+
+# Playwright
+/playwright-report
+/playwright/.cache
+/test-results
+/blob-report
+/.playwright

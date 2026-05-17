@@ -33,9 +33,18 @@ exports.getIndex = onRequest({ cors: true }, async (req, res) => {
 });
 
 exports.readBlog = onRequest({ cors: true }, async (req, res) => {
-  // id
-  const id = req.query.id;
-  if (!id) return res.status(400).send({ error: "bad request" });
+  // Accept id from either:
+  //   * `?id=N` (legacy direct callers of the *.run.app URL)
+  //   * the last path segment when invoked via the Firebase Hosting rewrite
+  //     `/api/blog/:id` — req.path is the matched-and-rewritten path.
+  let id = req.query.id;
+  if (!id && req.path) {
+    const parts = req.path.split("/").filter(Boolean);
+    id = parts[parts.length - 1];
+  }
+  if (!id || id === "blog" || id === "api") {
+    return res.status(400).send({ error: "bad request" });
+  }
   const readRes = await getFirestore()
     .collection("blogs")
     .doc(id.toString())
